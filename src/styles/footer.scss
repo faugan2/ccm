@@ -1,0 +1,53 @@
+.footer{
+    border:1px solid #e3e3e3;
+    
+    background-color:white;
+
+    >.content{
+       
+        width:80%;
+        margin:auto;
+        display:grid;
+        grid-template-columns:25% 25% 25% 25%;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        >div{
+           
+            >h4{
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                color:dimgray;
+            }
+            >ul{
+                list-style: none;
+                
+                >li{
+                    >a{
+                        text-decoration: none;
+                        color:#3a434a;
+                        font-size: 0.8rem;
+                        display:flex;
+                        align-items: center;
+                        gap:0.5rem;
+                        >svg{
+                            color:var(--blue);
+                            font-size: 1.2rem;
+                        }
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    >.bottom{
+        background-color:#ededed;
+        >.content{
+            width:80%;
+            margin:auto;
+            padding:2rem;
+        }
+    }
+}

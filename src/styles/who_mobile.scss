@@ -1,0 +1,13 @@
+@media only screen and (max-width:768px){
+    .who{
+        padding-top:1rem;
+
+        >.content{
+            padding:0.5rem;
+            >h1{
+                font-size: 1.2rem;
+            }
+        }
+        
+    }
+}

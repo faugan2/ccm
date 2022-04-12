@@ -1,0 +1,77 @@
+@media only screen and (max-width:768px){
+    .nav{
+        
+        width:100%;
+        background-color: silver;
+        height:60px;
+        >.left{
+            margin:1rem;
+            >img{
+                display:none;
+            }
+        }
+
+        >.right{
+            display:none;
+            margin-top: -1000px;
+            transition:700ms;
+            &.active{
+                display:flex;
+                margin-top:auto;
+                transition:700ms;
+                >ul{
+                    flex-direction: column;
+                    position:fixed;
+                    left:0;
+                    top:60px;
+                    width:100%;
+                    z-index: 999;
+                    background-color:whitesmoke;
+                    padding:0.5rem;
+                    padding-bottom: 3rem;
+                    >li{
+                        border-top: none;
+                        flex-direction: row;
+                        justify-content:flex-start;
+                        gap:0.5rem;
+                        padding-bottom: 0.5rem;
+                        >a{
+                            width:auto;
+                        }
+
+                        >svg{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        >button{
+            display:flex;
+            position:absolute;
+            right:1rem;
+
+            &.active{
+                >span{
+                    &:nth-child(2){
+                        display:none;
+                    }
+                    &:nth-child(1){
+                        transform:rotate(15deg);
+                        margin-top: 8px;
+                        margin-left: 5px;
+                        border-bottom: 3px solid indianred;
+                    }
+                    &:nth-child(3){
+                        transform:rotate(-50deg);
+                        margin-top: -10px;
+                        margin-bottom: 10px;
+                        border-bottom: 3px solid indianred;
+                    }
+                }
+            }
+
+        }
+    }
+}

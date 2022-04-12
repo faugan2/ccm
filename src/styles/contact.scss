@@ -1,0 +1,36 @@
+.contact{
+    
+    display:flex;
+    flex-direction:column;
+    width:min(350px, 80vw);
+    >.line{
+        display:flex;
+        flex-direction: column;
+        margin:auto;
+        margin-bottom: 1rem;
+        width:80%;
+        
+
+        >label{
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        >input,textarea{
+           
+            font-size: 0.8rem;
+            border:none;
+            outline:none;
+            border-bottom: 1px solid black;
+        }
+
+        >button{
+            padding:0.6rem;
+            background-color: var(--blue);
+            color:white;
+            font-weight: bold;
+            border:none;
+            border-radius: 3px;
+        }
+    }
+}
