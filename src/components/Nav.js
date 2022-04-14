@@ -16,6 +16,7 @@ import Contact from "./Contact";
 import ccm from "./img/ccm.jpg";
 import logo from "./img/logo.jpg";
 import sos from "./img/sos.svg";
+import sos2 from "./img/sos2.svg";
 
 const Nav=()=>{
     const [open,set_open]=useState(false);
@@ -44,6 +45,7 @@ const Nav=()=>{
 
                         <button>
                             <img src={sos} />
+                            <img src={sos2} />
                         </button>
                         <button>
                             E-mail

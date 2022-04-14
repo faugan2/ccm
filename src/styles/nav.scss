@@ -16,6 +16,7 @@
         >img{
             width:150px;
             height: 100px;
+           
         }
         
         >div{
@@ -43,12 +44,21 @@
                         &:nth-child(1){
                             display:none;
                         }
+
+                        
+
+                        >img{
+                            &:nth-child(2){
+                                display:none;
+                            }
+                        }
                     }
                 }
 
                 &:nth-child(2){
                     display:flex;
                     align-items: center;
+                    
                     
                     >button{
                         font-size:1.2rem;
