@@ -1,13 +1,50 @@
 @media only screen and (max-width:768px){
     .nav{
-        
+        background-color:white !important;
         width:100%;
-        background-color: silver;
-        height:60px;
+        position:absolute;
+        height:auto;
         >.left{
-            margin:1rem;
+            
+            flex-direction:column;
+            
             >img{
-                display:none;
+                border:1px solid red;
+                width:150px;
+                height:70px;
+            }
+            
+            >div{
+                position:sticky;
+                position: -webkit-sticky;
+                top:0;
+                background-color: var(--blue);
+                width:100vw;
+                
+                >div{
+                    &:nth-child(2){
+                        display:none;
+                    }
+
+                    &:nth-child(1){
+                       
+                        flex:1;
+                        justify-content:flex-end;
+                        >button{
+                            
+                            padding:0.5rem;
+                            color:white;
+                            >img{
+                                width: 30px;
+                            }
+                            &:nth-child(1){
+                                display:block;
+                                position:absolute;
+                                left:0.5rem;
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -49,7 +86,7 @@
         }
 
         >button{
-            display:flex;
+            display:none;
             position:absolute;
             right:1rem;
 

@@ -1,4 +1,5 @@
 import "../styles/home.scss";
+import "../styles/home_mobile.scss"
 import Nav from "../components/Nav";
 import HomeTop from "../components/HomeTop";
 import Parteners from "../components/Parteners";

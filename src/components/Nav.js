@@ -36,12 +36,20 @@ const Nav=()=>{
                 <img src={logo} /> 
                 <div>
                     <div>
+                        <button >
+                            <span>x</span>
+                            <span>x</span>
+                            <span>x</span>
+                        </button>
+
                         <button>
                             <img src={sos} />
                         </button>
                         <button>
                             E-mail
                         </button>
+                        
+                        
                     </div>
 
                     <div>
