@@ -41,7 +41,7 @@ const Footer=()=>{
                         <li>
                             <Link to="#">
                                 <MailOutlineIcon />
-                                <a>contact@ccmcourtiers.com</a>
+                                <a>info@ccmcourtiers.com</a>
                             </Link>
                         </li>
 

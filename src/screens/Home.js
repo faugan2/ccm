@@ -12,13 +12,13 @@ const Home=()=>{
     return(
         <div className="home">
             <Nav />
-            <HomeTop />
+            {/*<HomeTop />
             <Parteners />
             <Engagements />
             <Who />
             <Une />
             <Informer />
-            <Footer />
+            <Footer />*/}
         </div>
     )
 }

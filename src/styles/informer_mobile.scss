@@ -3,6 +3,18 @@
        
         >.top{
            
+            >h1{
+                
+                font-size: 0.9rem;
+
+            }
+
+            >button{
+                >svg{
+                    font-size: 2rem;
+                }
+            }
+            
             >.btn_all{
                 display:flex;
                 align-items: center;

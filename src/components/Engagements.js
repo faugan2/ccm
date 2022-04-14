@@ -8,7 +8,7 @@ const Engagements=()=>{
     return(
         <div className="engagements">
             <div className="top">
-                <h2>Pourquoi choisir ASSUR-EXPRESS</h2>
+                <h2>Pourquoi choisir CCM</h2>
             </div>
             <div className="content">
                 <div>

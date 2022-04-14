@@ -1,7 +1,9 @@
 import "../styles/une.scss";
 import "../styles/une_mobile.scss";
 import banner from "./img/banner.webp";
-
+import auto from "./img/auto.jpg";
+import garantie from "./img/garantie.jpg";
+import sanction from "./img/sanction.jpg";
 const Une=()=>{
     return(
         <div className="une">
@@ -16,7 +18,7 @@ const Une=()=>{
             </div>
             <div className="content">
                 <div>
-                    <img src={banner} />
+                    <img src={auto} />
                     <h2>Contrat d’assurance auto : quelle obligation ?</h2>
                     <p>
                     Au Togo, la loi impose que tout véhicule terrestre à moteur en état de circuler doit être 
@@ -29,7 +31,7 @@ const Une=()=>{
                     </p>
                 </div>
                 <div>
-                    <img src={banner} />
+                    <img src={sanction} />
                     <h2>Voiture non assurée : quelles sanctions ?</h2>
                     <p>
                     La loi sur l’assurance auto concerne aussi bien les véhicules en circulation que ceux qui 
@@ -42,7 +44,7 @@ const Une=()=>{
                     </p>
                 </div>
                 <div>
-                    <img src={banner} />
+                    <img src={garantie} />
                     <h2>Quelles sont les garanties d’assurance exigées par la loi?</h2>
                     <p>
                     Pour conduire un véhicule au Togo, vous devez obligatoirement souscrire la garantie 

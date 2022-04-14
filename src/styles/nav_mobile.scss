@@ -21,7 +21,7 @@
                 transition:700ms;
                 >ul{
                     flex-direction: column;
-                    position:fixed;
+                    position:absolute;
                     left:0;
                     top:60px;
                     width:100%;
@@ -35,6 +35,7 @@
                         justify-content:flex-start;
                         gap:0.5rem;
                         padding-bottom: 0.5rem;
+                        margin-left: 1rem;
                         >a{
                             width:auto;
                         }

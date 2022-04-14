@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
         <Switch>
-          <Route path="/client" exact>
+          <Route path="/" exact>
             <Splash />
           </Route>
 

@@ -14,6 +14,8 @@ import Contact from "./Contact";
 
 
 import ccm from "./img/ccm.jpg";
+import logo from "./img/logo.jpg";
+import sos from "./img/sos.svg";
 
 const Nav=()=>{
     const [open,set_open]=useState(false);
@@ -27,25 +29,42 @@ const Nav=()=>{
     }
 
   
+
     return(
         <div className="nav">
             <div className="left">
-                <img src={ccm} /> 
-                <h1>CCM <span>EXPRESS</span></h1>
+                <img src={logo} /> 
+                <div>
+                    <div>
+                        <button>
+                            <img src={sos} />
+                        </button>
+                        <button>
+                            E-mail
+                        </button>
+                    </div>
+
+                    <div>
+                        <button>
+                            FR
+                        </button>
+                        <button>
+                            EN
+                        </button>
+                    </div>
+
+                </div>
             </div>
             <div className="right">
                 <ul>
                     <li>
-                        <HomeIcon />
                         <Link to="#"><a>Accueil</a></Link>
                     </li>
                     <li>
-                        <HelpOutlineIcon />
                         <Link to="#"><a>Qui sommes-nous ?</a></Link>
                     </li>
 
                     <li>
-                        <FolderOpenIcon />
                         <Link to="#"><a>Produits & Services</a></Link>
                         {/*<ul className="dropdown">
                             <li>
@@ -59,12 +78,10 @@ const Nav=()=>{
                     
 
                     <li>
-                        <TurnedInNotIcon />
                         <Link to="#"><a>Valeurs & Engagements</a></Link>
                     </li>
 
                     <li  onClick={e=>{set_open(true)}}>
-                        <MailOutlineIcon />
                         <Link to="#"><a>Contact</a></Link>
                     </li>
                 </ul>
