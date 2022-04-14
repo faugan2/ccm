@@ -36,10 +36,10 @@ const Nav=()=>{
                 <img src={logo} /> 
                 <div>
                     <div>
-                        <button >
-                            <span>x</span>
-                            <span>x</span>
-                            <span>x</span>
+                        <button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </button>
 
                         <button>

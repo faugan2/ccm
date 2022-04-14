@@ -9,7 +9,6 @@
             flex-direction:column;
             
             >img{
-                border:1px solid red;
                 width:150px;
                 height:70px;
             }
@@ -41,6 +40,20 @@
                                 display:block;
                                 position:absolute;
                                 left:0.5rem;
+                                display:flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content:center;
+                                >span{
+                                    width:2rem;
+                                    height: 6px;
+                                    
+                                    border-top:3px solid white;
+                                }
+                            }
+
+                            &:nth-child(3){
+                                margin-right: 0.5rem;
                             }
                         }
                     }
@@ -50,7 +63,6 @@
 
         >.right{
             display:none;
-            margin-top: -1000px;
             transition:700ms;
             &.active{
                 display:flex;
