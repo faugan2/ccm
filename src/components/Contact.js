@@ -1,8 +1,17 @@
 import "../styles/contact.scss";
 import "../styles/contact_mobile.scss";
+import CloseIcon from '@material-ui/icons/Close';
 const Contact=({click})=>{
     return(
         <div className="contact">
+            <div className="top">
+                <h2>nous contacter</h2>
+                <button>
+                    <CloseIcon />
+                </button>
+            </div>
+
+            <div className="content"></div>
             <div className="line">
                 <label>Votre nom complet</label>
                 <input type="text" />

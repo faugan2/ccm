@@ -12,7 +12,7 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="produits">
-                    prouits et services
+                    
                 </div>
                 <Footer />
             </div>

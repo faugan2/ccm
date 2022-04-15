@@ -104,8 +104,10 @@ const Nav=()=>{
                         <Link to="/valeurs-et-engagements"><a>Valeurs & Engagements</a></Link>
                     </li>
 
-                    <li  onClick={e=>{set_open(true)}}>
-                        <Link to="#"><a>Contact</a></Link>
+                    <li  onClick={e=>{
+                        history.push("/contact");
+                    }}>
+                        <Link to="/contact"><a>Contact</a></Link>
                     </li>
                 </ul>
             </div>

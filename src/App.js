@@ -12,6 +12,7 @@ import Home from "./screens/Home";
 import About from "./screens/About";
 import Produits from "./screens/Produits";
 import Valeurs from "./screens/Valeurs";
+import Contact from "./screens/Contact";
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
 
           <Route path="/valeurs-et-engagements" exact>
             <Valeurs />
+          </Route>
+
+          <Route path="/contact" exact>
+            <Contact />
           </Route>
         
         </Switch>
