@@ -117,13 +117,21 @@
                         margin-left: 1.2rem;
                         border-radius: 0px;
                         background-color:var(--blue);
-                        color:white;
+                        
                         >li{
-                            color:white;
+                            
+                            position:relative;
                             &:hover{
                                 background-color:transparent;
-                                opacity: 0.6;
+                                >a{
+                                    text-decoration: underline;
+                                }
+                                >ul{
+                                    display:flex;
+                                }
                             }
+                            
+                            
                             >a{
                                 color:white !important;
                                 font-size: 0.8rem;
@@ -132,6 +140,37 @@
                                 align-items: center;
                                 justify-content:space-between;
                                 width:100%;
+                            }
+
+                            >ul{
+                                
+                                display:none;
+                                position:absolute;
+                                right:-100%;
+                                background-color:var(--blue);
+                                opacity: 1 !important;
+                                min-width: 100%;
+                                color:white;
+                                list-style: none;
+                                flex-direction: column;
+                                z-index: 9999;
+                                padding:1rem 0;
+                                
+                                >li{
+                                    background-color:var(--blue);
+                                    padding-left:1rem !important;
+                                    padding-bottom: 1rem;
+                                    margin:0 !important;
+                                    display:flex;
+
+                                    >a{
+                                        text-transform: uppercase;
+                                        font-size: 0.6rem;
+                                        color:white;
+                                        text-decoration: none;
+                                    }
+                                }
+                                
                             }
                         }
                     }

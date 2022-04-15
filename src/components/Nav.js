@@ -93,11 +93,59 @@ const Nav=()=>{
                                     <a>Particulier</a>
                                     <ArrowRightIcon />
                                 </Link>
+                                <ul>
+                                    <li>
+                                        <Link to="/"><a>habitation</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>automobile</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>voyage</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>rc chef de famille</a></Link>
+                                    </li>
+                                </ul>
                             </li> 
                             <li>    
                                 <Link to="/"><a>Professionnel</a>
                                 <ArrowRightIcon />
                                 </Link>
+
+                                <ul>
+                                    <li>
+                                        <Link to="/"><a>rc pro</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>flotte-automobile</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>multirisque professionnelle</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>tout risque informatique</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>bris de marchine</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>tout risque chantier</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>rc decennale</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>sante</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>transport de marchandises</a></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/"><a>voyages</a></Link>
+                                    </li>
+                                    
+                                </ul>
                             </li> 
                         </ul>
                     </li>
