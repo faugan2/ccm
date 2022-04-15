@@ -20,7 +20,7 @@ import sos2 from "./img/sos2.svg";
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import {useHistory} from "react-router-dom";
 import {useDispatch,useSelector} from "react-redux";
-import {setPage,selectPage} from "../features/counterSlice";
+import {setPage,selectPage,setType,setSousType} from "../features/counterSlice";
 
 const Nav=()=>{
     const [open,set_open]=useState(false);
@@ -43,6 +43,11 @@ const Nav=()=>{
         btn.classList.toggle("active")
     }
 
+    const show_detail=(type,sous_type)=>{
+        dispatch(setType(type));
+        dispatch(setSousType(sous_type))
+        history.push("/produits-et-services");
+    }
   
 
     return(
@@ -103,9 +108,8 @@ const Nav=()=>{
 
                     <li 
                     className={`${index == 2 ? "active" : ""}`}
-                    onClick={e=>{
-                        history.push("/produits-et-services")
-                    }}>
+                    
+                    >
                         <Link to="#"><a>Nos Produits/Services</a></Link>
                         <ul>
                             <li>
@@ -114,17 +118,17 @@ const Nav=()=>{
                                     <ArrowRightIcon />
                                 </Link>
                                 <ul>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>habitation</a></Link>
+                                    <li onClick={show_detail.bind(this,1,1)}>
+                                        <Link><a>habitation</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>automobile</a></Link>
+                                    <li onClick={show_detail.bind(this,1,2)}>
+                                        <Link><a>automobile</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>voyage</a></Link>
+                                    <li onClick={show_detail.bind(this,1,3)}>
+                                        <Link><a>voyage</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>rc chef de famille</a></Link>
+                                    <li onClick={show_detail.bind(this,1,4)}>
+                                        <Link><a>rc chef de famille</a></Link>
                                     </li>
                                 </ul>
                             </li> 
@@ -134,35 +138,35 @@ const Nav=()=>{
                                 </Link>
 
                                 <ul>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>rc pro</a></Link>
+                                    <li onClick={show_detail.bind(this,2,1)}>
+                                        <Link><a>rc pro</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>flotte-automobile</a></Link>
+                                    <li onClick={show_detail.bind(this,2,2)}>
+                                        <Link><a>flotte-automobile</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>multirisque professionnelle</a></Link>
+                                    <li onClick={show_detail.bind(this,2,3)}>
+                                        <Link ><a>multirisque professionnelle</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>tout risque informatique</a></Link>
+                                    <li onClick={show_detail.bind(this,2,4)}>
+                                        <Link><a>tout risque informatique</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>bris de marchine</a></Link>
+                                    <li onClick={show_detail.bind(this,2,5)}>
+                                        <Link><a>bris de marchine</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>tout risque chantier</a></Link>
+                                    <li onClick={show_detail.bind(this,2,6)}>
+                                        <Link><a>tout risque chantier</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>rc decennale</a></Link>
+                                    <li onClick={show_detail.bind(this,2,7)}>
+                                        <Link><a>rc decennale</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>sante</a></Link>
+                                    <li onClick={show_detail.bind(this,2,8)}>
+                                        <Link><a>sante</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>transport de marchandises</a></Link>
+                                    <li onClick={show_detail.bind(this,2,9)}>
+                                        <Link><a>transport de marchandises</a></Link>
                                     </li>
-                                    <li>
-                                        <Link to="/produits-et-services"><a>voyages</a></Link>
+                                    <li onClick={show_detail.bind(this,2,10)}>
+                                        <Link><a>voyages</a></Link>
                                     </li>
                                     
                                 </ul>
