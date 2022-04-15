@@ -20,7 +20,7 @@ const About =()=>{
             <div className="content">
                 <div className="sinistre">
                    <h1>sinistre</h1>
-                   <div></div>
+                   <div>sinistre</div>
                 </div>
                 <Footer />
             </div>
