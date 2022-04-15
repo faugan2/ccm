@@ -19,7 +19,8 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="contact">
-                   
+                   <h1>Nous contacter</h1>
+                   <div></div>
                 </div>
                 <Footer />
             </div>

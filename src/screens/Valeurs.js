@@ -1,5 +1,5 @@
-import "../styles/about.scss";
-import "../styles/about_mobile.scss";
+import "../styles/valeurs.scss";
+import "../styles/valeurs_mobile.scss";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -19,7 +19,8 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="about">
-                    
+                    <h1>Nos valeurs</h1>
+                   <div></div>
                 </div>
                 <Footer />
             </div>
