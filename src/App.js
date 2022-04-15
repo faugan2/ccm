@@ -9,6 +9,9 @@ import {
 
 import Splash from './screens/Splash';
 import Home from "./screens/Home";
+import About from "./screens/About";
+import Produits from "./screens/Produits";
+import Valeurs from "./screens/Valeurs";
 
 function App() {
   return (
@@ -20,6 +23,18 @@ function App() {
 
           <Route path="/home" exact>
             <Home />
+          </Route>
+
+          <Route path="/about" exact>
+            <About />
+          </Route>
+
+          <Route path="/produits-et-services" exact>
+            <Produits />
+          </Route>
+
+          <Route path="/valeurs-et-engagements" exact>
+            <Valeurs />
           </Route>
         
         </Switch>

@@ -1,0 +1,16 @@
+.layout{
+    min-height: 100vh;
+    
+    >.home{
+        >.content{
+            position: absolute;
+            width:100%;
+            top:180px;
+            >div{
+                &:nth-child(1){
+                    min-height: calc(100vh - 180px - 250px);
+                }
+            }
+        }
+    }
+}

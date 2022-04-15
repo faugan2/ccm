@@ -5,7 +5,7 @@
     bottom:0;*/
     width:100%;
     min-height:250px;
-
+    
     >.content{
        padding-top: 1rem;
         width:80%;
@@ -13,6 +13,7 @@
         display:grid;
         grid-template-columns:25% 25% 25% 25%;
         padding-bottom: 1rem;
+        
         >div{
            
             >h4{
@@ -53,7 +54,7 @@
         
         width:100%;
         margin:auto;
-        bottom:1rem;
+        
         >.content{
             width:80%;
             margin:auto;

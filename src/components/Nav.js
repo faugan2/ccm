@@ -11,21 +11,24 @@ import MenuItem from '@material-ui/core/MenuItem';
 import {useState,useEffect} from "react";
 import Modal from "./Modal";
 import Contact from "./Contact";
-
-
+import CloseIcon from '@material-ui/icons/Close';
+import MenuIcon from '@material-ui/icons/Menu';
 import ccm from "./img/ccm.jpg";
 import logo from "./img/logo.jpg";
 import sos from "./img/sos.svg";
 import sos2 from "./img/sos2.svg";
 
+import {useHistory} from "react-router-dom";
+
 const Nav=()=>{
     const [open,set_open]=useState(false);
 
+    const history=useHistory();
 
     const show_menu=(e)=>{
         const menu=document.querySelector(".right");
         menu.classList.toggle("active");
-        const btn=document.querySelector(".nav>button")
+        const btn=document.querySelector(".btn_menu")
         btn.classList.toggle("active")
     }
 
@@ -37,10 +40,10 @@ const Nav=()=>{
                 <img src={logo} /> 
                 <div>
                     <div>
-                        <button>
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                        <button onClick={show_menu} className="btn_menu">
+                            
+                            <MenuIcon />
+                            <CloseIcon />
                         </button>
 
                         <button>
@@ -67,28 +70,38 @@ const Nav=()=>{
             </div>
             <div className="right">
                 <ul>
-                    <li>
-                        <Link to="#"><a>Accueil</a></Link>
+                    <li onClick={e=>{
+                        history.push("/home")
+                    }}>
+                        <Link to="/home"><a>Accueil</a></Link>
                     </li>
-                    <li>
-                        <Link to="#"><a>Qui sommes-nous ?</a></Link>
+                    <li
+                        onClick={e=>{
+                            history.push("/about")
+                        }}
+                    >
+                        <Link to="/about"><a>Qui sommes-nous ?</a></Link>
                     </li>
 
-                    <li>
-                        <Link to="#"><a>Produits & Services</a></Link>
-                        {/*<ul className="dropdown">
+                    <li onClick={e=>{
+                        history.push("/produits-et-services")
+                    }}>
+                        <Link to="/produits-et-services"><a>Produits & Services</a></Link>
+                        <ul className="dropdown">
                             <li>
                                 <Link to="/"><a>Particulier</a></Link>
                             </li> 
                             <li>    
                                 <Link to="/"><a>Professionnel</a></Link>
                             </li> 
-                        </ul>*/}
+                        </ul>
                     </li>
                     
 
-                    <li>
-                        <Link to="#"><a>Valeurs & Engagements</a></Link>
+                    <li onClick={e=>{
+                        history.push("/valeurs-et-engagements")
+                    }}>
+                        <Link to="/valeurs-et-engagements"><a>Valeurs & Engagements</a></Link>
                     </li>
 
                     <li  onClick={e=>{set_open(true)}}>
