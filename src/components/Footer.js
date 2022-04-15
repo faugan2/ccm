@@ -11,45 +11,45 @@ const Footer=()=>{
                 <div>
                     <h4>A propos de nous</h4>
                     <ul>
-                        <li><Link to="#"><a>Qui sommes-nous ?</a></Link></li>
-                        <li><Link to="#"><a>Produits & Services</a></Link></li>
-                        <li><Link to="#"><a>Valeurs & Engagements</a></Link></li>
+                        <li><Link to="/about"><a>Qui sommes-nous ?</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Nos Produits/Services</a></Link></li>
+                        <li><Link to="/valeurs-et-engagements"><a>Nos valeurs</a></Link></li>
                         
                     </ul>
                 </div>
                 <div>
                 <h4>Particuliers</h4>
                     <ul>
-                        <li><Link to="#"><a>Habitation</a></Link></li>
-                        <li><Link to="#"><a>Automobile</a></Link></li>
-                        <li><Link to="#"><a>Voyage</a></Link></li>
-                        <li><Link to="#"><a>RC chef de famille</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Habitation</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Automobile</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Voyage</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>RC chef de famille</a></Link></li>
                     </ul>
                 </div>
                 <div>
                 <h4>Professionnel</h4>
                     <ul>
-                        <li><Link to="#"><a>RC PRO</a></Link></li>
-                        <li><Link to="#"><a>Flotte-Automobile</a></Link></li>
-                        <li><Link to="#"><a>Multirisque-Professionnel</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>RC PRO</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Flotte-Automobile</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Multirisque-Professionnel</a></Link></li>
                         <li><Link to="#"><a>Tout risque informatique</a></Link></li>
 
-                        <li><Link to="#"><a>Bris de marchine</a></Link></li>
-                        <li><Link to="#"><a>Tout risque chantier</a></Link></li>
-                        <li><Link to="#"><a>RC decennale</a></Link></li>
-                        <li><Link to="#"><a>Santé</a></Link></li>
-                        <li><Link to="#"><a>Transport de marchandises</a></Link></li>
-                        <li><Link to="#"><a>Voyages</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Bris de marchine</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Tout risque chantier</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>RC decennale</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Santé</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Transport de marchandises</a></Link></li>
+                        <li><Link to="/produits-et-services"><a>Voyages</a></Link></li>
                     </ul>
                 </div>
                 <div>
                 <h4>Contacts</h4>
                     <ul>
                         <li>
-                            <Link to="#">
+                            <a href ="mailto: info@ccmcourtiers.com">
                                 <MailOutlineIcon />
-                                <a>info@ccmcourtiers.com</a>
-                            </Link>
+                                info@ccmcourtiers.com
+                            </a>
                         </li>
 
                         <li>

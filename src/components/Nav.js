@@ -50,10 +50,12 @@ const Nav=()=>{
                             <img src={sos} />
                             <img src={sos2} />
                         </button>
-                        <button>
+                        <button onClick={e=>{
+                            document.querySelector("#mail_to").click();
+                        }}>
                             E-mail
                         </button>
-                        
+                        <a  id="mail_to" href ="mailto: info@ccmcourtiers.com" style={{display:"none"}}>Send Email</a>
                         
                     </div>
 
