@@ -163,9 +163,16 @@
                                     margin:0 !important;
                                     display:flex;
 
+                                    &:hover{
+                                        >a{
+                                            text-decoration: underline;
+                                            font-weight: bold;
+                                        }
+                                    }
+
                                     >a{
                                         text-transform: uppercase;
-                                        font-size: 0.6rem;
+                                        font-size: 0.7rem;
                                         color:white;
                                         text-decoration: none;
                                     }
