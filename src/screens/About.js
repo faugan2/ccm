@@ -24,6 +24,7 @@ const About =()=>{
         set_title(data[0]?.title);
         set_content(data[0]?.content)
     },[data]);
+    
 
     return(
         <Layout>

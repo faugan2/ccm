@@ -2,11 +2,7 @@ const data=[
     {
         id:1,
         title:"Qui sommes-nous ?",
-        content:`<ol>
-        <li>
-            <p>QUI SOMMES-NOUS</p>
-        </li>
-    </ol>
+        content:`
     <p><br></p>
     <p>Soci&eacute;t&eacute; de droit togolais agr&eacute;&eacute;e par le Minist&egrave;re de l&rsquo;Economie et des Finances sous le N&deg;029/MEF/SG/DA du 24/03/2022, CCM est une soci&eacute;t&eacute; de courtage en ASSURANCES ind&eacute;pendante qui s&rsquo;adresse &agrave; vous, particuliers, ind&eacute;pendants, dirigeants d&rsquo;entreprises et soci&eacute;t&eacute;s.<br>Son &eacute;quipe dynamique et exp&eacute;riment&eacute;e met &agrave; votre disposition, ses comp&eacute;tences afin de vous conseiller au mieux de vos int&eacute;r&ecirc;ts pour la protection de votre patrimoine et de vos r&eacute;sultats.<br>Parce qu&rsquo;il est possible de vous faire gagner du temps et de l&rsquo;argent tout en vous offrant une meilleure compr&eacute;hension des risques et de vos assurances, CCM vous propose de lui faire confiance.</p>
     <p>Pourquoi&nbsp;choisir CCM&nbsp;?</p>
@@ -640,6 +636,40 @@ const data=[
             </li>
         </ul>
     </ol>`
+    },
+    {
+        id:15,
+        title:"Nos valeurs",
+        content:`<ol>
+       
+    </ol>
+    <p><br></p>
+    <p>Soci&eacute;t&eacute; de droit togolais agr&eacute;&eacute;e par le Minist&egrave;re de l&rsquo;Economie et des Finances sous le N&deg;029/MEF/SG/DA du 24/03/2022, CCM est une soci&eacute;t&eacute; de courtage en ASSURANCES ind&eacute;pendante qui s&rsquo;adresse &agrave; vous, particuliers, ind&eacute;pendants, dirigeants d&rsquo;entreprises et soci&eacute;t&eacute;s.<br>Son &eacute;quipe dynamique et exp&eacute;riment&eacute;e met &agrave; votre disposition, ses comp&eacute;tences afin de vous conseiller au mieux de vos int&eacute;r&ecirc;ts pour la protection de votre patrimoine et de vos r&eacute;sultats.<br>Parce qu&rsquo;il est possible de vous faire gagner du temps et de l&rsquo;argent tout en vous offrant une meilleure compr&eacute;hension des risques et de vos assurances, CCM vous propose de lui faire confiance.</p>
+    <p>Pourquoi&nbsp;choisir CCM&nbsp;?</p>
+    <ul>
+        <li>
+            <p>Notre &eacute;quipe &agrave; votre &eacute;coute</p>
+        </li>
+    </ul>
+    <p>Une demande sp&eacute;cifique ? Un doute ? Nous vous rappelons gratuitement pour r&eacute;pondre &agrave; toutes vos questions.</p>
+    <ul>
+        <li>
+            <p>Des assurances adapt&eacute;es &agrave; vos besoins</p>
+        </li>
+    </ul>
+    <p>Nous s&eacute;lectionnons aupr&egrave;s de nos partenaires l&rsquo;assurance qui vous convient le mieux : la certitude pour vous d&rsquo;&ecirc;tre bien couvert sans d&eacute;pense superflue.</p>
+    <ul>
+        <li>
+            <p>Votre fid&eacute;lit&eacute; r&eacute;compens&eacute;e</p>
+        </li>
+    </ul>
+    <p>Afin de b&eacute;n&eacute;ficier des meilleures garanties au meilleur prix, nous vous proposons une r&eacute;vision syst&eacute;matique de votre contrat tous les deux ans.</p>
+    <ul>
+        <li>
+            <p>Notre professionnalisme, gage de votre confiance</p>
+        </li>
+    </ul>
+    <p>Une &eacute;quipe comp&eacute;tente et des partenaires fiables vous garantissent d&rsquo;&ecirc;tre assur&eacute; en toute s&eacute;r&eacute;nit&eacute;.</p>`,
     },
 ]
 
