@@ -13,7 +13,8 @@ import About from "./screens/About";
 import Produits from "./screens/Produits";
 import Valeurs from "./screens/Valeurs";
 import Contact from "./screens/Contact";
-
+import Parteners from "./screens/Parteners";
+import Sinistre from "./screens/Sinistre";
 function App() {
   return (
     <Router>
@@ -40,6 +41,14 @@ function App() {
 
           <Route path="/contact" exact>
             <Contact />
+          </Route>
+
+          <Route path="/parteners" exact>
+            <Parteners />
+          </Route>
+
+          <Route path="/sinistre" exact>
+            <Sinistre />
           </Route>
         
         </Switch>
