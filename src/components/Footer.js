@@ -20,19 +20,26 @@ const Footer=()=>{
                 <div>
                 <h4>Particuliers</h4>
                     <ul>
-                        <li><Link to="#"><a>Assurance Auto</a></Link></li>
-                        <li><Link to="#"><a>Assurance Habitation</a></Link></li>
-                        <li><Link to="#"><a>Assurance Voyage</a></Link></li>
-                        <li><Link to="#"><a>Assurance CF chef de famille</a></Link></li>
+                        <li><Link to="#"><a>Habitation</a></Link></li>
+                        <li><Link to="#"><a>Automobile</a></Link></li>
+                        <li><Link to="#"><a>Voyage</a></Link></li>
+                        <li><Link to="#"><a>RC chef de famille</a></Link></li>
                     </ul>
                 </div>
                 <div>
                 <h4>Professionnel</h4>
                     <ul>
-                        <li><Link to="#"><a>Assurance Voyage</a></Link></li>
-                        <li><Link to="#"><a>Assurance Risque professionnel</a></Link></li>
-                        <li><Link to="#"><a>Assurance Vol, Incendits</a></Link></li>
-                        <li><Link to="#"><a>Assurance Catastrophe Naturelle</a></Link></li>
+                        <li><Link to="#"><a>RC PRO</a></Link></li>
+                        <li><Link to="#"><a>Flotte-Automobile</a></Link></li>
+                        <li><Link to="#"><a>Multirisque-Professionnel</a></Link></li>
+                        <li><Link to="#"><a>Tout risque informatique</a></Link></li>
+
+                        <li><Link to="#"><a>Bris de marchine</a></Link></li>
+                        <li><Link to="#"><a>Tout risque chantier</a></Link></li>
+                        <li><Link to="#"><a>RC decennale</a></Link></li>
+                        <li><Link to="#"><a>Santé</a></Link></li>
+                        <li><Link to="#"><a>Transport de marchandises</a></Link></li>
+                        <li><Link to="#"><a>Voyages</a></Link></li>
                     </ul>
                 </div>
                 <div>
