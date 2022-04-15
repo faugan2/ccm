@@ -17,7 +17,7 @@ import ccm from "./img/ccm.jpg";
 import logo from "./img/logo.jpg";
 import sos from "./img/sos.svg";
 import sos2 from "./img/sos2.svg";
-
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import {useHistory} from "react-router-dom";
 
 const Nav=()=>{
@@ -87,12 +87,17 @@ const Nav=()=>{
                         history.push("/produits-et-services")
                     }}>
                         <Link to="/produits-et-services"><a>Nos Produits/Services</a></Link>
-                        <ul className="dropdown">
+                        <ul>
                             <li>
-                                <Link to="/"><a>Particulier</a></Link>
+                                <Link to="/">
+                                    <a>Particulier</a>
+                                    <ArrowRightIcon />
+                                </Link>
                             </li> 
                             <li>    
-                                <Link to="/"><a>Professionnel</a></Link>
+                                <Link to="/"><a>Professionnel</a>
+                                <ArrowRightIcon />
+                                </Link>
                             </li> 
                         </ul>
                     </li>
