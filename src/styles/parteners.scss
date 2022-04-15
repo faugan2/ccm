@@ -1,21 +1,28 @@
 .parteners{
-    
-    min-height: 100px;
     width:80%;
     margin:auto;
-    margin-top: 2rem;
-    margin-bottom:2rem;
-    .partener{
-        
-        height:100px;
-        margin-right: 2rem;
-        border:none;
-        background-color: transparent;
+    display:flex;
+    gap:2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    >h1{
+        width:300px;
+        margin-bottom: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+    }
 
-        >img{
-            width:100px;
-            height:100px;
-            object-fit: cover;
-        }
+    >div{
+        flex:1;
+       
+       margin-left: 1rem;
+       display:grid;
+       grid-template-columns:32% 32% 32%;
+       gap:1rem;
+       >img{
+           width:100px;
+           height:100px;
+           object-fit:fill;
+       }
     }
 }
