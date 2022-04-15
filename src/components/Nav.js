@@ -184,6 +184,22 @@ const Nav=()=>{
                     </li>
 
                     <li  
+                    className={`${index == 5 ? "active" : ""}`}
+                    onClick={e=>{
+                       // history.push("/contact");
+                    }}>
+                        <Link><a>Partenaires</a></Link>
+                    </li>
+
+                    <li  
+                    className={`${index == 6 ? "active" : ""}`}
+                    onClick={e=>{
+                        //history.push("/contact");
+                    }}>
+                        <Link><a>Declarer un sinistre</a></Link>
+                    </li>
+
+                    <li  
                     className={`${index == 4 ? "active" : ""}`}
                     onClick={e=>{
                         history.push("/contact");
