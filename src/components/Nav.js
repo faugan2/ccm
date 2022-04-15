@@ -86,7 +86,7 @@ const Nav=()=>{
                     <li onClick={e=>{
                         history.push("/produits-et-services")
                     }}>
-                        <Link to="/produits-et-services"><a>Produits & Services</a></Link>
+                        <Link to="/produits-et-services"><a>Nos Produits/Services</a></Link>
                         <ul className="dropdown">
                             <li>
                                 <Link to="/"><a>Particulier</a></Link>
@@ -101,7 +101,7 @@ const Nav=()=>{
                     <li onClick={e=>{
                         history.push("/valeurs-et-engagements")
                     }}>
-                        <Link to="/valeurs-et-engagements"><a>Valeurs & Engagements</a></Link>
+                        <Link to="/valeurs-et-engagements"><a>Nos Valeurs</a></Link>
                     </li>
 
                     <li  onClick={e=>{
