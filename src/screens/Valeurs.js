@@ -24,8 +24,8 @@ const About =()=>{
     useEffect(()=>{
         if(data==null) return;
         if(data.length<0) return;
-        set_title(data[14]?.title);
-        set_content(data[14]?.content)
+        set_title(data[15]?.title);
+        set_content(data[15]?.content)
     },[data]);
     return(
         <Layout>
