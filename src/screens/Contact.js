@@ -20,7 +20,31 @@ const About =()=>{
             <div className="content">
                 <div className="contact">
                    <h1>Nous contacter</h1>
-                   <div></div>
+                   <div>
+                   <div className="line">
+                        <label>Votre nom complet</label>
+                        <input type="text" />
+                    </div>
+
+                    <div className="line">
+                        <label>Votre adresse Email</label>
+                        <input type="email" />
+                    </div>
+
+                    <div className="line">
+                        <label>Votre numéro de téléphone</label>
+                        <input type="tel" />
+                    </div>
+
+                    <div className="line">
+                        <label>Votre message</label>
+                        <textarea />
+                    </div>
+
+                    <div className="line">
+                        <button>Envoyez le message</button>
+                    </div>
+                   </div>
                 </div>
                 <Footer />
             </div>

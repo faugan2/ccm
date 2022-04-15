@@ -4,7 +4,7 @@
     display:flex;
     gap:2rem;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     >h1{
         width:300px;
         margin-bottom: 20px;
@@ -15,5 +15,35 @@
     >div{
         flex:1;
        margin-left: 2rem;
+
+       >.line{
+           display:flex;
+           flex-direction: column;
+           width:min(300px, 80%);
+           margin-bottom: 1.5rem;
+           >label{
+               font-size: 0.8rem;
+               color:dimgray;
+               font-weight: bold;
+           }
+           >input,textarea{
+                border:none;
+                outline:none;
+                border-bottom: 1px solid silver;
+                font-size: 0.8rem;
+                margin-top: 0.2rem;
+            }
+
+            >button{
+                width:200px;
+                margin:auto;
+                padding:0.6rem 1rem;
+                border:none;
+                background-color:var(--blue);
+                color:white;
+                font-weight: bold;
+                border-radius: 5px;
+            }
+       }
     }
 }
