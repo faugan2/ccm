@@ -27,3 +27,11 @@
         object-fit: fill;
     }
 }
+.layout{
+    
+    >.home{
+        >div{
+            background-color:#303136;
+        }
+    }
+}

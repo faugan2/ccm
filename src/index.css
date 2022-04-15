@@ -24,3 +24,9 @@ code {
   margin:0;
   padding:0;
 }
+
+.layout >.home >div{
+  background-color:white !important;
+}
+
+    
