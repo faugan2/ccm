@@ -19,8 +19,32 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="sinistre">
-                   <h1>sinistre</h1>
-                   <div>sinistre</div>
+                   <h1>Sinistre</h1>
+                   <div>
+                   <div className="line">
+                        <label>Votre nom complet</label>
+                        <input type="text" />
+                    </div>
+
+                    <div className="line">
+                        <label>Votre adresse Email</label>
+                        <input type="email" />
+                    </div>
+
+                    <div className="line">
+                        <label>Votre numéro de téléphone</label>
+                        <input type="tel" />
+                    </div>
+
+                    <div className="line">
+                        <label>Détails de la déclaration</label>
+                        <textarea />
+                    </div>
+
+                    <div className="line">
+                        <button>Envoyez la déclaration</button>
+                    </div>
+                   </div>
                 </div>
                 <Footer />
             </div>
