@@ -16,7 +16,7 @@
         >img{
             width:150px;
             height: 100px;
-           
+           cursor: pointer;
         }
         
         >div{
@@ -94,6 +94,10 @@
             padding:0;
             
             >li{
+
+                &.active{
+                    background-color:indianred;
+                }
                 
                 display:flex;
                 flex-direction: column;
@@ -125,6 +129,8 @@
                                 background-color:transparent;
                                 >a{
                                     text-decoration: underline;
+                                    color:rgb(221, 122, 122) !important;
+                                    font-weight: bold;
                                 }
                                 >ul{
                                     display:flex;
@@ -167,6 +173,7 @@
                                         >a{
                                             text-decoration: underline;
                                             font-weight: bold;
+                                            color:rgb(221, 122, 122) !important;
                                         }
                                     }
 

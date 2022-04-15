@@ -4,8 +4,16 @@ import HomeContent from "../components/HomeContent";
 
 import Layout from "../components/Layout";
 
-const Home=()=>{
+import { useDispatch } from "react-redux";
+import {setPage} from "../features/counterSlice";
+import {useState,useEffect} from "react";
 
+const Home=()=>{
+    const dispatch=useDispatch();
+
+    useEffect(()=>{
+        dispatch(setPage(0))
+    },[])
     return(
         <Layout>
             <div className="home">

@@ -19,11 +19,22 @@ import sos from "./img/sos.svg";
 import sos2 from "./img/sos2.svg";
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import {useHistory} from "react-router-dom";
+import {useDispatch,useSelector} from "react-redux";
+import {setPage,selectPage} from "../features/counterSlice";
 
 const Nav=()=>{
     const [open,set_open]=useState(false);
+    const [index,set_index]=useState(-1);
 
     const history=useHistory();
+    const dispatch=useDispatch();
+
+    const p=useSelector(selectPage);
+
+    useEffect(()=>{
+        if(p==null) return;
+        set_index(p);
+    },[p]);
 
     const show_menu=(e)=>{
         const menu=document.querySelector(".right");
@@ -37,7 +48,9 @@ const Nav=()=>{
     return(
         <div className="nav">
             <div className="left">
-                <img src={logo} /> 
+                <img src={logo} onClick={e=>{
+                    history.push("/home")
+                }}/> 
                 <div>
                     <div>
                         <button onClick={show_menu} className="btn_menu">
@@ -72,12 +85,15 @@ const Nav=()=>{
             </div>
             <div className="right">
                 <ul>
-                    <li onClick={e=>{
+                    <li
+                    className={`${index == 0 ? "active" : ""}`}
+                    onClick={e=>{
                         history.push("/home")
                     }}>
                         <Link to="/home"><a>Accueil</a></Link>
                     </li>
                     <li
+                        className={`${index == 1 ? "active" : ""}`}
                         onClick={e=>{
                             history.push("/about")
                         }}
@@ -85,66 +101,68 @@ const Nav=()=>{
                         <Link to="/about"><a>Qui sommes-nous ?</a></Link>
                     </li>
 
-                    <li onClick={e=>{
+                    <li 
+                    className={`${index == 2 ? "active" : ""}`}
+                    onClick={e=>{
                         history.push("/produits-et-services")
                     }}>
-                        <Link to="/produits-et-services"><a>Nos Produits/Services</a></Link>
+                        <Link to="#"><a>Nos Produits/Services</a></Link>
                         <ul>
                             <li>
-                                <Link to="/">
+                                <Link to="#">
                                     <a>Particulier</a>
                                     <ArrowRightIcon />
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link to="/"><a>habitation</a></Link>
+                                        <Link to="/produits-et-services"><a>habitation</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>automobile</a></Link>
+                                        <Link to="/produits-et-services"><a>automobile</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>voyage</a></Link>
+                                        <Link to="/produits-et-services"><a>voyage</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>rc chef de famille</a></Link>
+                                        <Link to="/produits-et-services"><a>rc chef de famille</a></Link>
                                     </li>
                                 </ul>
                             </li> 
                             <li>    
-                                <Link to="/"><a>Professionnel</a>
+                                <Link to="#"><a>Professionnel</a>
                                 <ArrowRightIcon />
                                 </Link>
 
                                 <ul>
                                     <li>
-                                        <Link to="/"><a>rc pro</a></Link>
+                                        <Link to="/produits-et-services"><a>rc pro</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>flotte-automobile</a></Link>
+                                        <Link to="/produits-et-services"><a>flotte-automobile</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>multirisque professionnelle</a></Link>
+                                        <Link to="/produits-et-services"><a>multirisque professionnelle</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>tout risque informatique</a></Link>
+                                        <Link to="/produits-et-services"><a>tout risque informatique</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>bris de marchine</a></Link>
+                                        <Link to="/produits-et-services"><a>bris de marchine</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>tout risque chantier</a></Link>
+                                        <Link to="/produits-et-services"><a>tout risque chantier</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>rc decennale</a></Link>
+                                        <Link to="/produits-et-services"><a>rc decennale</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>sante</a></Link>
+                                        <Link to="/produits-et-services"><a>sante</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>transport de marchandises</a></Link>
+                                        <Link to="/produits-et-services"><a>transport de marchandises</a></Link>
                                     </li>
                                     <li>
-                                        <Link to="/"><a>voyages</a></Link>
+                                        <Link to="/produits-et-services"><a>voyages</a></Link>
                                     </li>
                                     
                                 </ul>
@@ -153,13 +171,17 @@ const Nav=()=>{
                     </li>
                     
 
-                    <li onClick={e=>{
+                    <li 
+                    className={`${index == 3 ? "active" : ""}`}
+                    onClick={e=>{
                         history.push("/valeurs-et-engagements")
                     }}>
                         <Link to="/valeurs-et-engagements"><a>Nos Valeurs</a></Link>
                     </li>
 
-                    <li  onClick={e=>{
+                    <li  
+                    className={`${index == 4 ? "active" : ""}`}
+                    onClick={e=>{
                         history.push("/contact");
                     }}>
                         <Link to="/contact"><a>Contact</a></Link>
