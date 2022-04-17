@@ -2,11 +2,12 @@ import "../styles/home_content.scss";
 import "../styles/home_content_mobile.scss";
 import bg from "./img/banner.webp";
 import bg2 from "./img/auto.jpg";
+import bg3 from "./img/new/ass_multi_risque.jpg";
 import {useState,useEffect} from "react";
 
 const HomeContent=()=>{
 
-    const [data,set_data]=useState([bg,bg2]);
+    const [data,set_data]=useState([bg,bg3,bg,bg2]);
     const [b,set_b]=useState(0);
 
     useEffect(()=>{
