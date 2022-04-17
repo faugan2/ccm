@@ -671,6 +671,11 @@ const data=[
     </ul>
     <p>Une &eacute;quipe comp&eacute;tente et des partenaires fiables vous garantissent d&rsquo;&ecirc;tre assur&eacute; en toute s&eacute;r&eacute;nit&eacute;.</p>`,
     },
+    {
+        id:16,
+        title:"Sinistre",
+        content:"<p>En d&eacute;pit de toutes les pr&eacute;cautions, un sinistre peut arriver &agrave; chacun. D&eacute;clarez-nous votre incident, nous serons ravis de nous occuper de sa gestion.<br><br>D&eacute;clarer un sinistre par t&eacute;l&eacute;phone<br>+228 91 49 39 39<br><br>Ligne t&eacute;l&eacute;phonique 24 h/24 en-dehors des heures d&rsquo;ouverture<br>+228 98 65 50 50<br><br>D&eacute;clarer un sinistre par e-mail<br>sinistre@ccmcourtiers.com<br><br>D&eacute;clarer un sinistre par WhatsApp<br>+228 90 04 15 52</p>"
+    }
 ]
 
 export {data};

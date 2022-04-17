@@ -6,13 +6,21 @@ import Footer from "../components/Footer";
 import { useDispatch } from "react-redux";
 import {setPage} from "../features/counterSlice";
 import {useState,useEffect} from "react";
+import {data} from "../components/data";
 
 const About =()=>{
     const dispatch=useDispatch();
 
+    const [content,set_content]=useState("");
+
     useEffect(()=>{
         dispatch(setPage(6))
     },[])
+    useEffect(()=>{
+        if(data==null) return;
+        const res=data[16].content;
+        set_content(res);
+    },[data])
     return(
         <Layout>
             <div className="home">
@@ -21,6 +29,9 @@ const About =()=>{
                 <div className="sinistre">
                    <h1>Sinistre</h1>
                    <div>
+                      <div dangerouslySetInnerHTML={{__html:content}} style={{
+                          marginBottom:"2rem"
+                      }}/>
                    <div className="line">
                         <label>Votre nom complet</label>
                         <input type="text" />
