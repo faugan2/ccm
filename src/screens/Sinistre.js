@@ -30,8 +30,14 @@ const About =()=>{
                    <h1>Sinistre</h1>
                    <div>
                       <div dangerouslySetInnerHTML={{__html:content}} style={{
-                          marginBottom:"2rem"
+                          marginBottom:"3rem",
+                          borderBottom:"1px solid silver",
+                          paddingBottom:"2rem",
                       }}/>
+
+                      <div className="line">
+                          <h3>Déclarez un sinistre en envoyant un message</h3>
+                      </div>
                    <div className="line">
                         <label>Votre nom complet</label>
                         <input type="text" />
