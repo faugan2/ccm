@@ -77,6 +77,8 @@
                         }
                     }
                 }
+
+                
             }
         }
     }
@@ -236,6 +238,30 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+    >.contact_info{
+        background-color:var(--blue);
+        
+        >div{
+            opacity:0;
+            display:flex;
+            align-items: center;
+            width:80%;
+            margin:auto;
+            justify-content:space-between;
+            font-size: 0.8rem;
+            >div{
+                color:white;
+                text-transform: uppercase;
+            }
+        }
+        &.active{
+            >div{
+                opacity: 1;
+                transition:1s;
             }
         }
     }

@@ -49,6 +49,9 @@ const Nav=()=>{
         dispatch(setSousType(sous_type))
         history.push("/produits-et-services");
     }
+    const show_contact_info=()=>{
+        document.querySelector(".contact_info").classList.toggle("active");
+    }
   
 
     return(
@@ -65,7 +68,7 @@ const Nav=()=>{
                             <CloseIcon />
                         </button>
 
-                        <button>
+                        <button onClick={show_contact_info}>
                             <img src={sos} />
                             <img src={sos2} />
                         </button>
@@ -208,6 +211,15 @@ const Nav=()=>{
                         <Link to="/contact"><a>Contact</a></Link>
                     </li>
                 </ul>
+            </div>
+            <div className="contact_info">
+                <div>
+                    <div>Déclarer un sinistre</div>
+                    <div>téléphone : +228 91 49 39 39</div>
+                    <div>téléphone 24h/24 : +228 98 65 50 50</div>
+                    <div>email : sinistre@ccmcourtiers.com</div>
+                    <div>WhatsApp : +228 90 04 15 52</div>
+                </div>
             </div>
 
             <button onClick={show_menu} className="btn_show">
