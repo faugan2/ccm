@@ -21,6 +21,7 @@ import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import {useHistory} from "react-router-dom";
 import {useDispatch,useSelector} from "react-redux";
 import {setPage,selectPage,setType,setSousType} from "../features/counterSlice";
+import logo_new from "./img/new/logo.png";
 
 const Nav=()=>{
     const [open,set_open]=useState(false);
@@ -53,7 +54,7 @@ const Nav=()=>{
     return(
         <div className="nav">
             <div className="left">
-                <img src={logo} onClick={e=>{
+                <img src={logo_new} onClick={e=>{
                     history.push("/home")
                 }}/> 
                 <div>

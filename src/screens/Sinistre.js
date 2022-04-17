@@ -27,7 +27,7 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="sinistre">
-                   <h1>Sinistre</h1>
+                   <h1>Déclarer un sinistre</h1>
                    <div>
                       <div dangerouslySetInnerHTML={{__html:content}} style={{
                           marginBottom:"3rem",
