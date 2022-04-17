@@ -181,7 +181,7 @@ const Nav=()=>{
                     onClick={e=>{
                         history.push("/valeurs-et-engagements")
                     }}>
-                        <Link to="/valeurs-et-engagements"><a>Nos Valeurs</a></Link>
+                        <Link to="/valeurs-et-engagements"><a>Nos engagements</a></Link>
                     </li>
 
                     <li  

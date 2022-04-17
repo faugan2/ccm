@@ -14,6 +14,8 @@ import adesco from "../components/img/adesco.jpg";
 import jsql from "../components/img/jsql.png";
 import assitchape from "../components/img/assitchape.png";
 import foaf from "../components/img/foaf.png";
+import img from "../components/img/new/nos_partenaires.jpg";
+
 const About =()=>{
     const [data,set_data]=useState([sici,assitchape,foaf,ccm,a2w,get_driver,adesco,jsql])
     const dispatch=useDispatch();
@@ -27,7 +29,11 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="parteners">
-                   <h1>Nos partenaires</h1>
+                    <div>
+                        <h1>Nos partenaires</h1>
+                        <img src={img} />
+                    </div>
+                   
                    <div>
                        {
                            data?.map((item,i)=>{

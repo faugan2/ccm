@@ -5,24 +5,33 @@
     gap:2rem;
     padding-top: 3rem;
     padding-bottom: 1rem;
-    >h1{
-        width:300px;
-        margin-bottom: 20px;
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 24px;
-    }
+    
 
     >div{
-        flex:1;
-       
-       margin-left: 1rem;
-       display:grid;
-       grid-template-columns:32% 32% 32%;
-       gap:1rem;
-       >img{
-           width:100px;
-           height:100px;
-           object-fit:fill;
-       }
+    
+        &:nth-child(1){
+            display:flex;
+            flex-direction: column;
+            >h1{
+                width:300px;
+                margin-bottom: 20px;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 24px;
+            }
+        }
+
+        &:nth-child(2){
+            flex:1;
+            margin-left: 1rem;
+            display:grid;
+            grid-template-columns:32% 32% 32%;
+            gap:1rem;
+            >img{
+                width:100px;
+                height:100px;
+                object-fit:fill;
+            }
+        }
+        
     }
 }

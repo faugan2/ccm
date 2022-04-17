@@ -1,5 +1,5 @@
-import "../styles/valeurs.scss";
-import "../styles/valeurs_mobile.scss";
+import "../styles/about.scss";
+import "../styles/about_mobile.scss";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -8,6 +8,7 @@ import { useDispatch } from "react-redux";
 import {setPage} from "../features/counterSlice";
 import {useState,useEffect} from "react";
 import {data} from "../components/data";
+import img from "../components/img/new/nos_engagements.png";
 
 const About =()=>{
     const dispatch=useDispatch();
@@ -33,7 +34,11 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="about">
-                    <h1>{title}</h1>
+                    <div>
+                         <h1>{title}</h1>
+                         <img src={img} />
+                    </div>
+                    
                    <div dangerouslySetInnerHTML={{__html:content}} />
                 </div>
                 <Footer />

@@ -1,13 +1,18 @@
 @media only screen and (max-width:768px){
     .parteners{
         flex-direction: column;
-        >h1{
-            margin-left: 0rem;
-        }
-
         >div{
-            margin-left: 0;
-            grid-template-columns: 48% 48%;
+            &:nth-child(1){
+                >h1{
+                    margin-left: 0rem;
+                }
+            }
+
+            &:nth-child(2){
+                margin-left: 0;
+                grid-template-columns: 48% 48%;
+            }
+            
         }
     }
 }

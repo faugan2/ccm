@@ -5,15 +5,25 @@
     gap:2rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    >h1{
-        width:550px;
-        margin-bottom: 20px;
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 24px;
-    }
 
     >div{
-       margin-left: 2rem;
+        &:nth-child(1){
+            width:550px;
+            margin-bottom: 20px;
+            >h1{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 24px;
+            }
+
+            >img{
+                width:100%;
+            }
+        }
+
+        &:nth-child(2){
+            margin-left: 2rem;
+        }
     }
+    
 
 }

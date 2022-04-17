@@ -25,7 +25,7 @@ const Footer=()=>{
                     <h4>A propos de nous</h4>
                     <ul>
                         <li><Link to="/about"><a>Qui sommes-nous ?</a></Link></li>
-                        <li><Link to="/valeurs-et-engagements"><a>Nos valeurs</a></Link></li>
+                        <li><Link to="/valeurs-et-engagements"><a>Nos engagements</a></Link></li>
                         
                     </ul>
                 </div>
