@@ -1,5 +1,6 @@
 import ass_habitation from "./img/new/ass_habitation.jpg";
-import ass_automobile from "./img/new/ass_automobile.jpg";
+import ass_automobile from "./img/new/ass_automobile2.jpg";
+import ass_automobile2 from "./img/new/ass_automobile.jpg";
 import ass_voyage from "./img/new/ass_voyage.jpg";
 import ass_chef_famille from "./img/new/ass_chef_famille.jpg";
 import ass_bris_machine from "./img/new/ass_bris_machine.jpg";
@@ -9,6 +10,8 @@ import ass_rc_prof from "./img/new/ass_rc_prof.jpg";
 import ass_sante from "./img/new/ass_sante.jpg";
 import ass_tr_chantier from "./img/new/ass_tr_chantier.jpg";
 import ass_tr_informatique from "./img/new/ass_tr_informatique.jpg";
+import ass_transport_marchandise from "./img/new/ass_transport_marchandise.jpg";
+
 
 const data=[
     {
@@ -207,6 +210,7 @@ const data=[
         type:2,
         sous_type:1,
         title:"Professionnel/RC PRO",
+        img:ass_rc_prof,
         content:`<ol>
         <li>
             <p>La Responsabilit&eacute; civile professionnelle (aussi appel&eacute;e RC Pro ou RCP) est l&apos;assurance vie de votre soci&eacute;t&eacute;. Parfois obligatoire, dans tous les cas fortement recommand&eacute;e, elle&nbsp;vous prot&egrave;ge en cas de dommages caus&eacute;s &agrave; un tiers.</p>
@@ -242,6 +246,7 @@ const data=[
         type:2,
         sous_type:2,
         title:"Professionnel/Flotte-Automobile",
+        img:ass_automobile2,
         content:`<ol>
         <li>
             <p>Pour mener &agrave; bien vos activit&eacute;s au quotidien, votre entreprise dispose d&apos;un parc de v&eacute;hicules. Qu&apos;il s&apos;agisse de v&eacute;hicules commerciaux, utilitaires ou d&apos;engins de chantier, vous devez les assurer. V&eacute;rifiez les garanties de vos contrats.</p>
@@ -623,6 +628,7 @@ const data=[
         type:2,
         sous_type:9,
         title:"Professionnel/Transport de marchandises",
+        img:ass_transport_marchandise,
         content:`<ol>
         <ul>
             <li>Vol, incendie, d&eacute;t&eacute;rioration, accident&hellip; les risques qui p&egrave;sent sur votre marchandise sont nombreux&nbsp;! Une v&eacute;ritable assurance transport de marchandises est indispensable pour que vous soyez rembours&eacute; de la valeur de vos biens en cas de sinistre.<h2>Nous d&eacute;finissons avec vous vos besoins et le p&eacute;rim&egrave;tre de vos risques afin de vous conseiller efficacement dans le choix des garanties li&eacute;es &agrave; l&rsquo;assurance des marchandises transport&eacute;es. Confiez votre assurance&nbsp;transport de marchandises &agrave; des experts</h2>
