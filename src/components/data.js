@@ -1,6 +1,14 @@
 import ass_habitation from "./img/new/ass_habitation.jpg";
 import ass_automobile from "./img/new/ass_automobile.jpg";
 import ass_voyage from "./img/new/ass_voyage.jpg";
+import ass_chef_famille from "./img/new/ass_chef_famille.jpg";
+import ass_bris_machine from "./img/new/ass_bris_machine.jpg";
+import ass_multi_risque from "./img/new/ass_multi_risque.jpg";
+import ass_rc_decennale from "./img/new/ass_rc_decennale.jpg";
+import ass_rc_prof from "./img/new/ass_rc_prof.jpg";
+import ass_sante from "./img/new/ass_sante.jpg";
+import ass_tr_chantier from "./img/new/ass_tr_chantier.jpg";
+import ass_tr_informatique from "./img/new/ass_tr_informatique.jpg";
 
 const data=[
     {
@@ -156,6 +164,7 @@ const data=[
         type:1,
         sous_type:4,
         title:"Particulier/RC chef de famille",
+        img:ass_chef_famille,
         content:`<ol>
         <li>
             <h2>QU&rsquo;EST-CE QUE LA RESPONSABILIT&Eacute; CIVILE CHEF DE FAMILLE ?</h2>
@@ -279,6 +288,7 @@ const data=[
         type:2,
         sous_type:3,
         title:"Professionnel/Multirisque professionnel",
+        img:ass_multi_risque,
         content:`<ol>
         <li>
             <h2>QU&rsquo;EST-CE QUE LA MULTIRISQUE PROFESSIONNELLE ?</h2>
@@ -349,6 +359,7 @@ const data=[
         type:2,
         sous_type:4,
         title:"Professionnel/Tout risque informatique",
+        img:ass_tr_informatique,
         content:`<ol>
         <li>
             <h2>Qu&apos;est ce que l&apos;Assurance Tous Risques Informatiques ?</h2>
@@ -428,6 +439,7 @@ const data=[
         type:2,
         sous_type:5,
         title:"Professionnel/Bris de machine",
+        img:ass_bris_machine,
         content:`<ol>
         <li>
             <h1>Garantie Bris de machine : Tout ce que vous devriez savoir pour en b&eacute;n&eacute;ficier</h1>
@@ -516,6 +528,7 @@ const data=[
         type:2,
         sous_type:6,
         title:"Professionnel/Tout risque chantier",
+        img:ass_tr_chantier,
         content:`<ol>
         <li>
             <p>L&apos;assurance tous risques chantier&nbsp;ou (TRC) a pour objet de couvrir l&rsquo;ensemble des dommages mat&eacute;riels caus&eacute;s &agrave; l&rsquo;ouvrage final ou &agrave; l&rsquo;ouvrage provisoire comme un effondrement, un incendie, des d&eacute;g&acirc;ts des eaux, une temp&ecirc;te et des vols de mat&eacute;riaux &agrave; compter de leur d&eacute;p&ocirc;t sur le chantier.<br>La p&eacute;riode de garantie prend effet &agrave; partir de la date d&apos;ouverture de chantier jusqu&apos;&agrave; la date de r&eacute;ception des travaux.&nbsp;</p>
@@ -553,10 +566,10 @@ const data=[
         type:2,
         sous_type:7,
         title:"Professionnel/RC Decennale",
+        img:ass_rc_decennale,
         content:`<ol>
-        <li><br>
             <ul>
-                <li><br></li>
+                
                 <li>
                     <p>Tout participant &agrave; l&rsquo;acte de construire est responsable de plein droit envers le ma&icirc;tre d&rsquo;ouvrage et les acqu&eacute;reurs successifs pendant 10 ans apr&egrave;s la r&eacute;ception de l&rsquo;ouvrage.</p>
                 </li>
@@ -578,6 +591,7 @@ const data=[
         type:2,
         sous_type:8,
         title:"Professionnel/Santé-Prévoyance",
+        img:ass_sante,
         content:`<ol>
         <ul>
             <li><br></li>
@@ -623,6 +637,7 @@ const data=[
         type:2,
         sous_type:10,
         title:"Professionnel/Voyages",
+        img:ass_voyage,
         content:`<ol>
         <ul>
             <ul>
