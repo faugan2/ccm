@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import {setPage} from "../features/counterSlice";
 import {useState,useEffect} from "react";
 import {data} from "../components/data";
+import img from "../components/img/new/declarer_sinistre.jpg";
 
 const About =()=>{
     const dispatch=useDispatch();
@@ -27,7 +28,11 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="sinistre">
-                   <h1>Déclarer un sinistre</h1>
+                    <div>
+                        <h1>Déclarer un sinistre</h1>
+                        <img src={img} />
+                    </div>
+                   
                    <div>
                       <div dangerouslySetInnerHTML={{__html:content}} style={{
                           marginBottom:"3rem",

@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import { useDispatch } from "react-redux";
 import {setPage} from "../features/counterSlice";
 import {useState,useEffect} from "react";
+import img from "../components/img/new/contact.png"
 
 const About =()=>{
     const dispatch=useDispatch();
@@ -19,7 +20,11 @@ const About =()=>{
                 <Nav />
             <div className="content">
                 <div className="contact">
-                   <h1>Nous contacter</h1>
+                    <div>
+                    <h1>Nous contacter</h1>
+                    <img src={img} />
+                    </div>
+                   
                    <div>
                    <div className="line">
                         <label>Votre nom complet</label>

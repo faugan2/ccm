@@ -1,3 +1,7 @@
+import ass_habitation from "./img/new/ass_habitation.jpg";
+import ass_automobile from "./img/new/ass_automobile.jpg";
+import ass_voyage from "./img/new/ass_voyage.jpg";
+
 const data=[
     {
         id:1,
@@ -36,6 +40,7 @@ const data=[
         type:1,
         sous_type:1,
         title:"Particulier/Habitation",
+        img:ass_habitation,
         content:`<ol>
         <li>
             <p>Locataire&nbsp;? Propri&eacute;taire&nbsp;? Maison ou appartement&nbsp;? Vous avez le devoir d&rsquo;assurer votre logement et vos biens. Nous savons que personne ne veut passer des heures &agrave; rechercher un bon assureur, de r&eacute;pondre &agrave; une foule de questions ou de se d&eacute;placer pour obtenir souscrire une assurance logement, c&apos;est pourquoi nous avons fait en sorte qu&apos;il soit plus rapide et plus facile pour vous de prot&eacute;ger votre logement.</p>
@@ -65,6 +70,7 @@ const data=[
         type:1,
         sous_type:2,
         title:"Particulier/Automobile",
+        img:ass_automobile,
         content:`<ol>
         <li>
             <p>Au Togo, la loi impose aux conducteurs de souscrire une assurance auto pour pouvoir&nbsp;circuler en toute l&eacute;galit&eacute;.&nbsp;Co&ucirc;ts, d&eacute;marches, risques &agrave; circuler sans assurance auto&hellip; d&eacute;couvrez avec CCM tout ce qu&rsquo;il faut savoir sur l&rsquo;assurance voiture</p>
@@ -84,6 +90,7 @@ const data=[
         type:1,
         sous_type:3,
         title:"Particulier/Voyage",
+        img:ass_voyage,
         content:`<ol>
         <li>
             <p>Voyage et tourisme nous annoncent des espaces nouveaux, diff&eacute;rents, prometteurs de bien-&ecirc;tre, de sensations fortes. Mais, aussi passionnantes qu&rsquo;elles soient, ces promesses entra&icirc;nent aussi vers tout un monde de risques nouveaux.</p>
