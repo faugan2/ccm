@@ -11,7 +11,8 @@ import ass_sante from "./img/new/ass_sante.jpg";
 import ass_tr_chantier from "./img/new/ass_tr_chantier.jpg";
 import ass_tr_informatique from "./img/new/ass_tr_informatique.jpg";
 import ass_transport_marchandise from "./img/new/ass_transport_marchandise.jpg";
-
+import offre_emploi from "./img/new/offre_emploi.png";
+import candidature from "./img/new/candidature.jpg";
 
 const data=[
     {
@@ -707,6 +708,7 @@ const data=[
     {
         id:17,
         title:"Offres d'emploi",
+        img:offre_emploi,
         content:`<div>
         <p><strong>Vous &ecirc;tes &agrave; la recherche d&rsquo;un nouveau d&eacute;fi ? 
         Saisissez votre chance et postulez maintenant! Pour renforcer notre &eacute;quipe de suite ou &agrave; convenir</strong></p><strong>
@@ -727,6 +729,7 @@ const data=[
     {
         id:18,
         title:"Candidature spontanée",
+        img:candidature,
         content:`<div>
         <div>
             <p><strong>Vous &ecirc;tes &agrave; la recherche d&rsquo;un nouveau challenge dans un environnement dynamique ? Vous voulez faire bouger les choses et participer ainsi &agrave; une success story ? Alors nous serions heureux de faire votre connaissance.</strong></p>
