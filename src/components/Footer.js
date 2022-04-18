@@ -7,7 +7,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import {useDispatch,useSelector} from "react-redux";
 import {setPage,selectPage,setType,setSousType} from "../features/counterSlice";
 import {useHistory} from "react-router-dom";
-
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 const Footer=()=>{
     const history=useHistory();
     const dispatch=useDispatch();
@@ -87,13 +87,27 @@ const Footer=()=>{
                         <li>
                             <a href ="mailto: info@ccmcourtiers.com">
                                 <MailOutlineIcon />
-                                info@ccmcourtiers.com
+                                contact@ccmcourtiers.com
                             </a>
                         </li>
 
                         <li>
                             <Link to="#">
                                 <CallIcon />
+                                <a>+228 91 49 39 39</a>
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="#">
+                                <CallIcon /> 
+                                <a>+228 98 65 50 50 (24h/24)</a>
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="#">
+                                <WhatsAppIcon />
                                 <a>+228 90 04 15 52</a>
                             </Link>
                         </li>

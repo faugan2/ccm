@@ -215,9 +215,9 @@ const Nav=()=>{
             <div className="contact_info">
                 <div>
                     <div>Déclarer un sinistre</div>
-                    <div>téléphone : +228 91 49 39 39</div>
-                    <div>téléphone 24h/24 : +228 98 65 50 50</div>
-                    <div>email : sinistre@ccmcourtiers.com</div>
+                    <div>Téléphone : +228 91 49 39 39</div>
+                    <div>Téléphone 24h/24 : +228 98 65 50 50</div>
+                    <div>Email : contact@ccmcourtiers.com</div>
                     <div>WhatsApp : +228 90 04 15 52</div>
                 </div>
             </div>
