@@ -118,7 +118,7 @@ const Nav=()=>{
                         <ul>
                             <li>
                                 <Link to="#">
-                                    <a>Particulier</a>
+                                    <a>Particuliers</a>
                                     <ArrowRightIcon />
                                 </Link>
                                 <ul>
@@ -137,7 +137,7 @@ const Nav=()=>{
                                 </ul>
                             </li> 
                             <li>    
-                                <Link to="#"><a>Professionnel</a>
+                                <Link to="#"><a>Professionnels</a>
                                 <ArrowRightIcon />
                                 </Link>
 

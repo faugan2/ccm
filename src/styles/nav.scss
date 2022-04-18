@@ -243,10 +243,12 @@
     }
 
     >.contact_info{
-        background-color:var(--blue);
-        
+        background-color:indianred;
+        opacity:0;
+        visibility: hidden;
+        height:0;
+        transition:visibility 0s, opacity 1s,height 0.5s;
         >div{
-            opacity:0;
             display:flex;
             align-items: center;
             width:80%;
@@ -255,14 +257,15 @@
             font-size: 0.8rem;
             >div{
                 color:white;
-                text-transform: uppercase;
             }
         }
         &.active{
-            >div{
-                opacity: 1;
-                transition:1s;
-            }
+            opacity: 1;
+            visibility:visible;
+            opacity:1;
+            height:auto;
+            transition:visibility 0s,opacity 1s;
+           
         }
     }
 

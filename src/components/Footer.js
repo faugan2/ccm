@@ -47,7 +47,7 @@ const Footer=()=>{
                     </ul>
                 </div>
                 <div>
-                <h4>Professionnel</h4>
+                <h4>Professionnels</h4>
                     <ul>
                     <li onClick={show_detail.bind(this,2,1)}>
                         <Link><a>RC PRO</a></Link>
