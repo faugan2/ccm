@@ -197,13 +197,21 @@ const Nav=()=>{
                         <Link><a>Partenaires</a></Link>
                     </li>
 
-                    <li>    
+                    <li className={`${index == 7 ? "active" : ""}`}>    
                         <Link to="#">
                             <a>Emplois</a>
                         </Link>
                         <ul>
-                            <li><Link to="#"><a>Offres d'emploi</a></Link></li>
-                            <li><Link to="#"><a>Candidature spontanée</a></Link></li>
+                            <li 
+                            onClick={e=>{
+                                history.push("/offres-emploi")
+                            }}
+                            ><Link to="#"><a>Offres d'emploi</a></Link></li>
+                            <li
+                             onClick={e=>{
+                                history.push("/candidature")
+                            }}
+                            ><Link to="#"><a>Candidature spontanée</a></Link></li>
                         </ul>
                     </li>
 

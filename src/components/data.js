@@ -703,6 +703,56 @@ const data=[
         id:16,
         title:"Sinistre",
         content:"<p>En d&eacute;pit de toutes les pr&eacute;cautions, un sinistre peut arriver &agrave; chacun. D&eacute;clarez-nous votre incident, nous serons ravis de nous occuper de sa gestion.<br><br>D&eacute;clarer un sinistre par t&eacute;l&eacute;phone<br>+228 91 49 39 39<br><br>Ligne t&eacute;l&eacute;phonique 24 h/24 en-dehors des heures d&rsquo;ouverture<br>+228 98 65 50 50<br><br>D&eacute;clarer un sinistre par e-mail<br>sinistre@ccmcourtiers.com<br><br>D&eacute;clarer un sinistre par WhatsApp<br>+228 90 04 15 52</p>"
+    },
+    {
+        id:17,
+        title:"Offres d'emploi",
+        content:`<div>
+        <p><strong>Vous &ecirc;tes &agrave; la recherche d&rsquo;un nouveau d&eacute;fi ? 
+        Saisissez votre chance et postulez maintenant! Pour renforcer notre &eacute;quipe de suite ou &agrave; convenir</strong></p><strong>
+        <br />    
+        <ul style="list-style:none">
+                <li><a href="https://www.schafer.ch/wp-content/uploads/202111-Choses-F.pdf" 
+                rel="noopener noreferrer" target="_blank">Technico-commercial ayant une formation en assurance</a></li>
+            </ul>
+        </strong>
+        <br  />
+       <hr style="color:whitesmoke"/>
+    </div>
+    <p><br><a href="javascript%3A;" style="display:flex; align-items:center;gap:0.5rem">
+    <img src="https://www.schafer.ch/wp-content/themes/schafer/images/Mail_sw.png"
+    style="width:30px"
+    >contact@ccmcourtiers.com</a></p>`
+    },
+    {
+        id:18,
+        title:"Candidature spontanée",
+        content:`<div>
+        <div>
+            <p><strong>Vous &ecirc;tes &agrave; la recherche d&rsquo;un nouveau challenge dans un environnement dynamique ? Vous voulez faire bouger les choses et participer ainsi &agrave; une success story ? Alors nous serions heureux de faire votre connaissance.</strong></p>
+        </div>
+        <br />
+        <hr style="color:whitesmoke"/>
+        <br />
+        <p><strong>Candidature spontan&eacute;e</strong></p>
+        <p>C&rsquo;est toujours avec plaisir que nous &eacute;tudions les candidatures spontan&eacute;es de personnes qui pensent convenir &agrave; notre entreprise, m&ecirc;me si aucune offre d&rsquo;emploi n&rsquo;a &eacute;t&eacute; publi&eacute;e.</p>
+        <p>Veuillez nous envoyer votre dossier de candidature par courrier postal ou &eacute;lectronique &agrave; :</p>
+        <br />
+        <p><strong>CONFIDENTIEL</strong><br>CCM<br>Ressources humaines<br>Case postale 228<br>LOME TOGO</p>
+        <p style="margin-top:0.5rem">
+        <a style="display:flex;align-items:center;gap:0.5rem"><img src="https://www.schafer.ch/wp-content/themes/schafer/images/Telefon_sw.png"
+        style="width:30px"
+        > +228 91 49 39 39</a>
+        <a style="display:flex;align-items:center;gap:0.5rem"><img src="https://www.schafer.ch/wp-content/themes/schafer/images/Telefon_sw.png"
+        style="width:30px"
+        > +228 98 65 50 50 (24h/24)</a>
+        <a href="javascript%3A;" style="display:flex;align-items:center;gap:0.5rem">
+        <img src="https://www.schafer.ch/wp-content/themes/schafer/images/Mail_sw.png"
+        style="width:30px"
+        >contact@ccmcourtiers.com</a>
+        
+        </p>
+    </div>`
     }
 ]
 

@@ -15,6 +15,9 @@ import Valeurs from "./screens/Valeurs";
 import Contact from "./screens/Contact";
 import Parteners from "./screens/Parteners";
 import Sinistre from "./screens/Sinistre";
+import OffresEmploi from "./screens/OffresEmploi";
+import Candidature from "./screens/Candidature";
+
 function App() {
   return (
     <Router>
@@ -49,6 +52,14 @@ function App() {
 
           <Route path="/sinistre" exact>
             <Sinistre />
+          </Route>
+
+          <Route path="/offres-emploi" exact>
+            <OffresEmploi />
+          </Route>
+
+          <Route path="/candidature" exact>
+            <Candidature />
           </Route>
         
         </Switch>
