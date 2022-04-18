@@ -16,8 +16,20 @@ import assitchape from "../components/img/assitchape.png";
 import foaf from "../components/img/foaf.png";
 import img from "../components/img/new/nos_partenaires.jpg";
 
+import ciscofinances from "../components/img/partenaires/ciscofinances.PNG";
+import diane from "../components/img/partenaires/diane.png";
+import espiat from "../components/img/partenaires/espiat.png";
+import gmc from "../components/img/partenaires/gmc.png";
+import gireh from "../components/img/partenaires/jireh.jfif";
+import lillybelle from "../components/img/partenaires/lillybelle.png";
+import lillyfly from "../components/img/partenaires/lillyfly.jpg";
+import plastica from "../components/img/partenaires/plastica.jpg";
+import pro_batiment from "../components/img/partenaires/pro_batiment.jpg";
+import proconsulting from "../components/img/partenaires/pro_consulting.jpg";
+
 const About =()=>{
-    const [data,set_data]=useState([sici,assitchape,foaf,ccm,a2w,get_driver,adesco,jsql])
+    const [data,set_data]=useState([sici,ciscofinances,diane,espiat,gmc,gireh,lillybelle,lillyfly,plastica,
+    pro_batiment,proconsulting])
     const dispatch=useDispatch();
 
     useEffect(()=>{
