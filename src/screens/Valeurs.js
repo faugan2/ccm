@@ -35,7 +35,6 @@ const About =()=>{
             <div className="content">
                 <div className="about">
                     <div>
-                         <h1>{title}</h1>
                          <img src={img} />
                     </div>
                     

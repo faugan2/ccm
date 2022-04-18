@@ -29,4 +29,11 @@ code {
   background-color:white !important;
 }
 
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/josefin-sans.regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
     
