@@ -178,15 +178,7 @@ const Nav=()=>{
                         </ul>
                     </li>
 
-                    <li>    
-                        <Link to="#">
-                            <a>Emplois</a>
-                        </Link>
-                        <ul>
-                            <li><Link to="#"><a>Offres d'emploi</a></Link></li>
-                            <li><Link to="#"><a>Candidature spontanée</a></Link></li>
-                        </ul>
-                    </li>
+                   
                     
 
                     <li 
@@ -203,6 +195,16 @@ const Nav=()=>{
                         history.push("/parteners");
                     }}>
                         <Link><a>Partenaires</a></Link>
+                    </li>
+
+                    <li>    
+                        <Link to="#">
+                            <a>Emplois</a>
+                        </Link>
+                        <ul>
+                            <li><Link to="#"><a>Offres d'emploi</a></Link></li>
+                            <li><Link to="#"><a>Candidature spontanée</a></Link></li>
+                        </ul>
                     </li>
 
                     <li  
