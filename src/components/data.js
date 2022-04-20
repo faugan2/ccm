@@ -19,7 +19,7 @@ const data=[
         id:1,
         title:"Qui sommes-nous ?",
         content:`
-    <p><br></p>
+   
     <i><p>Soci&eacute;t&eacute; de droit togolais agr&eacute;&eacute;e par le Minist&egrave;re de l&rsquo;Economie et des Finances sous le N&deg;029/MEF/SG/DA du 24/03/2022, CCM est une soci&eacute;t&eacute; de courtage en ASSURANCES ind&eacute;pendante qui s&rsquo;adresse &agrave; vous, particuliers, ind&eacute;pendants, dirigeants d&rsquo;entreprises et soci&eacute;t&eacute;s.<br>Son &eacute;quipe dynamique et exp&eacute;riment&eacute;e met &agrave; votre disposition, ses comp&eacute;tences afin de vous conseiller au mieux de vos int&eacute;r&ecirc;ts pour la protection de votre patrimoine et de vos r&eacute;sultats.<br>Parce qu&rsquo;il est possible de vous faire gagner du temps et de l&rsquo;argent tout en vous offrant une meilleure compr&eacute;hension des risques et de vos assurances, CCM vous propose de lui faire confiance.</p>
     </i>
     <br /><h2><strong>Pourquoi&nbsp;choisir CCM&nbsp;?</strong></h2><br />
@@ -377,24 +377,23 @@ const data=[
         sous_type:4,
         title:"Professionnel/Tout risque informatique",
         img:ass_tr_informatique,
-        content:`<ol>
-        <li>
+        content:`
             <h2>Qu&apos;est ce que l&apos;Assurance Tous Risques Informatiques ?</h2>
-            <h3>Tout savoir sur l&apos;Assurance Tous Risques Informatiques des Entreprises et des Professionnels&nbsp;</h3>
-            <p>Les Contrats d&apos;Assurance Tous Risques Informatiques permettent de garantir l&rsquo;int&eacute;gralit&eacute; de votre parc informatique gr&acirc;ce &agrave; une assurance multirisque professionnelle adapt&eacute;e.</p>
+            <br /><h3>Tout savoir sur l&apos;Assurance Tous Risques Informatiques des Entreprises et des Professionnels&nbsp;</h3>
+            <br /><p>Les Contrats d&apos;Assurance Tous Risques Informatiques permettent de garantir l&rsquo;int&eacute;gralit&eacute; de votre parc informatique gr&acirc;ce &agrave; une assurance multirisque professionnelle adapt&eacute;e.</p>
             <p>&nbsp;</p>
             <h3>Vous pouvez prot&eacute;ger l&rsquo;int&eacute;gralit&eacute; de votre mat&eacute;riel informatique :</h3>
-            <ul>
+            <br /><i><ul style="margin-left:2rem">
                 <li>
                     <p>Mat&eacute;riel fixe</p>
                 </li>
                 <li>
                     <p>Ordinateurs portables et tablettes tactiles aussi bien au sein de votre &eacute;tablissement, qu&rsquo;en cours de transport, que chez un h&eacute;bergeur par exemple ou encore partout dans le monde</p>
                 </li>&nbsp;
-            </ul>
+            </ul></i>
             <p></p>
             <h3>Il existe des garanties optionelles permettant d&rsquo;&eacute;tendre les garanties qui couvrent l&rsquo;ensemble des dommages mat&eacute;riels :&nbsp;</h3>
-            <ul>
+            <br /><i><ul style="margin-left:2rem">
                 <li>
                     <p>Chute de mat&eacute;riel</p>
                 </li>
@@ -410,10 +409,10 @@ const data=[
                 <li>
                     <p>Incendie et ceci sans avoir &agrave; d&eacute;clarer vos nouveaux &eacute;quipements</p>
                 </li>B&eacute;n&eacute;ficiez de garanties compl&eacute;mentaires adapt&eacute;es &agrave; votre activit&eacute;&nbsp;pour prot&eacute;ger vos donn&eacute;es et les reconstituer si elles sont affect&eacute;es par un virus, une malveillance ou une erreur humaine. Si votre activit&eacute; d&eacute;pend essentiellement de l&rsquo;exploitation d&rsquo;un site Internet, vous pourrez &eacute;galement vous prot&eacute;ger contre le risque de pertes d&rsquo;exploitation.
-            </ul>
+            </ul></i>
             <p></p>
-            <h3>Voici des exemples de sinistres que nous pouvons couvrir avec une protection tous risques informatiques&nbsp;:</h3>
-            <ul>
+            <br /><p><h3>Voici des exemples de sinistres que nous pouvons couvrir avec une protection tous risques informatiques&nbsp;:</h3>
+            <br /><i><ul style="margin-left:2rem">
                 <li>
                     <p>Chute d&rsquo;ordinateur portable</p>
                 </li>
@@ -432,11 +431,11 @@ const data=[
                 <li>
                     <p>Dommages subis suite &agrave; une panne de r&eacute;seau</p>
                 </li>Autant de raisons pour souscrire une assurance professionnelle comme celle-ci pour vos ordinateurs professionnels.
-            </ul>
+            </ul></i>
             <p></p>
             <p>&nbsp;</p>
             <h3>Voici des exemples de garanties compl&eacute;mentaires afin de r&eacute;pondre &agrave; toutes les sp&eacute;cificit&eacute;s de votre activit&eacute;&nbsp;:</h3>
-            <ul>
+            <br/><i><ul style="margin-left:2rem">
                 <li>
                     <p>L&rsquo;option &laquo;&nbsp;Dommages aux donn&eacute;es et frais annexes&nbsp;&raquo; vous aide &agrave; reconstituer vos donn&eacute;es et &agrave; prendre en charge l&rsquo;ensemble des co&ucirc;ts d&rsquo;une solution de remplacement en cas de sinistre causant des dommages mat&eacute;riels et pertes de donn&eacute;es, y compris suite &agrave; une erreur de manipulation, une malveillance ou un virus.</p>
                 </li>
@@ -444,12 +443,10 @@ const data=[
                     <p>Si votre activit&eacute; d&eacute;pend en partie ou totalement de l&rsquo;exploitation d&rsquo;un site Internet, vous pouvez b&eacute;n&eacute;ficier d&rsquo;une garantie qui couvre notamment la perte de votre chiffre d&rsquo;affaires et les pertes de recettes publicitaires.</p>
                 </li>
                 <li>
-                    <p>La garantie&nbsp;<a href="https://cabinetcohen.fr/produit/courtage-dassurance/assurance-dommages/assurance-bureau-detudes-syntec/dommages-aux-biens-perte-d-exploitation">Perte d&rsquo;exploitation</a> prend en charge la perte de chiffre d&rsquo;affaires et les frais suppl&eacute;mentaires des assur&eacute;s en cas de dommages caus&eacute;s sur votre installation, et en cas de pertes de donn&eacute;es. Cette garantie est essentielle si votre chiffre d&rsquo;affaires d&eacute;pend directement de l&rsquo;informatique.</p>
+                    <p>La garantie&nbsp;<a>Perte d&rsquo;exploitation</a> prend en charge la perte de chiffre d&rsquo;affaires et les frais suppl&eacute;mentaires des assur&eacute;s en cas de dommages caus&eacute;s sur votre installation, et en cas de pertes de donn&eacute;es. Cette garantie est essentielle si votre chiffre d&rsquo;affaires d&eacute;pend directement de l&rsquo;informatique.</p>
                 </li>Si vous &ecirc;tes une Start&rsquo;Up dans le num&eacute;rique venez d&eacute;couvrir notre offre d&eacute;di&eacute;e, nous serons ravis de vous orienter vers nos partenaires assureurs !
-            </ul>
-            <p></p>
-        </li>
-    </ol>`
+            </ul></i>
+            <p></p>`
     },
     {
         id:10,
@@ -457,9 +454,8 @@ const data=[
         sous_type:5,
         title:"Professionnel/Bris de machine",
         img:ass_bris_machine,
-        content:`<ol>
-        <li>
-            <h1>Garantie Bris de machine : Tout ce que vous devriez savoir pour en b&eacute;n&eacute;ficier</h1>
+        content:`
+            <h2>Garantie Bris de machine : Tout ce que vous devriez savoir pour en b&eacute;n&eacute;ficier</h2>
             <p>&nbsp;</p>
             <p>La garantie Bris de machine est une assurance essentielle &agrave; l&rsquo;&eacute;quilibre financier de nombreuses activit&eacute;s. Mais saviez-vous que son application n&rsquo;est pas r&eacute;duite aux usines de production ou aux engins de chantier&nbsp;? Peut-&ecirc;tre vous serait-elle tr&egrave;s utile en cas de sinistre. Avec CCM, soci&eacute;t&eacute; de courtage en assurances, d&eacute;couvrez les conditions pour en b&eacute;n&eacute;ficier.</p>
             <p>&nbsp;</p>
@@ -469,7 +465,7 @@ const data=[
             <p>&nbsp;</p>
             <h3>Quelles activit&eacute;s sont concern&eacute;es par cette garantie ?</h3>
             <p>Un grand &eacute;ventail de machines entre dans son champ d&rsquo;application :</p>
-            <ul>
+            <i><ul style="margin-left:2rem">
                 <li>
                     <p>Monte-charges, ascenseurs, engins de levage, portes d&rsquo;&eacute;cluses, rails&hellip;&nbsp;;</p>
                 </li>
@@ -485,7 +481,7 @@ const data=[
                 <li>
                     <p>Appareils &eacute;lectriques (turbines, chaudi&egrave;res, climatiseurs, &eacute;oliennes, lignes &eacute;lectriques, transformateurs&hellip;).</p>
                 </li>&nbsp;
-            </ul>
+            </ul></i>
             <p></p>
             <p>Aujourd&rsquo;hui, alors que les &eacute;quipements informatiques sont n&eacute;cessaires &agrave; la plupart des activit&eacute;s, l&rsquo;industrie n&rsquo;est plus le seul secteur d&rsquo;activit&eacute; devant se pr&eacute;munir contre l&rsquo;arr&ecirc;t d&rsquo;une machine. Ainsi,&nbsp;le panel d&rsquo;assur&eacute;s est de plus en plus large&nbsp;: professions lib&eacute;rales, PME, TPE, grandes entreprises&hellip;</p>
             <p>CCM propose des contrats d&rsquo;assurance Bris de machine adapt&eacute;s &agrave; chacune de ces activit&eacute;s.</p>
@@ -510,7 +506,7 @@ const data=[
             <p>&nbsp;</p>
             <h3>Quels conseils donnez-vous &agrave; vos clients pour &ecirc;tre indemnis&eacute; correctement en cas de sinistres ?&nbsp;</h3>
             <p>Lors de la signature du contrat Bris de machine, il convient de d&eacute;clarer et v&eacute;rifier :</p>
-            <ul>
+           <i> <ul style="margin-left:2rem">
                 <li>
                     <p>La valeur &agrave; neuf de votre (vos) machine(s) afin que les capitaux assur&eacute;s correspondent &agrave; la r&eacute;alit&eacute;</p>
                 </li>
@@ -522,10 +518,10 @@ const data=[
                 </li>
                 <li>
                     <p>Votre souhait d&rsquo;&ecirc;tre indemnis&eacute; ou non en valeur &agrave; neuf (ce point peut &eacute;galement d&eacute;pendre de la nature du mat&eacute;riel)</p>
-                </li>Pour faciliter une bonne prise en charge d&rsquo;un sinistre par votre compagnie d&rsquo;assurance lors de l&rsquo;expertise, nous vous recommandons de&nbsp;:
-            </ul>
-            <p></p>
-            <ul>
+                </li>Pour faciliter une bonne prise en charge d&rsquo;un 
+                sinistre par votre compagnie d&rsquo;assurance lors de l&rsquo;expertise, 
+                nous vous recommandons de&nbsp;:
+                <br /><ul style="margin-left:2rem">
                 <li>
                     <p>Conserver les pi&egrave;ces endommag&eacute;es&nbsp;;</p>
                 </li>
@@ -536,9 +532,9 @@ const data=[
                     <p>Conserver les factures d&rsquo;achat des machines et les contrats d&rsquo;entretien.</p>
                 </li><br>
             </ul>
-            <p></p>
-        </li>
-    </ol>`
+            </ul></i>
+            
+        `
     },
     {
         id:11,
@@ -546,13 +542,12 @@ const data=[
         sous_type:6,
         title:"Professionnel/Tout risque chantier",
         img:ass_tr_chantier,
-        content:`<ol>
-        <li>
+        content:`
             <p>L&apos;assurance tous risques chantier&nbsp;ou (TRC) a pour objet de couvrir l&rsquo;ensemble des dommages mat&eacute;riels caus&eacute;s &agrave; l&rsquo;ouvrage final ou &agrave; l&rsquo;ouvrage provisoire comme un effondrement, un incendie, des d&eacute;g&acirc;ts des eaux, une temp&ecirc;te et des vols de mat&eacute;riaux &agrave; compter de leur d&eacute;p&ocirc;t sur le chantier.<br>La p&eacute;riode de garantie prend effet &agrave; partir de la date d&apos;ouverture de chantier jusqu&apos;&agrave; la date de r&eacute;ception des travaux.&nbsp;</p>
-            <h2>Que couvre l&apos;assurance tous risques chantier ?</h2>
-            <p>Cette garantie couvre les dommages mat&eacute;riels occasionn&eacute;s sur le chantier et tout ce qui est destin&eacute; &agrave; faire partie int&eacute;grante de l&rsquo;ouvrage d&eacute;finitif. De plus seront &eacute;galement garantis les &eacute;chafaudages n&eacute;cessaires &agrave; la r&eacute;alisation des travaux de construction, le mat&eacute;riel et l&apos;outillage, les baraques de chantiers, les plans, devis, documents techniques, administratifs et comptables. En bref cette police couvre les mat&eacute;riaux et &eacute;quipements &agrave; compter de leur arriv&eacute;e sur le site.</p>
-            <p>Est donc couverts l&rsquo;ouvrage lui-m&ecirc;me, mais aussi &nbsp;les mat&eacute;riaux sur chantier contre :</p>
-            <ul>
+            <br /><h2>Que couvre l&apos;assurance tous risques chantier ?</h2>
+            <br /><p>Cette garantie couvre les dommages mat&eacute;riels occasionn&eacute;s sur le chantier et tout ce qui est destin&eacute; &agrave; faire partie int&eacute;grante de l&rsquo;ouvrage d&eacute;finitif. De plus seront &eacute;galement garantis les &eacute;chafaudages n&eacute;cessaires &agrave; la r&eacute;alisation des travaux de construction, le mat&eacute;riel et l&apos;outillage, les baraques de chantiers, les plans, devis, documents techniques, administratifs et comptables. En bref cette police couvre les mat&eacute;riaux et &eacute;quipements &agrave; compter de leur arriv&eacute;e sur le site.</p>
+            <br /><p>Est donc couverts l&rsquo;ouvrage lui-m&ecirc;me, mais aussi &nbsp;les mat&eacute;riaux sur chantier contre :</p>
+            <br /><i><ul style="margin-left:2rem">
                 <li>
                     <p>vols ou tentatives de vols ;</p>
                 </li>
@@ -568,14 +563,13 @@ const data=[
                 <li>
                     <p>explosions.</p>
                 </li>En cas de sinistre, l&rsquo;indemnisation intervient sans recherche pr&eacute;alable de responsabilit&eacute; de la part des assureurs ce qui permet d&apos;&eacute;viter des d&eacute;saccords en cours de r&eacute;alisation du projet par cons&eacute;quent les retards de livraison.
-            </ul>
+            </ul></i>
             <p></p>
             <p>&nbsp;</p>
             <p>Bien que les constructeurs soient responsables des dommages subis par l&apos;ouvrage en cours de construction. Mais compte tenu des risques li&eacute;s &agrave; la construction, &agrave; la multiplicit&eacute; des intervenants, &agrave; l&rsquo;enchev&ecirc;trement des responsabilit&eacute;s en cas de sinistre le ma&icirc;tre d&apos;ouvrage peut rencontrer des difficult&eacute;s dans l&rsquo;exercice de ses recours.</p>
-            <p>C&apos;est pourquoi par un financement rapide, l&apos;assurance tous risques chantier &nbsp;permet de ne pas bloquer le chantier.</p>
+            <br /><p>C&apos;est pourquoi par un financement rapide, l&apos;assurance tous risques chantier &nbsp;permet de ne pas bloquer le chantier.</p>
             <p><br></p>
-        </li>
-    </ol>`
+        `
     },
 
     {
@@ -609,15 +603,11 @@ const data=[
         sous_type:8,
         title:"Professionnel/Santé-Prévoyance",
         img:ass_sante,
-        content:`<ol>
-        <ul>
-            <li><br></li>
-        </ul>
-        <li>
+        content:`
             <p>L&rsquo;assurance pr&eacute;voyance entreprise : des garanties pour les salari&eacute;s, des avantages pour l&rsquo;employeur. Le contrat&nbsp;pr&eacute;voyance entreprise est un contrat&nbsp;que peut souscrire un employeur afin de&nbsp;compl&eacute;ter la pr&eacute;voyance sant&eacute;&nbsp;de base de la S&eacute;curit&eacute; sociale (&agrave; laquelle les entreprises cotisent obligatoirement). Elle permet d&rsquo;offrir &agrave; ses salari&eacute;s une meilleure couverture en cas d&rsquo;arr&ecirc;t de travail, d&rsquo;invalidit&eacute; ou de d&eacute;c&egrave;s.&nbsp;</p>
-            <p>Contrairement &agrave; la mutuelle entreprise obligatoire, le contrat pr&eacute;voyance collectif est optionnelle, &agrave; l&rsquo;exception des cadres et de certaines conventions collectives. Pour autant, elle dispose de plusieurs avantages sociaux et fiscaux.</p>
-            <p>Le contrat pr&eacute;voyance est dot&eacute; d&rsquo;une garantie pr&eacute;voyance &ldquo;maintien de salaire&rdquo;&nbsp;qui a pour vocation d&rsquo;assurer le niveau de vie des salari&eacute;s de l&rsquo;entreprise et de leurs familles en leur permettant de compenser les cons&eacute;quences financi&egrave;res de 4 risques majeurs.</p>
-            <ul>
+            <br /><p>Contrairement &agrave; la mutuelle entreprise obligatoire, le contrat pr&eacute;voyance collectif est optionnelle, &agrave; l&rsquo;exception des cadres et de certaines conventions collectives. Pour autant, elle dispose de plusieurs avantages sociaux et fiscaux.</p>
+            <br /><p>Le contrat pr&eacute;voyance est dot&eacute; d&rsquo;une garantie pr&eacute;voyance &ldquo;maintien de salaire&rdquo;&nbsp;qui a pour vocation d&rsquo;assurer le niveau de vie des salari&eacute;s de l&rsquo;entreprise et de leurs familles en leur permettant de compenser les cons&eacute;quences financi&egrave;res de 4 risques majeurs.</p>
+            <br /><i><ul style="margin-left:2rem">
                 <li>
                     <p>La garantie incapacit&eacute;&nbsp;: lors d&rsquo;un arr&ecirc;t de travail, le contrat pr&eacute;voyance collectif verse au salari&eacute; une indemnit&eacute; journali&egrave;re&nbsp;en compl&eacute;ment de la part maintenue par l&rsquo;employeur et de celle vers&eacute;e par la s&eacute;curit&eacute; sociale. Elle permet de conserver un certain niveau de revenu, pouvant aller jusqu&rsquo;au maintien total du salaire.<br><br></p>
                 </li>
@@ -630,10 +620,10 @@ const data=[
                 <li>
                     <p>La garantie pr&eacute;voyance d&eacute;c&egrave;s : cette garantie permet aux ayants droit du salari&eacute; de toucher une indemnit&eacute; sous forme de rente ou de capital afin de compenser la perte de revenu caus&eacute;e par son d&eacute;c&egrave;s. Certains&nbsp;contrats de pr&eacute;voyance&nbsp;pr&eacute;voient des options telles qu&rsquo;une indemnit&eacute; obs&egrave;ques ou une majoration en cas d&rsquo;accident ou de d&eacute;c&egrave;s simultan&eacute; du conjoint.<br><br></p>
                 </li>
-            </ul>
+            </ul><br />
         </li>
-        <li>En proposant ce contrat, l&rsquo;assureur accepte la mutualisation des risques. Il s&rsquo;engage &agrave; couvrir l&rsquo;ensemble du groupe sans discrimination d&rsquo;&acirc;ge, de revenus ou encore d&rsquo;&eacute;tat de sant&eacute;. Les salari&eacute;s b&eacute;n&eacute;ficient ainsi d&rsquo;une meilleure couverture pr&eacute;voyance sant&eacute;, &agrave; des tarifs plus int&eacute;ressants que s&rsquo;ils optaient pour une adh&eacute;sion individuelle.</li>
-    </ol>`
+        <p>En proposant ce contrat, l&rsquo;assureur accepte la mutualisation des risques. Il s&rsquo;engage &agrave; couvrir l&rsquo;ensemble du groupe sans discrimination d&rsquo;&acirc;ge, de revenus ou encore d&rsquo;&eacute;tat de sant&eacute;. Les salari&eacute;s b&eacute;n&eacute;ficient ainsi d&rsquo;une meilleure couverture pr&eacute;voyance sant&eacute;, &agrave; des tarifs plus int&eacute;ressants que s&rsquo;ils optaient pour une adh&eacute;sion individuelle.</p>
+        `
     },
     {
         id:14,
@@ -641,14 +631,17 @@ const data=[
         sous_type:9,
         title:"Professionnel/Transport de marchandises",
         img:ass_transport_marchandise,
-        content:`<ol>
-        <ul>
-            <li>Vol, incendie, d&eacute;t&eacute;rioration, accident&hellip; les risques qui p&egrave;sent sur votre marchandise sont nombreux&nbsp;! Une v&eacute;ritable assurance transport de marchandises est indispensable pour que vous soyez rembours&eacute; de la valeur de vos biens en cas de sinistre.<h2>Nous d&eacute;finissons avec vous vos besoins et le p&eacute;rim&egrave;tre de vos risques afin de vous conseiller efficacement dans le choix des garanties li&eacute;es &agrave; l&rsquo;assurance des marchandises transport&eacute;es. Confiez votre assurance&nbsp;transport de marchandises &agrave; des experts</h2>
+        content:`
+        Vol, incendie, d&eacute;t&eacute;rioration, accident&hellip; les risques qui p&egrave;sent sur 
+        votre marchandise sont nombreux&nbsp;! Une v&eacute;ritable assurance transport 
+        de marchandises est indispensable pour que vous soyez rembours&eacute; 
+        de la valeur de vos biens en cas de sinistre.
+        <br /><br /><h2>Nous d&eacute;finissons avec vous vos besoins et le p&eacute;rim&egrave;tre de vos risques afin de vous conseiller efficacement dans le choix des garanties li&eacute;es &agrave; l&rsquo;assurance des marchandises transport&eacute;es. Confiez votre assurance&nbsp;transport de marchandises &agrave; des experts</h2>
+                <br />
                 <p>Notre large exp&eacute;rience des probl&eacute;matiques li&eacute;es &agrave; l&rsquo;assurance du transport de marchandises dans des secteurs d&rsquo;activit&eacute; tr&egrave;s vari&eacute;s, tant au niveau national qu&rsquo;international, nous permet de comprendre parfaitement vos enjeux et de vous accompagner au quotidien.</p>
-                <p>Notre p&ocirc;le technique se compose de juristes sp&eacute;cialis&eacute;s en droit maritime, droit du transport, commerce international, etc. La moiti&eacute; d&apos;entre-elles&nbsp;est d&eacute;di&eacute;e exclusivement &agrave; la gestion des sinistres.</p>Nous vous proposons une disponibilit&eacute; permanente et un suivi personnalis&eacute;.&nbsp;
-            </li>
-        </ul>
-    </ol>`
+                <br /><p>Notre p&ocirc;le technique se compose de juristes sp&eacute;cialis&eacute;s en droit maritime, droit du transport, commerce international, etc. La moiti&eacute; d&apos;entre-elles&nbsp;est d&eacute;di&eacute;e exclusivement &agrave; la gestion des sinistres.</p>Nous vous proposons une disponibilit&eacute; permanente et un suivi personnalis&eacute;.&nbsp;
+            
+    `
     },
     {
         id:14,
@@ -656,60 +649,52 @@ const data=[
         sous_type:10,
         title:"Professionnel/Voyages",
         img:ass_voyage,
-        content:`<ol>
-        <ul>
-            <ul>
-                <li><br></li>
-            </ul>
-            <li>
+        content:`
                 <p>Vous l&rsquo;aurez compris, faire le choix d&rsquo;une assurance voyage professionnel dans le cadre de ses missions &agrave; l&rsquo;&eacute;tranger est un plus non n&eacute;gligeable. Cela permet de pr&eacute;venir un quelconque accident ou incident lors de vos d&eacute;placements, tout en vous permettant de vous focaliser uniquement sur l&rsquo;objectif de votre voyage. Vous y gagnerez en productivit&eacute;, en efficacit&eacute;&nbsp;et surtout en s&eacute;r&eacute;nit&eacute;&nbsp;!</p>
-                <p>Dans le monde professionnel, partir &agrave; l&rsquo;&eacute;tranger pour une mission de quelques jours ou pour plusieurs semaines engendre des risques suppl&eacute;mentaires. Il est tr&egrave;s important pour vous comme pour votre entreprise de b&eacute;n&eacute;ficier d&rsquo;une assurance voyage professionnel.Cette couverture, compos&eacute;e d&rsquo;un ensemble de garanties (frais m&eacute;dicaux, assistance et secours, effets personnels assur&eacute;s, etc.) est essentielle pour&nbsp;faire face aux impr&eacute;vus et aux incidents&nbsp;qui peuvent survenir avant et pendant vos d&eacute;placements. Mission Internationale vous dit tout ce que vous devez savoir sur l&rsquo;assurance voyage et vous propose dans ce cadre une&nbsp;offre partenaire adapt&eacute;e&nbsp;&agrave; vos besoins.</p>
-                <h2>Qu&rsquo;est-ce qu&rsquo;une assurance voyage professionnel&nbsp;?</h2>
-                <p>Une assurance voyage professionnel est&nbsp;un ensemble de garanties qui vous prot&egrave;ge&nbsp;contre les situations probl&eacute;matiques que vous pouvez rencontrer &agrave; l&apos;&eacute;tranger. D&eacute;di&eacute;e aux personnes qui doivent voyager dans le cadre de leur activit&eacute; professionnelle, elle&nbsp;s&rsquo;adapte &agrave; votre destination et &agrave; vos types de d&eacute;placements&nbsp;: r&eacute;guliers, occasionnels, de courte dur&eacute;e, etc. De mani&egrave;re g&eacute;n&eacute;rale, elle offre des solutions multirisques pour r&eacute;aliser vos trajets professionnels en toute s&eacute;r&eacute;nit&eacute; et vous &eacute;viter les inqui&eacute;tudes.</p>
-                <p>Sachez qu&rsquo;une entreprise est dans l&rsquo;obligation d&rsquo;assurer la s&eacute;curit&eacute; et la sant&eacute; de ses salari&eacute;s. En tant qu&rsquo;entrepreneur ou travailleur ind&eacute;pendant, cette assurance n&rsquo;est pas toujours consid&eacute;r&eacute;e comme importante car non obligatoire. Pourtant,&nbsp;il est fortement conseill&eacute; de souscrire une assurance voyage&nbsp;pour pallier aux moindres probl&egrave;mes.</p>
-                <h2>Pourquoi souscrire une assurance voyage professionnel ?</h2>
-                <p>Souscrire une assurance voyage professionnel permet de&nbsp;couvrir les cons&eacute;quences des incidents&nbsp;qui peuvent survenir pendant toute la dur&eacute;e de vos voyages &agrave; l&rsquo;&eacute;tranger, mais aussi avant. Les prestations inclues dans un tel type de contrat vont des&nbsp;frais m&eacute;dicaux&nbsp;au&nbsp;rapatriement, en passant par les&nbsp;frais d&rsquo;hospitalisation&nbsp;ou encore la&nbsp;responsabilit&eacute; civile.</p>
-                <p>Si le si&egrave;ge de votre entreprise est localis&eacute; en France, vous avez tout int&eacute;r&ecirc;t &agrave; souscrire une assurance voyage pour&nbsp;assurer la s&eacute;curit&eacute; de vos employ&eacute;s.&nbsp;En tant qu&rsquo;ind&eacute;pendant, vous pourrez&nbsp;voyager sereinement. Ainsi, vous n&rsquo;aurez plus &agrave; vous inqui&eacute;ter et vous pourrez&nbsp;vous consacrer pleinement &agrave; l&rsquo;objectif fix&eacute; pour votre d&eacute;placement professionnel&nbsp;: d&eacute;veloppement d&rsquo;affaires &agrave; l&rsquo;international, recherche de financement, management interculturel, etc.</p>
-                <h2>Quels sont les avantages d&rsquo;une assurance voyage professionnel ?</h2>
-                <p>Cette assurance offre des&nbsp;&eacute;l&eacute;ments de garanties propres au monde professionnel&nbsp;qu&rsquo;une assurance voyage classique n&rsquo;a pas. Dans certains pays du monde, les frais m&eacute;dicaux peuvent co&ucirc;ter tr&egrave;s chers.&nbsp;Une assurance prend en compte ces frais&nbsp;sans que vous n&rsquo;ayez besoin de d&eacute;bourser un seul centime par exemple. Il en va de m&ecirc;me pour la couverture des frais d&rsquo;hospitalisation ou si vous voulez b&eacute;n&eacute;ficier d&rsquo;une assistance rapatriement. Dans le m&ecirc;me ordre d&rsquo;id&eacute;e,&nbsp;vos effets personnels peuvent &ecirc;tre couverts&nbsp;par une assurance si vous consid&eacute;rez que leur contenu est sensible et qu&rsquo;une perte, un vol ou un endommagement serait compromettant.</p>
-                <p>En parall&egrave;le, opter pour une&nbsp;responsabilit&eacute; civile &agrave; l&apos;&eacute;tranger&nbsp;dans le cadre de votre contrat peut &eacute;galement vous permettre de&nbsp;r&eacute;parer les pr&eacute;judices caus&eacute;s &agrave; des tiers&nbsp;(une personne autre que l&rsquo;assur&eacute;, son conjoint, l&rsquo;ascendant et le descendant ainsi que leur conjoint et les collat&eacute;raux). Vous n&rsquo;&ecirc;tes en effet pas &agrave; l&rsquo;abri de provoquer des dommages corporels, mat&eacute;riels ou immat&eacute;riels &agrave; autrui (clients, visiteurs, etc.) sans le vouloir dans le cadre de votre mission.</p>Enfin, sachez &eacute;galement que l&rsquo;assurance voyage professionnel propose &eacute;galement une indemnisation en cas de retard d&rsquo;un vol ou d&rsquo;interruption d&rsquo;un s&eacute;jour, ou un d&eacute;dommagement si vous souhaitez modifier ou annuler une mission.
-            </li>
-        </ul>
-    </ol>`
+                <br /><p>Dans le monde professionnel, partir &agrave; l&rsquo;&eacute;tranger pour une mission de quelques jours ou pour plusieurs semaines engendre des risques suppl&eacute;mentaires. Il est tr&egrave;s important pour vous comme pour votre entreprise de b&eacute;n&eacute;ficier d&rsquo;une assurance voyage professionnel.Cette couverture, compos&eacute;e d&rsquo;un ensemble de garanties (frais m&eacute;dicaux, assistance et secours, effets personnels assur&eacute;s, etc.) est essentielle pour&nbsp;faire face aux impr&eacute;vus et aux incidents&nbsp;qui peuvent survenir avant et pendant vos d&eacute;placements. Mission Internationale vous dit tout ce que vous devez savoir sur l&rsquo;assurance voyage et vous propose dans ce cadre une&nbsp;offre partenaire adapt&eacute;e&nbsp;&agrave; vos besoins.</p>
+                <br /><h2>Qu&rsquo;est-ce qu&rsquo;une assurance voyage professionnel&nbsp;?</h2>
+                <br /><p>Une assurance voyage professionnel est&nbsp;un ensemble de garanties qui vous prot&egrave;ge&nbsp;contre les situations probl&eacute;matiques que vous pouvez rencontrer &agrave; l&apos;&eacute;tranger. D&eacute;di&eacute;e aux personnes qui doivent voyager dans le cadre de leur activit&eacute; professionnelle, elle&nbsp;s&rsquo;adapte &agrave; votre destination et &agrave; vos types de d&eacute;placements&nbsp;: r&eacute;guliers, occasionnels, de courte dur&eacute;e, etc. De mani&egrave;re g&eacute;n&eacute;rale, elle offre des solutions multirisques pour r&eacute;aliser vos trajets professionnels en toute s&eacute;r&eacute;nit&eacute; et vous &eacute;viter les inqui&eacute;tudes.</p>
+                <br /><p>Sachez qu&rsquo;une entreprise est dans l&rsquo;obligation d&rsquo;assurer la s&eacute;curit&eacute; et la sant&eacute; de ses salari&eacute;s. En tant qu&rsquo;entrepreneur ou travailleur ind&eacute;pendant, cette assurance n&rsquo;est pas toujours consid&eacute;r&eacute;e comme importante car non obligatoire. Pourtant,&nbsp;il est fortement conseill&eacute; de souscrire une assurance voyage&nbsp;pour pallier aux moindres probl&egrave;mes.</p>
+                <br /><h2>Pourquoi souscrire une assurance voyage professionnel ?</h2>
+                <br /><p>Souscrire une assurance voyage professionnel permet de&nbsp;couvrir les cons&eacute;quences des incidents&nbsp;qui peuvent survenir pendant toute la dur&eacute;e de vos voyages &agrave; l&rsquo;&eacute;tranger, mais aussi avant. Les prestations inclues dans un tel type de contrat vont des&nbsp;frais m&eacute;dicaux&nbsp;au&nbsp;rapatriement, en passant par les&nbsp;frais d&rsquo;hospitalisation&nbsp;ou encore la&nbsp;responsabilit&eacute; civile.</p>
+                <br /><p>Si le si&egrave;ge de votre entreprise est localis&eacute; en France, vous avez tout int&eacute;r&ecirc;t &agrave; souscrire une assurance voyage pour&nbsp;assurer la s&eacute;curit&eacute; de vos employ&eacute;s.&nbsp;En tant qu&rsquo;ind&eacute;pendant, vous pourrez&nbsp;voyager sereinement. Ainsi, vous n&rsquo;aurez plus &agrave; vous inqui&eacute;ter et vous pourrez&nbsp;vous consacrer pleinement &agrave; l&rsquo;objectif fix&eacute; pour votre d&eacute;placement professionnel&nbsp;: d&eacute;veloppement d&rsquo;affaires &agrave; l&rsquo;international, recherche de financement, management interculturel, etc.</p>
+                <br /><h2>Quels sont les avantages d&rsquo;une assurance voyage professionnel ?</h2>
+                <br /><p>Cette assurance offre des&nbsp;&eacute;l&eacute;ments de garanties propres au monde professionnel&nbsp;qu&rsquo;une assurance voyage classique n&rsquo;a pas. Dans certains pays du monde, les frais m&eacute;dicaux peuvent co&ucirc;ter tr&egrave;s chers.&nbsp;Une assurance prend en compte ces frais&nbsp;sans que vous n&rsquo;ayez besoin de d&eacute;bourser un seul centime par exemple. Il en va de m&ecirc;me pour la couverture des frais d&rsquo;hospitalisation ou si vous voulez b&eacute;n&eacute;ficier d&rsquo;une assistance rapatriement. Dans le m&ecirc;me ordre d&rsquo;id&eacute;e,&nbsp;vos effets personnels peuvent &ecirc;tre couverts&nbsp;par une assurance si vous consid&eacute;rez que leur contenu est sensible et qu&rsquo;une perte, un vol ou un endommagement serait compromettant.</p>
+                <br /><p>En parall&egrave;le, opter pour une&nbsp;responsabilit&eacute; civile &agrave; l&apos;&eacute;tranger&nbsp;dans le cadre de votre contrat peut &eacute;galement vous permettre de&nbsp;r&eacute;parer les pr&eacute;judices caus&eacute;s &agrave; des tiers&nbsp;(une personne autre que l&rsquo;assur&eacute;, son conjoint, l&rsquo;ascendant et le descendant ainsi que leur conjoint et les collat&eacute;raux). Vous n&rsquo;&ecirc;tes en effet pas &agrave; l&rsquo;abri de provoquer des dommages corporels, mat&eacute;riels ou immat&eacute;riels &agrave; autrui (clients, visiteurs, etc.) sans le vouloir dans le cadre de votre mission.</p>Enfin, sachez &eacute;galement que l&rsquo;assurance voyage professionnel propose &eacute;galement une indemnisation en cas de retard d&rsquo;un vol ou d&rsquo;interruption d&rsquo;un s&eacute;jour, ou un d&eacute;dommagement si vous souhaitez modifier ou annuler une mission.
+           `
     },
     {
         id:15,
-        title:"Nos valeurs",
-        content:`<ol>
-       
-    </ol>
-    <p><br></p>
-    <p>Soci&eacute;t&eacute; de droit togolais agr&eacute;&eacute;e par le Minist&egrave;re de l&rsquo;Economie et des Finances sous le N&deg;029/MEF/SG/DA du 24/03/2022, CCM est une soci&eacute;t&eacute; de courtage en ASSURANCES ind&eacute;pendante qui s&rsquo;adresse &agrave; vous, particuliers, ind&eacute;pendants, dirigeants d&rsquo;entreprises et soci&eacute;t&eacute;s.<br>Son &eacute;quipe dynamique et exp&eacute;riment&eacute;e met &agrave; votre disposition, ses comp&eacute;tences afin de vous conseiller au mieux de vos int&eacute;r&ecirc;ts pour la protection de votre patrimoine et de vos r&eacute;sultats.<br>Parce qu&rsquo;il est possible de vous faire gagner du temps et de l&rsquo;argent tout en vous offrant une meilleure compr&eacute;hension des risques et de vos assurances, CCM vous propose de lui faire confiance.</p>
-    <p>Pourquoi&nbsp;choisir CCM&nbsp;?</p>
-    <ul>
-        <li>
-            <p>Notre &eacute;quipe &agrave; votre &eacute;coute</p>
-        </li>
-    </ul>
-    <p>Une demande sp&eacute;cifique ? Un doute ? Nous vous rappelons gratuitement pour r&eacute;pondre &agrave; toutes vos questions.</p>
-    <ul>
-        <li>
-            <p>Des assurances adapt&eacute;es &agrave; vos besoins</p>
-        </li>
-    </ul>
-    <p>Nous s&eacute;lectionnons aupr&egrave;s de nos partenaires l&rsquo;assurance qui vous convient le mieux : la certitude pour vous d&rsquo;&ecirc;tre bien couvert sans d&eacute;pense superflue.</p>
-    <ul>
-        <li>
-            <p>Votre fid&eacute;lit&eacute; r&eacute;compens&eacute;e</p>
-        </li>
-    </ul>
-    <p>Afin de b&eacute;n&eacute;ficier des meilleures garanties au meilleur prix, nous vous proposons une r&eacute;vision syst&eacute;matique de votre contrat tous les deux ans.</p>
-    <ul>
-        <li>
-            <p>Notre professionnalisme, gage de votre confiance</p>
-        </li>
-    </ul>
-    <p>Une &eacute;quipe comp&eacute;tente et des partenaires fiables vous garantissent d&rsquo;&ecirc;tre assur&eacute; en toute s&eacute;r&eacute;nit&eacute;.</p>`,
+        title:"Nos engagements",
+        content:`<i><p>Soci&eacute;t&eacute; de droit togolais agr&eacute;&eacute;e par le Minist&egrave;re de l&rsquo;Economie et des Finances sous le N&deg;029/MEF/SG/DA du 24/03/2022, CCM est une soci&eacute;t&eacute; de courtage en ASSURANCES ind&eacute;pendante qui s&rsquo;adresse &agrave; vous, particuliers, ind&eacute;pendants, dirigeants d&rsquo;entreprises et soci&eacute;t&eacute;s.<br>Son &eacute;quipe dynamique et exp&eacute;riment&eacute;e met &agrave; votre disposition, ses comp&eacute;tences afin de vous conseiller au mieux de vos int&eacute;r&ecirc;ts pour la protection de votre patrimoine et de vos r&eacute;sultats.<br>Parce qu&rsquo;il est possible de vous faire gagner du temps et de l&rsquo;argent tout en vous offrant une meilleure compr&eacute;hension des risques et de vos assurances, CCM vous propose de lui faire confiance.</p>
+        </i>
+        <br /><h2><strong>Pourquoi&nbsp;choisir CCM&nbsp;?</strong></h2><br />
+        <ul>
+            <li>
+                <p><strong>Notre &eacute;quipe &agrave; votre &eacute;coute</strong></p>
+                <div>
+                Une demande sp&eacute;cifique ? Un doute ? Nous vous rappelons gratuitement pour r&eacute;pondre 
+                &agrave; toutes vos questions.
+                </div><br />
+            </li>
+            <li>
+                <p><strong>Des assurances adapt&eacute;es &agrave; vos besoins</strong></p>
+                <div>Nous s&eacute;lectionnons aupr&egrave;s de nos partenaires l&rsquo;assurance qui vous convient le mieux
+             : la certitude pour vous d&rsquo;&ecirc;tre bien couvert sans d&eacute;pense superflue.</div><br />
+        
+            </li>
+            <li>
+                <p><strong>Votre fid&eacute;lit&eacute; r&eacute;compens&eacute;e</strong></p>
+                <div>Afin de b&eacute;n&eacute;ficier des meilleures garanties au meilleur prix, nous vous 
+                proposons une r&eacute;vision syst&eacute;matique de votre contrat tous les deux ans.</div><br />
+        
+            </li>
+            <li>
+                <p><strong>Notre professionnalisme, gage de votre confiance</strong></p>
+                <div>Une &eacute;quipe comp&eacute;tente et des partenaires fiables vous garantissent 
+        d&rsquo;&ecirc;tre assur&eacute; en toute s&eacute;r&eacute;nit&eacute;.</div>
+            </li>
+        </ul>`,
     },
     {
         id:16,
@@ -756,7 +741,7 @@ const data=[
         <p style="margin-top:0.5rem">
         <a style="display:flex;align-items:center;gap:0.5rem"><img src="https://www.schafer.ch/wp-content/themes/schafer/images/Telefon_sw.png"
         style="width:30px"
-        > +228 91 49 39 39</a>
+        > <strong>+228 91 49 39 39</strong></a>
         <a style="display:flex;align-items:center;gap:0.5rem"><img src="https://www.schafer.ch/wp-content/themes/schafer/images/Telefon_sw.png"
         style="width:30px"
         > +228 98 65 50 50 (24h/24)</a>
