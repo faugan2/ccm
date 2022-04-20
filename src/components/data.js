@@ -737,7 +737,7 @@ const data=[
         <br />
         <hr style="color:whitesmoke"/>
         <br />
-        <p><strong>Candidature spontan&eacute;e</strong></p>
+        <p><strong><b>Candidature spontan&eacute;e</b></strong></p>
         <p>C&rsquo;est toujours avec plaisir que nous &eacute;tudions les candidatures spontan&eacute;es de personnes qui pensent convenir &agrave; notre entreprise, m&ecirc;me si aucune offre d&rsquo;emploi n&rsquo;a &eacute;t&eacute; publi&eacute;e.</p>
         <p>Veuillez nous envoyer votre dossier de candidature par courrier postal ou &eacute;lectronique &agrave; :</p>
         <br />
