@@ -31,44 +31,7 @@ const Footer=()=>{
                         
                     </ul>
                     <br />
-                    <h4>Contacts</h4>
-                    <ul>
-                        <li>
-                            <a href ="mailto: info@ccmcourtiers.com">
-                                <MailOutlineIcon />
-                                contact@ccmcourtiers.com
-                            </a>
-                        </li>
-
-                        <li>
-                            <Link to="#">
-                                <CallIcon />
-                                <a>+228 91 49 39 39</a>
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to="#">
-                                <CallIcon /> 
-                                <a>+228 98 65 50 50 (24h/24)</a>
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to="#">
-                                <WhatsAppIcon />
-                                <a>+228 90 04 15 52</a>
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to="#">
-                                <FacebookIcon />
-                                <a href="https://facebook.com/ccm">ccmcourtiers</a>
-                            </Link>
-                        </li>
-                        
-                    </ul>
+                    
                 </div>
                 <div>
                 <h4>Particuliers</h4>
@@ -123,7 +86,44 @@ const Footer=()=>{
                     </ul>
                 </div>
                 <div>
-                    <video control src={video} controls></video>
+                <h4>Contacts</h4>
+                    <ul>
+                        <li>
+                            <a href ="mailto: info@ccmcourtiers.com">
+                                <MailOutlineIcon />
+                                contact@ccmcourtiers.com
+                            </a>
+                        </li>
+
+                        <li>
+                            <Link to="#">
+                                <CallIcon />
+                                <a>+228 91 49 39 39</a>
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="#">
+                                <CallIcon /> 
+                                <a>+228 98 65 50 50 (24h/24)</a>
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="#">
+                                <WhatsAppIcon />
+                                <a>+228 90 04 15 52</a>
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="#">
+                                <FacebookIcon />
+                                <a href="https://facebook.com/ccm">ccmcourtiers</a>
+                            </Link>
+                        </li>
+                        
+                    </ul>
                 </div>
             </div>
 
