@@ -6,9 +6,11 @@ import bg3 from "./img/new/ass_multi_risque.jpg";
 import {useState,useEffect} from "react";
 import video from "./videos/video.mp4";
 
+import new_bg from "./img/new/bg6.jpg";
+
 const HomeContent=()=>{
 
-    const [data,set_data]=useState([bg,bg3,bg,bg2]);
+    const [data,set_data]=useState([new_bg,bg,bg3,bg,bg2]);
     const [b,set_b]=useState(0);
 
     useEffect(()=>{
