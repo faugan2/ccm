@@ -13,6 +13,7 @@ import ass_tr_informatique from "./img/new/ass_tr_informatique.jpg";
 import ass_transport_marchandise from "./img/new/ass_transport_marchandise.jpg";
 import offre_emploi from "./img/new/offre_emploi.png";
 import candidature from "./img/new/candidature.jpg";
+import img_engagement from "./img/engagement.png";
 
 const data=[
     {
@@ -20,7 +21,7 @@ const data=[
         title:"Qui sommes-nous ?",
         content:`
    
-    <i><p>Soci&eacute;t&eacute; de droit togolais agr&eacute;&eacute;e par le Minist&egrave;re de l&rsquo;Economie et des Finances sous le N&deg;029/MEF/SG/DA du 24/03/2022, CCM est une soci&eacute;t&eacute; de courtage en ASSURANCES ind&eacute;pendante qui s&rsquo;adresse &agrave; vous, particuliers, ind&eacute;pendants, dirigeants d&rsquo;entreprises et soci&eacute;t&eacute;s.<br>Son &eacute;quipe dynamique et exp&eacute;riment&eacute;e met &agrave; votre disposition, ses comp&eacute;tences afin de vous conseiller au mieux de vos int&eacute;r&ecirc;ts pour la protection de votre patrimoine et de vos r&eacute;sultats.<br>Parce qu&rsquo;il est possible de vous faire gagner du temps et de l&rsquo;argent tout en vous offrant une meilleure compr&eacute;hension des risques et de vos assurances, CCM vous propose de lui faire confiance.</p>
+    <i><p><strong>Soci&eacute;t&eacute; de droit togolais agr&eacute;&eacute;e par le Minist&egrave;re de l&rsquo;Economie et des Finances sous le N&deg;029/MEF/SG/DA du 24/03/2022, CCM est une soci&eacute;t&eacute; de courtage en ASSURANCES ind&eacute;pendante qui s&rsquo;adresse &agrave; vous, particuliers, ind&eacute;pendants, dirigeants d&rsquo;entreprises et soci&eacute;t&eacute;s.<br>Son &eacute;quipe dynamique et exp&eacute;riment&eacute;e met &agrave; votre disposition, ses comp&eacute;tences afin de vous conseiller au mieux de vos int&eacute;r&ecirc;ts pour la protection de votre patrimoine et de vos r&eacute;sultats.<br>Parce qu&rsquo;il est possible de vous faire gagner du temps et de l&rsquo;argent tout en vous offrant une meilleure compr&eacute;hension des risques et de vos assurances, CCM vous propose de lui faire confiance.</strong></p>
     </i>
     <br /><h2><strong>Pourquoi&nbsp;choisir CCM&nbsp;?</strong></h2><br />
     <ul>
@@ -55,7 +56,7 @@ const data=[
         id:2,
         type:1,
         sous_type:1,
-        title:"Particulier/Habitation",
+        title:"Habitation",
         img:ass_habitation,
         content:`
         
@@ -84,13 +85,13 @@ const data=[
         id:3,
         type:1,
         sous_type:2,
-        title:"Particulier/Automobile",
+        title:"Automobile",
         img:ass_automobile,
         content:`
             <br /><p>Au Togo, la loi impose aux conducteurs de souscrire une assurance auto pour pouvoir&nbsp;circuler en toute l&eacute;galit&eacute;.&nbsp;Co&ucirc;ts, d&eacute;marches, risques &agrave; circuler sans assurance auto&hellip; d&eacute;couvrez avec CCM tout ce qu&rsquo;il faut savoir sur l&rsquo;assurance voiture</p>
             <br /><p>Le choix de la formule d&rsquo;assurance pour voiture&nbsp;que vous choisissez est &eacute;galement un facteur pouvant faire augmenter les prix. Une formule tiers simple ou aussi appel&eacute;e la garantie responsabilit&eacute; civile, indispensable pour tout conducteur, sera beaucoup moins ch&egrave;re qu&rsquo;une assurance auto tous risques. Vous devez d&eacute;terminer la meilleure garantie selon votre situation. Attention, en cas de sinistre, choisir l&rsquo;assurance auto la moins ch&egrave;re, telle que la formule tiers simple, peut s&rsquo;av&eacute;rer plus co&ucirc;teuse qu&rsquo;une assurance plus compl&egrave;te. Par exemple, si votre v&eacute;hicule est neuf ou a une valeur &eacute;lev&eacute;e, il est recommand&eacute; de rechercher une assurance auto protectrice afin d&rsquo;&ecirc;tre couvert en cas d&rsquo;accident.</p>
-            <br /><p>Un troisi&egrave;me facteur peut influencer fortement le prix de la cotisation de votre assurance pour voiture&nbsp;: votre voiture elle-m&ecirc;me. Les prix varieront entre une voiture neuve ou d&rsquo;occasion ou encore entre une voiture de collection, une caravane et un camion. Pour un jeune conducteur qui souhaite faire des &eacute;conomies sur son assurance, il est donc pr&eacute;f&eacute;rable de s&rsquo;orienter vers une voiture d&rsquo;occasion le temps d&rsquo;acqu&eacute;rir de l&rsquo;exp&eacute;rience.</p>
-            <br /><p>Heureusement, il existe des solutions simples pour continuer &agrave; circuler au volant de votre v&eacute;hicule&nbsp;sans vous ruiner&nbsp;: choisir les offres de CCM pour&nbsp;<a href="https://www.assurpeople.com/assurance-auto-pas-chere">une assurance auto pas ch&egrave;re</a>. Avec nous, vous n&rsquo;avez pas &agrave; faire de compromis entre le prix de l&rsquo;assurance auto et les garanties. Vous pouvez souscrire une assurance auto &agrave; prix attractif quel que soit votre profil.</p>
+            <p style="display:none;">Un troisi&egrave;me facteur peut influencer fortement le prix de la cotisation de votre assurance pour voiture&nbsp;: votre voiture elle-m&ecirc;me. Les prix varieront entre une voiture neuve ou d&rsquo;occasion ou encore entre une voiture de collection, une caravane et un camion. Pour un jeune conducteur qui souhaite faire des &eacute;conomies sur son assurance, il est donc pr&eacute;f&eacute;rable de s&rsquo;orienter vers une voiture d&rsquo;occasion le temps d&rsquo;acqu&eacute;rir de l&rsquo;exp&eacute;rience.</p>
+            <br /><p>Heureusement, il existe des solutions simples pour continuer &agrave; circuler au volant de votre v&eacute;hicule&nbsp;sans vous ruiner&nbsp;: choisir les offres de CCM pour&nbsp;<a>une assurance auto pas ch&egrave;re</a>. Avec nous, vous n&rsquo;avez pas &agrave; faire de compromis entre le prix de l&rsquo;assurance auto et les garanties. Vous pouvez souscrire une assurance auto &agrave; prix attractif quel que soit votre profil.</p>
             <br /><p>Assurer son v&eacute;hicule est une obligation l&eacute;gale pour tous les propri&eacute;taires de v&eacute;hicules terrestres &agrave; moteur. En cas de non respect de cette loi, l&rsquo;Etat Togolais est en droit de mettre en &oelig;uvre des sanctions.</p>
             <br /><strong><h2>Contrat d&rsquo;assurance auto : quelle obligation ?</strong></h2>
             <br /><p>Au Togo, la loi impose que tout v&eacute;hicule terrestre &agrave; moteur en &eacute;tat de circuler doit &ecirc;tre couvert par une assurance.<br>S&rsquo;il existe plusieurs types de contrat d&rsquo;assurances, tout v&eacute;hicule doit au minimum b&eacute;n&eacute;ficier d&rsquo;une assurance en responsabilit&eacute; civile, aussi appel&eacute;e couramment &laquo;&nbsp;garantie au tiers&nbsp;&raquo;, car elle prot&egrave;ge les tiers des dommages mat&eacute;riels et corporels qui pourraient survenir en cas de sinistre.</p>
@@ -104,7 +105,7 @@ const data=[
         id:4,
         type:1,
         sous_type:3,
-        title:"Particulier/Voyage",
+        title:"Voyage",
         img:ass_voyage,
         content:`
             <p>Voyage et tourisme nous annoncent des espaces nouveaux, diff&eacute;rents, prometteurs de bien-&ecirc;tre, de sensations fortes. Mais, aussi passionnantes qu&rsquo;elles soient, ces promesses entra&icirc;nent aussi vers tout un monde de risques nouveaux.</p>
@@ -172,7 +173,7 @@ const data=[
         id:5,
         type:1,
         sous_type:4,
-        title:"Particulier/RC chef de famille",
+        title:"RC chef de famille",
         img:ass_chef_famille,
         content:`
             <h2>QU&rsquo;EST-CE QUE LA RESPONSABILIT&Eacute; CIVILE CHEF DE FAMILLE ?</h2>
@@ -215,7 +216,7 @@ const data=[
         id:6,
         type:2,
         sous_type:1,
-        title:"Professionnel/RC PRO",
+        title:"RC PRO",
         img:ass_rc_prof,
         content:`
             <p>La Responsabilit&eacute; civile professionnelle (aussi appel&eacute;e RC Pro ou RCP) est l&apos;assurance vie de votre soci&eacute;t&eacute;. Parfois obligatoire, dans tous les cas fortement recommand&eacute;e, elle&nbsp;vous prot&egrave;ge en cas de dommages caus&eacute;s &agrave; un tiers.</p>
@@ -249,7 +250,7 @@ const data=[
         id:7,
         type:2,
         sous_type:2,
-        title:"Professionnel/Flotte-Automobile",
+        title:"Flotte-Automobile",
         img:ass_automobile2,
         content:`
             <p>Pour mener &agrave; bien vos activit&eacute;s au quotidien, votre entreprise dispose d&apos;un parc de v&eacute;hicules. Qu&apos;il s&apos;agisse de v&eacute;hicules commerciaux, utilitaires ou d&apos;engins de chantier, vous devez les assurer. V&eacute;rifiez les garanties de vos contrats.</p>
@@ -306,7 +307,7 @@ const data=[
         id:8,
         type:2,
         sous_type:3,
-        title:"Professionnel/Multirisque professionnel",
+        title:"Multirisque professionnel",
         img:ass_multi_risque,
         content:`
             <h2>QU&rsquo;EST-CE QUE LA MULTIRISQUE PROFESSIONNELLE ?</h2>
@@ -375,7 +376,7 @@ const data=[
         id:9,
         type:2,
         sous_type:4,
-        title:"Professionnel/Tout risque informatique",
+        title:"Tous risques informatiques",
         img:ass_tr_informatique,
         content:`
             <h2>Qu&apos;est ce que l&apos;Assurance Tous Risques Informatiques ?</h2>
@@ -452,7 +453,7 @@ const data=[
         id:10,
         type:2,
         sous_type:5,
-        title:"Professionnel/Bris de machine",
+        title:"Bris de machine",
         img:ass_bris_machine,
         content:`
             <h2>Garantie Bris de machine : Tout ce que vous devriez savoir pour en b&eacute;n&eacute;ficier</h2>
@@ -540,7 +541,7 @@ const data=[
         id:11,
         type:2,
         sous_type:6,
-        title:"Professionnel/Tout risque chantier",
+        title:"Tous risques chantier",
         img:ass_tr_chantier,
         content:`
             <p>L&apos;assurance tous risques chantier&nbsp;ou (TRC) a pour objet de couvrir l&rsquo;ensemble des dommages mat&eacute;riels caus&eacute;s &agrave; l&rsquo;ouvrage final ou &agrave; l&rsquo;ouvrage provisoire comme un effondrement, un incendie, des d&eacute;g&acirc;ts des eaux, une temp&ecirc;te et des vols de mat&eacute;riaux &agrave; compter de leur d&eacute;p&ocirc;t sur le chantier.<br>La p&eacute;riode de garantie prend effet &agrave; partir de la date d&apos;ouverture de chantier jusqu&apos;&agrave; la date de r&eacute;ception des travaux.&nbsp;</p>
@@ -576,7 +577,7 @@ const data=[
         id:12,
         type:2,
         sous_type:7,
-        title:"Professionnel/RC Decennale",
+        title:"RC Décennale",
         img:ass_rc_decennale,
         content:`<ol>
             <ul>
@@ -601,7 +602,7 @@ const data=[
         id:13,
         type:2,
         sous_type:8,
-        title:"Professionnel/Santé-Prévoyance",
+        title:"Santé-Prévoyance",
         img:ass_sante,
         content:`
             <p>L&rsquo;assurance pr&eacute;voyance entreprise : des garanties pour les salari&eacute;s, des avantages pour l&rsquo;employeur. Le contrat&nbsp;pr&eacute;voyance entreprise est un contrat&nbsp;que peut souscrire un employeur afin de&nbsp;compl&eacute;ter la pr&eacute;voyance sant&eacute;&nbsp;de base de la S&eacute;curit&eacute; sociale (&agrave; laquelle les entreprises cotisent obligatoirement). Elle permet d&rsquo;offrir &agrave; ses salari&eacute;s une meilleure couverture en cas d&rsquo;arr&ecirc;t de travail, d&rsquo;invalidit&eacute; ou de d&eacute;c&egrave;s.&nbsp;</p>
@@ -629,7 +630,7 @@ const data=[
         id:14,
         type:2,
         sous_type:9,
-        title:"Professionnel/Transport de marchandises",
+        title:"Transport de marchandises",
         img:ass_transport_marchandise,
         content:`
         Vol, incendie, d&eacute;t&eacute;rioration, accident&hellip; les risques qui p&egrave;sent sur 
@@ -647,7 +648,7 @@ const data=[
         id:14,
         type:2,
         sous_type:10,
-        title:"Professionnel/Voyages",
+        title:"Voyages",
         img:ass_voyage,
         content:`
                 <p>Vous l&rsquo;aurez compris, faire le choix d&rsquo;une assurance voyage professionnel dans le cadre de ses missions &agrave; l&rsquo;&eacute;tranger est un plus non n&eacute;gligeable. Cela permet de pr&eacute;venir un quelconque accident ou incident lors de vos d&eacute;placements, tout en vous permettant de vous focaliser uniquement sur l&rsquo;objectif de votre voyage. Vous y gagnerez en productivit&eacute;, en efficacit&eacute;&nbsp;et surtout en s&eacute;r&eacute;nit&eacute;&nbsp;!</p>
@@ -666,35 +667,32 @@ const data=[
     {
         id:15,
         title:"Nos engagements",
-        content:`<i><p>Soci&eacute;t&eacute; de droit togolais agr&eacute;&eacute;e par le Minist&egrave;re de l&rsquo;Economie et des Finances sous le N&deg;029/MEF/SG/DA du 24/03/2022, CCM est une soci&eacute;t&eacute; de courtage en ASSURANCES ind&eacute;pendante qui s&rsquo;adresse &agrave; vous, particuliers, ind&eacute;pendants, dirigeants d&rsquo;entreprises et soci&eacute;t&eacute;s.<br>Son &eacute;quipe dynamique et exp&eacute;riment&eacute;e met &agrave; votre disposition, ses comp&eacute;tences afin de vous conseiller au mieux de vos int&eacute;r&ecirc;ts pour la protection de votre patrimoine et de vos r&eacute;sultats.<br>Parce qu&rsquo;il est possible de vous faire gagner du temps et de l&rsquo;argent tout en vous offrant une meilleure compr&eacute;hension des risques et de vos assurances, CCM vous propose de lui faire confiance.</p>
+        content:`
+		<img src="${img_engagement}" style="width:400px;" />
+		<i><p><strong>CCM a pour mission de vous libérer de la gestion de vos risques "assurances" et vous accompagner dans les moments difficiles. La disponibilité, l'expertise et la considération de nos équipes vous délivrera les engagements suivants :
+</strong></p>
         </i>
-        <br /><h2><strong>Pourquoi&nbsp;choisir CCM&nbsp;?</strong></h2><br />
+        <br />
         <ul>
             <li>
-                <p><strong>Notre &eacute;quipe &agrave; votre &eacute;coute</strong></p>
-                <div>
-                Une demande sp&eacute;cifique ? Un doute ? Nous vous rappelons gratuitement pour r&eacute;pondre 
-                &agrave; toutes vos questions.
-                </div><br />
+                <strong>AUDIT ET DIAGNOSTIC</strong> des besoins en couvertures des risques
             </li>
             <li>
-                <p><strong>Des assurances adapt&eacute;es &agrave; vos besoins</strong></p>
-                <div>Nous s&eacute;lectionnons aupr&egrave;s de nos partenaires l&rsquo;assurance qui vous convient le mieux
-             : la certitude pour vous d&rsquo;&ecirc;tre bien couvert sans d&eacute;pense superflue.</div><br />
-        
+               INTERROGATION DU MARCHÉ de manière indépendante et objective
             </li>
-            <li>
-                <p><strong>Votre fid&eacute;lit&eacute; r&eacute;compens&eacute;e</strong></p>
-                <div>Afin de b&eacute;n&eacute;ficier des meilleures garanties au meilleur prix, nous vous 
-                proposons une r&eacute;vision syst&eacute;matique de votre contrat tous les deux ans.</div><br />
-        
-            </li>
-            <li>
-                <p><strong>Notre professionnalisme, gage de votre confiance</strong></p>
-                <div>Une &eacute;quipe comp&eacute;tente et des partenaires fiables vous garantissent 
-        d&rsquo;&ecirc;tre assur&eacute; en toute s&eacute;r&eacute;nit&eacute;.</div>
-            </li>
-        </ul>`,
+			<li><strong>CONSEIL</strong> sur l'offre la plus pertinente</li>
+			<li><strong>DÉFINITION & CONSTRUCTION</strong> de solutions adaptées à la situation de nos clients</li>
+			<li><strong>NÉGOCIATION</strong> du meilleur rapport qualité-prix</li>
+			<li><strong>ADAPTATION DE LA COUVERTURE</strong> à l'évolution de la situation ou de la législation</li>
+			<li><strong>POINT DE SUIVI RÉGULIER</strong> des besoins </li>
+			<li><strong>DISPONIBILITÉ</strong> des interlocuteurs commerciaux et techniques</li>
+			<li><strong>DÉFENSE DES INTÉRÊTS DU CLIENT</strong> auprès des Compagnies d'assurances</li>
+			<li><strong>PRÉSENCE</strong> au moment des expertises à enjeu important</li>
+        </ul>
+		
+		
+
+		`,
     },
     {
         id:16,

@@ -31,13 +31,36 @@
         
     }
 
-    >video{
-        position:absolute;
-        width:200px;
+	>div{
+		position:fixed;
+		top:210px;
+		right:11%;
+		>video{
+        
+        width:350px;
         min-height: calc(100vh - 200px - 250px);
-        right:11%;
+        
         object-fit:cover;
-    }
+		z-index:99999;
+		}
+		
+		>button{
+			position:fixed;
+			right:12%;
+			top:220px;
+			width:40px;
+			height:40px;
+			border-radius:50%;
+			background-color:indianred;
+			color:white;
+			border:none;
+			cursor:pointer;
+		}
+	}
+    
+	
+	
+	
 }
 .layout{
     

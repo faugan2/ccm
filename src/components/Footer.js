@@ -63,16 +63,16 @@ const Footer=()=>{
                         <Link ><a>Multirisque professionnelle</a></Link>
                     </li>
                     <li onClick={show_detail.bind(this,2,4)}>
-                        <Link><a>Tout risque informatique</a></Link>
+                        <Link><a>Tous risques informatiques</a></Link>
                     </li>
                     <li onClick={show_detail.bind(this,2,5)}>
-                        <Link><a>Bris de marchine</a></Link>
+                        <Link><a>Bris de machine</a></Link>
                     </li>
                     <li onClick={show_detail.bind(this,2,6)}>
-                        <Link><a>Tout risque chantier</a></Link>
+                        <Link><a>Tous risques chantier</a></Link>
                     </li>
                     <li onClick={show_detail.bind(this,2,7)}>
-                        <Link><a>RC decennale</a></Link>
+                        <Link><a>RC décennale</a></Link>
                     </li>
                     <li onClick={show_detail.bind(this,2,8)}>
                         <Link><a>Santé</a></Link>

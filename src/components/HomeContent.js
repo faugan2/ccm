@@ -5,7 +5,7 @@ import bg2 from "./img/auto.jpg";
 import bg3 from "./img/new/ass_multi_risque.jpg";
 import {useState,useEffect} from "react";
 import video from "./videos/video.mp4";
-
+import CloseIcon from '@material-ui/icons/Close';
 import new_bg from "./img/new/bg6.jpg";
 
 const HomeContent=()=>{
@@ -21,11 +21,21 @@ const HomeContent=()=>{
     const show_bg=(x)=>{
         
     }
+	
+	const close_video=()=>{
+		document.querySelector("video").style.display="none";
+		document.querySelector("#btn_close").style.display="none";
+	}
     return(
         <div className="home_content">
             <img src={data[b]} />
             <h2>Bienvenue</h2>
-            <video src={video} controls></video>
+			<div>
+			<video src={video} controls></video>
+			<button onClick={close_video} id="btn_close"><CloseIcon /></button>
+			</div>
+            
+		
         </div>
     );
 }

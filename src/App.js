@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 
+import ScrollToTop from "./components/ScrollToTop";
 
 import Splash from './screens/Splash';
 import Home from "./screens/Home";
@@ -21,6 +22,7 @@ import Candidature from "./screens/Candidature";
 function App() {
   return (
     <Router>
+		<ScrollToTop>
         <Switch>
           <Route path="/" exact>
             <Splash />
@@ -63,6 +65,7 @@ function App() {
           </Route>
         
         </Switch>
+		</ScrollToTop>
     </Router>
   );
 }

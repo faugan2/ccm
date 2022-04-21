@@ -152,16 +152,16 @@ const Nav=()=>{
                                         <Link ><a>multirisque professionnelle</a></Link>
                                     </li>
                                     <li onClick={show_detail.bind(this,2,4)}>
-                                        <Link><a>tout risque informatique</a></Link>
+                                        <Link><a>tous risques informatiques</a></Link>
                                     </li>
                                     <li onClick={show_detail.bind(this,2,5)}>
-                                        <Link><a>bris de marchine</a></Link>
+                                        <Link><a>bris de machine</a></Link>
                                     </li>
                                     <li onClick={show_detail.bind(this,2,6)}>
-                                        <Link><a>tout risque chantier</a></Link>
+                                        <Link><a>tous risques chantier</a></Link>
                                     </li>
                                     <li onClick={show_detail.bind(this,2,7)}>
-                                        <Link><a>rc decennale</a></Link>
+                                        <Link><a>rc décennale</a></Link>
                                     </li>
                                     <li onClick={show_detail.bind(this,2,8)}>
                                         <Link><a>sante</a></Link>
