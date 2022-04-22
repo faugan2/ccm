@@ -14,7 +14,7 @@
         width:80%;
         margin:auto;
         >img{
-            width:500px;
+            width:min(100%,500px);
             height: 150px;
            cursor: pointer;
            object-fit:cover;
@@ -88,6 +88,7 @@
     }
 
     >.right{
+        
         background-color:var(--blue);
         position:relative;
         >ul{

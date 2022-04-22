@@ -4,6 +4,7 @@
         width:100%;
         position:absolute;
         height:auto;
+        
         >.left{
             
             flex-direction:column;
@@ -19,6 +20,7 @@
                 top:0;
                 background-color: var(--blue);
                 width:100vw;
+                
                 
                 >div{
                     &:nth-child(2){
@@ -93,6 +95,7 @@
         >.right{
             display:none;
             transition:700ms;
+            width:70vw;
             &.active{
                 display:flex;
                 margin-top:auto;

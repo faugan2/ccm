@@ -18,7 +18,7 @@ const Home=()=>{
         <Layout>
             <div className="home">
                 <Nav />
-            <div className="content">
+            <div className="content" >
                 <HomeContent />
                 <Footer />
             </div>
