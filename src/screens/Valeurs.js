@@ -20,13 +20,15 @@ const About =()=>{
     
     const [title,set_title]=useState("");
     const [content,set_content]=useState("");
+	const [img,set_img]=useState(null);
 
 
     useEffect(()=>{
         if(data==null) return;
         if(data.length<0) return;
         set_title(data[15]?.title);
-        set_content(data[15]?.content)
+        set_content(data[15]?.content);
+		set_img(data[15]?.img);
     },[data]);
     return(
         <Layout>
@@ -35,7 +37,8 @@ const About =()=>{
             <div className="content">
                 <div className="about">
                     <div>
-                         <img src={img} />
+						<h1>{title}</h1>
+							{img!=null && <img src={img} />}
                     </div>
                     
                    <div dangerouslySetInnerHTML={{__html:content}} />

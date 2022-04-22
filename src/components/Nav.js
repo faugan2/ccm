@@ -149,7 +149,7 @@ const Nav=()=>{
                                         <Link><a>flotte-automobile</a></Link>
                                     </li>
                                     <li onClick={show_detail.bind(this,2,3)}>
-                                        <Link ><a>multirisque professionnelle</a></Link>
+                                        <Link ><a>multirisques professionnelles</a></Link>
                                     </li>
                                     <li onClick={show_detail.bind(this,2,4)}>
                                         <Link><a>tous risques informatiques</a></Link>

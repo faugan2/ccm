@@ -307,7 +307,7 @@ const data=[
         id:8,
         type:2,
         sous_type:3,
-        title:"Multirisque professionnel",
+        title:"Multirisques professionnelles",
         img:ass_multi_risque,
         content:`
             <h2>QU&rsquo;EST-CE QUE LA MULTIRISQUE PROFESSIONNELLE ?</h2>
@@ -667,37 +667,41 @@ const data=[
     {
         id:15,
         title:"Nos engagements",
+		img:img_engagement,
         content:`
-		<img src="${img_engagement}" style="width:400px;" />
+		<div style="">
+
+		<div>
 		<i><p><strong>CCM a pour mission de vous libérer de la gestion de vos risques "assurances" et vous accompagner dans les moments difficiles. La disponibilité, l'expertise et la considération de nos équipes vous délivrera les engagements suivants :
 </strong></p>
         </i>
         <br />
         <ul>
             <li>
-                <strong>AUDIT ET DIAGNOSTIC</strong> des besoins en couvertures des risques
+                <strong style="color:indianred;font-size:0.7rem">AUDIT ET DIAGNOSTIC</strong> des besoins en couvertures des risques
             </li>
             <li>
-               INTERROGATION DU MARCHÉ de manière indépendante et objective
+               <strong style="color:indianred;font-size:0.7rem">INTERROGATION DU MARCHÉ</strong> de manière indépendante et objective
             </li>
-			<li><strong>CONSEIL</strong> sur l'offre la plus pertinente</li>
-			<li><strong>DÉFINITION & CONSTRUCTION</strong> de solutions adaptées à la situation de nos clients</li>
-			<li><strong>NÉGOCIATION</strong> du meilleur rapport qualité-prix</li>
-			<li><strong>ADAPTATION DE LA COUVERTURE</strong> à l'évolution de la situation ou de la législation</li>
-			<li><strong>POINT DE SUIVI RÉGULIER</strong> des besoins </li>
-			<li><strong>DISPONIBILITÉ</strong> des interlocuteurs commerciaux et techniques</li>
-			<li><strong>DÉFENSE DES INTÉRÊTS DU CLIENT</strong> auprès des Compagnies d'assurances</li>
-			<li><strong>PRÉSENCE</strong> au moment des expertises à enjeu important</li>
+			<li><strong style="color:indianred;font-size:0.7rem">CONSEIL</strong> sur l'offre la plus pertinente</li>
+			<li><strong style="color:indianred;font-size:0.7rem">DÉFINITION & CONSTRUCTION</strong> de solutions adaptées à la situation de nos clients</li>
+			<li><strong style="color:indianred;font-size:0.7rem">NÉGOCIATION</strong> du meilleur rapport qualité-prix</li>
+			<li><strong style="color:indianred;font-size:0.7rem">ADAPTATION DE LA COUVERTURE</strong> à l'évolution de la situation ou de la législation</li>
+			<li><strong style="color:indianred;font-size:0.7rem">POINT DE SUIVI RÉGULIER</strong> des besoins </li>
+			<li><strong style="color:indianred;font-size:0.7rem">DISPONIBILITÉ</strong> des interlocuteurs commerciaux et techniques</li>
+			<li><strong style="color:indianred;font-size:0.7rem">DÉFENSE DES INTÉRÊTS DU CLIENT</strong> auprès des Compagnies d'assurances</li>
+			<li><strong style="color:indianred;font-size:0.7rem">PRÉSENCE</strong> au moment des expertises à enjeu important</li>
         </ul>
+		</div>
 		
-		
+		</div>
 
 		`,
     },
     {
         id:16,
         title:"Sinistre",
-        content:"<p>En d&eacute;pit de toutes les pr&eacute;cautions, un sinistre peut arriver &agrave; chacun. D&eacute;clarez-nous votre incident, nous serons ravis de nous occuper de sa gestion.<br><br>D&eacute;clarer un sinistre par t&eacute;l&eacute;phone<br>+228 91 49 39 39<br><br>Ligne t&eacute;l&eacute;phonique 24 h/24 en-dehors des heures d&rsquo;ouverture<br>+228 98 65 50 50<br><br>D&eacute;clarer un sinistre par e-mail<br>sinistre@ccmcourtiers.com<br><br>D&eacute;clarer un sinistre par WhatsApp<br>+228 90 04 15 52</p>"
+        content:"<p>En d&eacute;pit de toutes les pr&eacute;cautions, un sinistre peut arriver &agrave; chacun. D&eacute;clarez-nous votre incident, nous serons ravis de nous occuper de sa gestion.<br><br>D&eacute;clarer un sinistre par t&eacute;l&eacute;phone<br><strong>+228 91 49 39 39</strong><br><br>Ligne t&eacute;l&eacute;phonique 24 h/24 en-dehors des heures d&rsquo;ouverture<br><strong>+228 98 65 50 50</strong><br><br>D&eacute;clarer un sinistre par e-mail<br><strong>sinistre@ccmcourtiers.com</strong><br><br>D&eacute;clarer un sinistre par WhatsApp<br><strong>+228 90 04 15 52</strong></p>"
     },
     {
         id:17,
