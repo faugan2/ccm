@@ -171,5 +171,14 @@
             }
 
         }
+
+        >.contact_info{
+            visibility:hidden;
+            >div{
+               flex-direction:column;
+                align-items: flex-start;
+            }
+            
+        }
     }
 }
