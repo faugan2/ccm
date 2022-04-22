@@ -602,28 +602,43 @@ const data=[
         id:13,
         type:2,
         sous_type:8,
-        title:"Santé-Prévoyance",
+        title:"Santé",
         img:ass_sante,
         content:`
-            <p>L&rsquo;assurance pr&eacute;voyance entreprise : des garanties pour les salari&eacute;s, des avantages pour l&rsquo;employeur. Le contrat&nbsp;pr&eacute;voyance entreprise est un contrat&nbsp;que peut souscrire un employeur afin de&nbsp;compl&eacute;ter la pr&eacute;voyance sant&eacute;&nbsp;de base de la S&eacute;curit&eacute; sociale (&agrave; laquelle les entreprises cotisent obligatoirement). Elle permet d&rsquo;offrir &agrave; ses salari&eacute;s une meilleure couverture en cas d&rsquo;arr&ecirc;t de travail, d&rsquo;invalidit&eacute; ou de d&eacute;c&egrave;s.&nbsp;</p>
-            <br /><p>Contrairement &agrave; la mutuelle entreprise obligatoire, le contrat pr&eacute;voyance collectif est optionnelle, &agrave; l&rsquo;exception des cadres et de certaines conventions collectives. Pour autant, elle dispose de plusieurs avantages sociaux et fiscaux.</p>
-            <br /><p>Le contrat pr&eacute;voyance est dot&eacute; d&rsquo;une garantie pr&eacute;voyance &ldquo;maintien de salaire&rdquo;&nbsp;qui a pour vocation d&rsquo;assurer le niveau de vie des salari&eacute;s de l&rsquo;entreprise et de leurs familles en leur permettant de compenser les cons&eacute;quences financi&egrave;res de 4 risques majeurs.</p>
-            <br /><i><ul style="margin-left:2rem">
-                <li>
-                    <p>La garantie incapacit&eacute;&nbsp;: lors d&rsquo;un arr&ecirc;t de travail, le contrat pr&eacute;voyance collectif verse au salari&eacute; une indemnit&eacute; journali&egrave;re&nbsp;en compl&eacute;ment de la part maintenue par l&rsquo;employeur et de celle vers&eacute;e par la s&eacute;curit&eacute; sociale. Elle permet de conserver un certain niveau de revenu, pouvant aller jusqu&rsquo;au maintien total du salaire.<br><br></p>
-                </li>
-                <li>
-                    <p>La garantie invalidit&eacute; &nbsp;: lorsqu&rsquo;un salari&eacute; est reconnu partiellement ou totalement invalide, des suites d&rsquo;une maladie ou d&rsquo;un accident, la garantie invalidit&eacute; va l&apos;indemniser sous forme de rentes. Compl&eacute;mentaire de la rente de la s&eacute;curit&eacute; sociale elle permet d&rsquo;assurer un niveau de revenu plus important.</p>
-                </li>
-                <li>
-                    <p>La garantie d&eacute;pendance&nbsp;: si le salari&eacute; est reconnu d&eacute;pendant, il recevra une rente viag&egrave;re ou un capital. Cette garantie peut &ecirc;tre conserv&eacute;e en cas de d&eacute;part de l&rsquo;entreprise (quel qu&rsquo;en soit le motif).<br><br></p>
-                </li>
-                <li>
-                    <p>La garantie pr&eacute;voyance d&eacute;c&egrave;s : cette garantie permet aux ayants droit du salari&eacute; de toucher une indemnit&eacute; sous forme de rente ou de capital afin de compenser la perte de revenu caus&eacute;e par son d&eacute;c&egrave;s. Certains&nbsp;contrats de pr&eacute;voyance&nbsp;pr&eacute;voient des options telles qu&rsquo;une indemnit&eacute; obs&egrave;ques ou une majoration en cas d&rsquo;accident ou de d&eacute;c&egrave;s simultan&eacute; du conjoint.<br><br></p>
-                </li>
-            </ul><br />
-        </li>
-        <p>En proposant ce contrat, l&rsquo;assureur accepte la mutualisation des risques. Il s&rsquo;engage &agrave; couvrir l&rsquo;ensemble du groupe sans discrimination d&rsquo;&acirc;ge, de revenus ou encore d&rsquo;&eacute;tat de sant&eacute;. Les salari&eacute;s b&eacute;n&eacute;ficient ainsi d&rsquo;une meilleure couverture pr&eacute;voyance sant&eacute;, &agrave; des tarifs plus int&eacute;ressants que s&rsquo;ils optaient pour une adh&eacute;sion individuelle.</p>
+        <h2>Des solutions collectives et individuelles personnalis&eacute;es</h2>
+        <p>L&rsquo;assurance sant&eacute;&nbsp;fait partie des assurances de personnes et&nbsp;a 
+        pour but de pr&eacute;server l&rsquo;assur&eacute; contre les risques li&eacute;s &agrave; 
+        la maladie ou, plus pr&eacute;cis&eacute;ment, contre tous les &eacute;v&eacute;nements 
+        entra&icirc;nant une intervention m&eacute;dicale (l&rsquo;acte m&eacute;dical peut &ecirc;tre 
+            appel&eacute; non seulement par une pathologie ou par le d&eacute;veloppement d&rsquo;une maladie,
+             mais aussi suite &agrave; un dommage corporel, entra&icirc;n&eacute; par un accident par exemple).
+             <br><br>Dans le cas o&ugrave; une intervention m&eacute;dicale est n&eacute;cessaire (qu&rsquo;il 
+                s&rsquo;agisse d&rsquo;un acte m&eacute;dical ou d &lsquo;une simple consultation), 
+                les d&eacute;penses de sant&eacute; li&eacute;es &agrave; cette intervention 
+                (r&egrave;glement des soins effectu&eacute;s, r&egrave;glement des honoraires du 
+                    m&eacute;decin, etc.) sont pris en charge par l&rsquo;assureur.</p>
+        <br /><h2>Notre promesse&nbsp;:&nbsp;cr&eacute;er avec vous une relation unique, agile et de 
+        confiance&nbsp;!</h2>
+        <p>&Ecirc;tre au service de nos clients ne signifie pas seulement r&eacute;pondre &agrave; 
+        leurs besoins et &agrave; leurs attentes imm&eacute;diates en mati&egrave;re de contrat 
+        d&rsquo;assurance et mutuelle. C&rsquo;est aussi un engagement dans une relation, qui 
+        s&rsquo;exprime &agrave; travers deux atouts principaux.</p>
+        <p>&nbsp;</p>
+        <ul style="margin-left:2rem">
+            <li>
+                <p><strong style="color:indianred;">R&eacute;activit&eacute;&nbsp;</strong>: votre contrat d&rsquo;assurance en moins 
+                d&rsquo;une journ&eacute;e</p>
+            </li>
+            <li>
+                <p><strong style="color:indianred;">Responsabilit&eacute;&nbsp;:</strong> fini les contrats en double et les protections inutiles !
+                 Nous r&eacute;alisons gratuitement votre diagnostic assurantiel complet et mettons 
+                 en place une strat&eacute;gie couvrant vos besoins d&rsquo;aujourd&rsquo;hui tout 
+                 en pr&eacute;voyant ceux de demain. Vous r&eacute;alisez des &eacute;conomies 
+                 et vous augmentez votre protection et celle de vos proches.</p>
+            </li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>Gr&acirc;ce &agrave; la pluralit&eacute; de nos solutions, nous sommes en mesure d&rsquo;adapter chaque produit &agrave; son b&eacute;n&eacute;ficiaire, en termes de tarifs comme d&rsquo;options de couverture.&nbsp;</p>
         `
     },
     {
