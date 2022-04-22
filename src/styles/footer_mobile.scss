@@ -25,6 +25,13 @@
                         }
                     }
                 }
+
+                >div{
+                    display:none;
+                    >video{
+                        width:0;
+                    }
+                }
             }
         }
     }

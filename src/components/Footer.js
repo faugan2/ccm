@@ -139,6 +139,7 @@ const Footer=()=>{
                     </ul>
                 </div>
                 <div>
+                    
 				{page==0 ? <div>
 						<video src={video} controls id="video"></video>
 						<button onClick={close_video} id="btn_close"><CloseIcon /></button>
