@@ -24,7 +24,13 @@
                 
                 >div{
                     &:nth-child(2){
-                        display:none;
+                        display:block;
+                        >button{
+                            
+                            margin-right: 0.5rem;
+                            font-size: 1rem;
+
+                        }
                     }
 
                     &:nth-child(1){

@@ -82,11 +82,10 @@ const Nav=()=>{
                     </div>
 
                     <div>
-                        <button>
-                            FR
-                        </button>
-                        <button>
-                            EN
+                        <button onClick={e=>{
+                            history.push("/autocredit")
+                        }}>
+                            Assurance à crédit
                         </button>
                     </div>
 

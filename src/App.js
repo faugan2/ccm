@@ -18,6 +18,7 @@ import Parteners from "./screens/Parteners";
 import Sinistre from "./screens/Sinistre";
 import OffresEmploi from "./screens/OffresEmploi";
 import Candidature from "./screens/Candidature";
+import Autocredit from "./screens/Autocredit";
 
 function App() {
   return (
@@ -62,6 +63,10 @@ function App() {
 
           <Route path="/candidature" exact>
             <Candidature />
+          </Route>
+
+          <Route path="/autocredit" exact>
+            <Autocredit />
           </Route>
         
         </Switch>
