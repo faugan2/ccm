@@ -22,14 +22,14 @@ const HomeContent=()=>{
         const je_suis=document.querySelector("input[name=je_suis]:checked")?.value;
         const nombre_vehiculee=document.querySelector("#nombre_vehiculee").value;
         const assure=document.querySelector("input[name=assure]:checked").value;
-        const expire=document.querySelector("input[name=expire]:checked").value;
+        const expire=document.querySelector("#expire").value;
         const contact=document.querySelector("input[name=contact]:checked").value;
         const contact_saisie=document.querySelector("#contact_saisie").value;
         const offre=document.querySelector("input[name=offre]:checked").value;
         const garantie=document.querySelector("input[name=garantie]:checked").value;
 
         if(je_suis==undefined || assure==undefined 
-            || expire==undefined || contact==undefined 
+             || contact==undefined 
             || offre==undefined || garantie==undefined){
             alert("Certains champs sont vides");
             return;
@@ -127,14 +127,7 @@ const HomeContent=()=>{
                 <div className="line">
                     <h5>A quelle date expire votre assurance actuelle ?</h5>
                     <div className="response">
-                        <div onClick={check.bind(this,"expire_1")}>
-                            <input type="radio" name="expire" value="1" id="expire_1"/>
-                            <label>Oui</label>
-                        </div>
-                        <div onClick={check.bind(this,"expire_2")}>
-                            <input type="radio" name="expire" value="2" id="expire_2" />
-                            <label>Non</label>
-                        </div>
+                        <input type="date" id="expire" />
                     </div>
                 </div>
 

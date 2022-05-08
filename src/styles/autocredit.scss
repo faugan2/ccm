@@ -47,7 +47,7 @@
                         font-family: MyFont;
                     }
 
-                    >input[type=text]{
+                    >input[type=text],input[type=date]{
                         border:none;
                         border-bottom: 1px solid black;
                         width:min(80%,250px);

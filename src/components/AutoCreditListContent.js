@@ -49,17 +49,37 @@ const HomeContent=()=>{
                     </thead>
                     <tbody>
                         {data.map((item,i)=>{
+                            const je_suis=item.je_suis;
+                            const nombre_vehiculee=item.nombre_vehiculee;
+                            const assure=item.assure;
+                            const expire=item.expire;
+                            const contact=item.contact;
+                            const contact_saisie=item.contact_saisie;
+                            const offre=item.offre;
+                            const garantie=item.garantie;
+
                             return(
                                 <tr key={i}>
-                                    <td>{i+1}</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td align="center">{i+1}</td>
+                                    <td  align="center">{je_suis=="1" ? "Un particulier" :  "Un professionnel"}</td>
+                                    <td align="center">{nombre_vehiculee}</td>
+                                    <td align="center">{assure=="1" ? "Oui" : "Non"}</td>
+                                    <td align="center">{expire}</td>
+                                    <td align="center">{
+                                        contact=="1" ? "Mail" :
+                                        contact=="2" ? "Tel" : "WhatsApp"
+                                    }</td>
+                                    <td align="center">{contact_saisie}</td>
+                                    <td align="center">
+                                        {
+                                            offre=="1" ? "Oui":"Non"
+                                        }
+                                    </td>
+                                    <td align="center">
+                                        {
+                                            garantie=="1" ? "Oui" :"Non"
+                                        }
+                                    </td>
                                     <td>
                                         <button>
                                                 <DeleteIcon />
