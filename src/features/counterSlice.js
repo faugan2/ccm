@@ -6,6 +6,7 @@ const initialState = {
   page:0,
   type:0,
   sousType:0,
+  login:false,
 };
 
 

@@ -50,7 +50,7 @@
                     >input[type=text]{
                         border:none;
                         border-bottom: 1px solid black;
-                        width:50%;
+                        width:min(80%,250px);
                         outline:none;
                         font-family: MyFont;
                         padding:0.5rem;

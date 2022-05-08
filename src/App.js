@@ -19,6 +19,7 @@ import Sinistre from "./screens/Sinistre";
 import OffresEmploi from "./screens/OffresEmploi";
 import Candidature from "./screens/Candidature";
 import Autocredit from "./screens/Autocredit";
+import AutocreditList from "./screens/AutoCreditList"
 
 function App() {
   return (
@@ -68,6 +69,12 @@ function App() {
           <Route path="/autocredit" exact>
             <Autocredit />
           </Route>
+
+          <Route path="/autocredit-list" exact>
+            <AutocreditList />
+          </Route>
+
+          
         
         </Switch>
 		</ScrollToTop>

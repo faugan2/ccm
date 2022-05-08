@@ -68,7 +68,7 @@ const Nav=()=>{
                             <CloseIcon />
                         </button>
 
-                        <button onClick={show_contact_info}>
+                        <button onClick={show_contact_info} className="btn_24">
                             <img src={sos} />
                             <img src={sos2} />
                         </button>

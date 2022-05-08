@@ -71,3 +71,25 @@
         }
     }
 }
+
+.auto_credit_content{
+    >.form{
+        >table{
+            font-size: 0.8rem;
+
+            >tbody{
+                >tr{
+                    >td{
+                        >button{
+                            width:100%;
+                            background-color:transparent;
+                            border:none;
+                            color:indianred;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
