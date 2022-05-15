@@ -1,4 +1,5 @@
 <?php 
+	header('Access-Control-Allow-Origin: *');
 	$id=uniqid();
 	$headers = "From: ccm-alerte-assurance@ccmcourtiers.com";
 	$headers .= "\r\nReply-To: contact@ccmcourtiers.com";

@@ -22,12 +22,16 @@ const HomeContent=()=>{
 
         const nom_prenom=document.querySelector("#nom_prenom").value;
         const nombre_vehiculee=document.querySelector("#nombre_vehiculee").value;
-        const echeance=document.querySelector("#echeance").value;
+        const echeances=document.querySelectorAll(".echeance");
         const telephone=document.querySelector("#telephone").value;
         const email=document.querySelector("#email").value;
 
         const assurance=document.querySelector("input[name=assurance]:checked")?.value;
         
+        const echeance=[];
+        for(var i=0; i<echeances.length; i++){
+            echeance.push(echeances[i].value);
+        }
        
 
         if(nombre_vehiculee=="" || nom_prenom=="" || telephone=="" || email==""){
@@ -77,6 +81,15 @@ const HomeContent=()=>{
             el.title=el.id;
         }
     },[])
+
+    const number_vehicule_changed=()=>{
+        let v=document.querySelector("#nombre_vehiculee").value;
+        v=parseInt(v);
+        if(isNaN(v)){
+            alert("Vous devez saisir un nombre entier");
+            return;
+        }
+    }
     return(
         <div className="auto_credit_content">
            {show_form==true &&  <div className="form">
@@ -108,15 +121,18 @@ const HomeContent=()=>{
                     </h5>
                     <div className="response">
                         <div>
-                            <input type="text" id="nombre_vehiculee"  placeholder="saisir le nombre"/>
+                            <input type="number"
+                            onKeyUp={number_vehicule_changed}
+                            id="nombre_vehiculee"  placeholder="saisir le nombre"/>
                         </div>
                     </div>
                 </div>
 
                 <div className="line">
                     <h5>Date d’échéance de l’assurance</h5>
-                    <div className="response">
-                        <input type="date" id="echeance" />
+                    <div className="response response_line">
+                        <input type="date" className="echeance" />
+                        
                     </div>
                 </div>
 
