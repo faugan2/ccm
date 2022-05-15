@@ -75,32 +75,29 @@ const HomeContent=()=>{
         <div className="auto_credit_content">
            {show_form==true &&  <div className="form">
                 <h4>
-                Assurez vos véhicules et étalez le paiement en plusieurs fois!
+                ALERTE ASSURANCE
                 </h4>
                 <p>
-                La société de courtage en assurances CCM et son partenaire 
-                Cisco-Finances vous permettent d’assurer votre véhicule à 
-                crédit en échelonnant le paiement des primes. 
-                </p>
+                Vous possédez un ou des véhicules assurés. Notre société CCM agréée par le Ministère de l’Economie et 
+                des Finances vous alerte quelques jours avant l’échéance de votre contrat en cours et vous fait des
+                 propositions adaptées à vos besoins. 
+                Vous n’avez plus qu’à faire votre choix et bingo, vous êtes couverts continuellement.
+                </p><br />
+
+                <h5>Je souhaite bénéficier de l’offre gratuite d’alerte et de propositions:</h5>
 
                 <div className="line">
-                    <h5>Je suis<span className="required">*</span></h5>
+                    <h5>Nom et Prénoms<span className="required">*</span></h5>
                     <div className="response">
-                        <div onClick={check.bind(this,"je_suis_1")}>
-                            <input type="radio" name="je_suis" value="1" id="je_suis_1"/>
-                            <label>Un particulier</label>
-                        </div>
-
-                        <div onClick={check.bind(this,"je_suis_2")}>
-                            <input type="radio" name="je_suis" value="2" id="je_suis_2" />
-                            <label>Un professionnel</label>
+                        <div>
+                            <input type="text" />
                         </div>
                     </div>
                 </div>
 
                 <div className="line">
                     <h5>
-                        Combien de véhicules possédez-vous ?
+                        Combien de véhicules possédez vous?
                         <span className="required">*</span>
                     </h5>
                     <div className="response">
@@ -110,24 +107,8 @@ const HomeContent=()=>{
                     </div>
                 </div>
 
-
                 <div className="line">
-                    <h5>Votre véhicule est-il actuellement assuré ? <span className="required">*</span></h5>
-                    <div className="response">
-                        <div onClick={check.bind(this,"assure_1")}>
-                            <input type="radio" name="assure" value="1" id="assure_1"/>
-                            <label>Oui</label>
-                        </div>
-                        <div onClick={check.bind(this,"assure_2")}>
-                            <input type="radio" name="assure" value="2" id="assure_2" />
-                            <label>Non</label>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="line">
-                    <h5>A quelle date expire votre assurance actuelle ?</h5>
+                    <h5>Date d’échéance de l’assurance</h5>
                     <div className="response">
                         <input type="date" id="expire" />
                     </div>
@@ -135,39 +116,47 @@ const HomeContent=()=>{
 
 
                 <div className="line">
-                    <h5>Comment pouvons-nous vous contacter ? <span className="required">*</span></h5>
-                    <div className="response">
-                        <div onClick={check.bind(this,"contact_1")}>
-                            <input type="radio" name="contact" value="1" id="contact_1"/>
-                            <label>Mail</label>
-                        </div>
-                        <div onClick={check.bind(this,"contact_2")}>
-                            <input type="radio" name="contact" value="2" id="contact_2" />
-                            <label>Tel</label>
-                        </div>
-                        <div onClick={check.bind(this,"contact_3")}>
-                            <input type="radio" name="contact" value="3" id="contact_3" />
-                            <label>WhatsApp</label>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="line">
                     <h5>
-                    Donnez-nous votre contact selon votre réponse précédente
+                        Téléphone
                         <span className="required">*</span>
                     </h5>
                     <div className="response">
                         <div>
-                            <input type="text" id="contact_saisie"  placeholder="saisir le contact"/>
+                            <input type="tel" />
                         </div>
                     </div>
                 </div>
 
                 <div className="line">
                     <h5>
-                    Souhaitez-vous que nous vous proposions des offres plus adaptées et moins chères ?
+                        Mail
+                        <span className="required">*</span>
+                    </h5>
+                    <div className="response">
+                        <div>
+                            <input type="tel" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="line">
+                    <h5>
+                        Téléphone
+                        <span className="required">*</span>
+                    </h5>
+                    <div className="response">
+                        <div>
+                            <input type="tel" />
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div className="line">
+                    <h5>
+                    - Avez-vous une assurance habitation ?
                     <span className="required">*</span></h5>
                     <div className="response">
                         <div onClick={check.bind(this,"offre_1")}>
@@ -181,22 +170,12 @@ const HomeContent=()=>{
                     </div>
                 </div>
 
+            
 
-                <div className="line">
-                    <h5>
-                    Savez-vous ce que c’est la garantie Responsabilité Civile Chef de Famille ?
-                    <span className="required">*</span></h5>
-                    <div className="response">
-                        <div onClick={check.bind(this,"garantie_1")}>
-                            <input type="radio" name="garantie" value="1" id="garantie_1"/>
-                            <label>Oui</label>
-                        </div>
-                        <div onClick={check.bind(this,"garantie_2")}>
-                            <input type="radio" name="garantie" value="2" id="garantie_2" />
-                            <label>Non</label>
-                        </div>
-                    </div>
-                </div>
+                
+
+
+                
 
                 <div className="line">
                     <button onClick={valider}>

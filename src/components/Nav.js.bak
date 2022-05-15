@@ -77,7 +77,7 @@ const Nav=()=>{
                         }}>
                             E-mail
                         </button>
-                        <a  id="mail_to" href ="mailto: contact@ccmcourtiers.com" style={{display:"none"}}>Send Email</a>
+                        <a  id="mail_to" href ="mailto: info@ccmcourtiers.com" style={{display:"none"}}>Send Email</a>
                         
                     </div>
 

@@ -20,6 +20,8 @@ import OffresEmploi from "./screens/OffresEmploi";
 import Candidature from "./screens/Candidature";
 import Autocredit from "./screens/Autocredit";
 import AutocreditList from "./screens/AutoCreditList"
+import AlerteAssurance from "./screens/AlerteAssurance";
+
 
 function App() {
   return (
@@ -72,6 +74,10 @@ function App() {
 
           <Route path="/autocredit-list" exact>
             <AutocreditList />
+          </Route>
+
+          <Route path="/alerte-assurance" exact>
+            <AlerteAssurance />
           </Route>
 
           

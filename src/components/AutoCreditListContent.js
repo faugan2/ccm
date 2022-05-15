@@ -26,6 +26,10 @@ const HomeContent=()=>{
            set_data(d);
         })
     },[])
+
+    const del=(key)=>{
+        db.collection("auto_credit").doc(key).delete();
+    }
     
     return(
         <div className="auto_credit_content">
@@ -81,7 +85,7 @@ const HomeContent=()=>{
                                         }
                                     </td>
                                     <td>
-                                        <button>
+                                        <button onClick={del.bind(this,item.key)}>
                                                 <DeleteIcon />
                                         </button>
 
