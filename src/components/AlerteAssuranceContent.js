@@ -19,49 +19,47 @@ const HomeContent=()=>{
     }
 
     const valider=(e)=>{
-        const je_suis=document.querySelector("input[name=je_suis]:checked")?.value;
-        const nombre_vehiculee=document.querySelector("#nombre_vehiculee").value;
-        const assure=document.querySelector("input[name=assure]:checked").value;
-        const expire=document.querySelector("#expire").value;
-        const contact=document.querySelector("input[name=contact]:checked").value;
-        const contact_saisie=document.querySelector("#contact_saisie").value;
-        const offre=document.querySelector("input[name=offre]:checked").value;
-        const garantie=document.querySelector("input[name=garantie]:checked").value;
 
-        if(je_suis==undefined || assure==undefined 
-             || contact==undefined 
-            || offre==undefined || garantie==undefined){
+        const nom_prenom=document.querySelector("#nom_prenom").value;
+        const nombre_vehiculee=document.querySelector("#nombre_vehiculee").value;
+        const echeance=document.querySelector("#echeance").value;
+        const telephone=document.querySelector("#telephone").value;
+        const email=document.querySelector("#email").value;
+
+        const assurance=document.querySelector("input[name=assurance]:checked")?.value;
+        
+       
+
+        if(nombre_vehiculee=="" || nom_prenom=="" || telephone=="" || email==""){
             alert("Certains champs sont vides");
             return;
         }
 
-        if(nombre_vehiculee=="" || contact_saisie==""){
+        if(assurance==undefined){
             alert("Certains champs sont vides");
             return;
         }
 
         const obj={
-            je_suis,
+            nom_prenom,
             nombre_vehiculee,
-            assure,
-            expire,
-            contact,
-            contact_saisie,
-            offre,
-            garantie,
+            echeance,
+            telephone,
+            email,
+            assurance,
             date:firebase.firestore.FieldValue.serverTimestamp()
         }
 
         const btn=e.target;
         btn.disabled=true;
         btn.innerHTML="Patientez...";
-        db.collection("auto_credit").add(obj).then(()=>{
+        db.collection("alerte_assurance").add(obj).then(()=>{
            
             btn.disabled=false;
             btn.innerHTML="Validez"
             set_show_form(false);
 
-            fetch("https://ccmcourtiers.com/email.php")
+            fetch("https://ccmcourtiers.com/email2.php")
         }).catch((err)=>{
             alert(err.message);
             btn.disabled=false;
@@ -71,6 +69,14 @@ const HomeContent=()=>{
 
 
     }
+
+    useEffect(()=>{
+        var inputs=document.querySelectorAll("input");
+        for(var i=0; i<inputs?.length; i++){
+            const el=inputs[i];
+            el.title=el.id;
+        }
+    },[])
     return(
         <div className="auto_credit_content">
            {show_form==true &&  <div className="form">
@@ -90,7 +96,7 @@ const HomeContent=()=>{
                     <h5>Nom et Prénoms<span className="required">*</span></h5>
                     <div className="response">
                         <div>
-                            <input type="text" />
+                            <input type="text" placeholder="Votre nom complet" id="nom_prenom" />
                         </div>
                     </div>
                 </div>
@@ -110,7 +116,7 @@ const HomeContent=()=>{
                 <div className="line">
                     <h5>Date d’échéance de l’assurance</h5>
                     <div className="response">
-                        <input type="date" id="expire" />
+                        <input type="date" id="echeance" />
                     </div>
                 </div>
 
@@ -122,7 +128,7 @@ const HomeContent=()=>{
                     </h5>
                     <div className="response">
                         <div>
-                            <input type="tel" />
+                            <input type="tel" placeholder="+228 00 00 00 00 "  id="telephone" />
                         </div>
                     </div>
                 </div>
@@ -134,37 +140,27 @@ const HomeContent=()=>{
                     </h5>
                     <div className="response">
                         <div>
-                            <input type="tel" />
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="line">
-                    <h5>
-                        Téléphone
-                        <span className="required">*</span>
-                    </h5>
-                    <div className="response">
-                        <div>
-                            <input type="tel" />
+                            <input type="email" placeholder="example@domaine.com" id="email" />
                         </div>
                     </div>
                 </div>
 
 
                 
+
+
+                
                 <div className="line">
                     <h5>
-                    - Avez-vous une assurance habitation ?
+                     Avez-vous une assurance habitation ?
                     <span className="required">*</span></h5>
                     <div className="response">
-                        <div onClick={check.bind(this,"offre_1")}>
-                            <input type="radio" name="offre" value="1" id="offre_1"/>
+                        <div onClick={check.bind(this,"assurance_1")}>
+                            <input type="radio" name="assurance" value="1" id="assurance_1"/>
                             <label>Oui</label>
                         </div>
-                        <div onClick={check.bind(this,"offre_2")}>
-                            <input type="radio" name="offre" value="2" id="offre_2" />
+                        <div onClick={check.bind(this,"assurance_2")}>
+                            <input type="radio" name="assurance" value="2" id="assurance_2" />
                             <label>Non</label>
                         </div>
                     </div>

@@ -47,13 +47,14 @@
                         font-family: MyFont;
                     }
 
-                    >input[type=text],input[type=date]{
+                    >input[type=text],input[type=date],input[type=tel],input[type=email]{
                         border:none;
                         border-bottom: 1px solid black;
                         width:min(80%,250px);
                         outline:none;
                         font-family: MyFont;
                         padding:0.5rem;
+                        font-size: 0.9rem;
                     }
                 }
             }
