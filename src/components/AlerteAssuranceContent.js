@@ -82,13 +82,26 @@ const HomeContent=()=>{
         }
     },[])
 
-    const number_vehicule_changed=()=>{
+    const number_vehicule_changed=(e)=>{
+        const key=e.keyCode;
+        
         let v=document.querySelector("#nombre_vehiculee").value;
+        
         v=parseInt(v);
         if(isNaN(v)){
             alert("Vous devez saisir un nombre entier");
-            return;
+            v=1;
+            document.querySelector("#nombre_vehiculee").value=1;
         }
+
+        
+
+        var lines="";
+        for(var i=0; i<v; i++){
+            lines+=`<input type='date' class='echeance' />`;
+        }
+
+        document.querySelector(".response_line").innerHTML=lines;
     }
     return(
         <div className="auto_credit_content">

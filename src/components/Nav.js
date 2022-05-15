@@ -81,7 +81,12 @@ const Nav=()=>{
                         
                     </div>
 
-                    <div>
+                    <div className="options">
+                    <button onClick={e=>{
+                            history.push("/alerte-assurance")
+                        }}>
+                            Alerte Assurance
+                        </button>
                         <button onClick={e=>{
                             history.push("/autocredit")
                         }}>

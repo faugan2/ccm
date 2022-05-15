@@ -2,6 +2,11 @@
     .imgs{
         display:none !important;
     }
+
+    .response_line{
+        display:grid  !important;
+        grid-template-columns:50% 50%;
+    }
 }
 
 .auto_credit_content{
@@ -59,8 +64,9 @@
                 }
 
                 &.response_line{
-                    display:flex;
-                    gap:0.5rem;
+                    display:grid  !important;
+                    grid-template-columns:50% 50%;
+                    grid-gap:0.5rem;
                 }
             }
 
@@ -78,3 +84,5 @@
         }
     }
 }
+
+

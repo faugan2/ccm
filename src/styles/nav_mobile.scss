@@ -189,6 +189,22 @@
             
         }
     }
+
+    .options{
+        display:flex;
+        flex-direction: column;
+        
+        >button{
+            font-size: 0.7rem !important;
+            width:140px;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+
+            &:nth-child(2){
+                margin-bottom: 0;
+            }
+        }
+    }
 }
 
 .btn_24{
