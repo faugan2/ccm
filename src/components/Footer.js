@@ -58,7 +58,7 @@ const Footer=()=>{
                         <li>
                             <Link to="#">
                                 <CallIcon />
-                                <a>+228 91 49 39 39</a>
+                                <a>+228 92 22 04 04</a>
                             </Link>
                         </li>
 
@@ -72,7 +72,7 @@ const Footer=()=>{
                         <li>
                             <Link to="#">
                                 <WhatsAppIcon />
-                                <a>+228 90 04 15 52</a>
+                                <a>+228 96 16 70 71</a>
                             </Link>
                         </li>
 

@@ -72,7 +72,9 @@ const Nav=()=>{
                             <img src={sos} />
                             <img src={sos2} />
                         </button>
-                        <button onClick={e=>{
+                        <button
+                        id="email_text"
+                        onClick={e=>{
                             document.querySelector("#mail_to").click();
                         }}>
                             E-mail
@@ -239,10 +241,10 @@ const Nav=()=>{
             <div className="contact_info">
                 <div>
                     <div>Déclarer un sinistre</div>
-                    <div>Téléphone : +228 91 49 39 39</div>
+                    <div>Téléphone : +228 92 22 04 04</div>
                     <div>Téléphone 24h/24 : +228 98 65 50 50</div>
                     <div>Email : contact@ccmcourtiers.com</div>
-                    <div>WhatsApp : +228 90 04 15 52</div>
+                    <div>WhatsApp : +228 96 16 70 71</div>
                 </div>
             </div>
 

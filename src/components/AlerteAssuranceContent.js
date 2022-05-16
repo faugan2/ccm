@@ -216,9 +216,10 @@ const HomeContent=()=>{
                 show_form==false && 
                 <div className="form">
                         <h4>
-                        Nous vous remercions pour votre intérêt. Nous vous recontactons dans 
-                        les meilleurs délais.<br /><br />
-                         Vous pouvez continuer sur notre site internet en cliquant <a href="/">ici</a>
+                        
+                         Votre formulaire est bien envoyé…Nous vous remercions pour votre intérêt. <br />
+                         Nous vous recontactons dans les meilleurs délais.<br /><br />
+                          Vous pouvez continuer sur notre site internet en cliquant <a href="/">ici</a>
                         </h4>
                 </div>
             }
