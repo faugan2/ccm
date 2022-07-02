@@ -1,0 +1,34 @@
+.admin_content{
+    display:flex;
+    align-items: flex-start;
+    >.left{
+        width:200px;
+        display:flex;
+        flex-direction: column;
+
+        >button{
+            padding:1rem;
+            width:80%;
+            margin:auto;
+            margin-top: 1rem;
+            cursor: pointer;
+            border:none;
+            border-radius: 5px;
+            &.active{
+                background-color:var(--blue);
+                color:white;
+
+            }
+            &.logout{
+                background-color:indianred;
+                color:white;
+                margin-top: 3rem;
+            }
+        }
+    }
+
+    >.right{
+       
+        flex:1;
+    }
+}

@@ -134,7 +134,7 @@ const HomeContent=()=>{
                     </h5>
                     <div className="response">
                         <div>
-                            <input type="number"
+                            <input type="tel"
                             onKeyUp={number_vehicule_changed}
                             id="nombre_vehiculee"  placeholder="saisir le nombre"/>
                         </div>

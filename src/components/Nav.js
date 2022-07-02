@@ -94,6 +94,12 @@ const Nav=()=>{
                         }}>
                             Assurance à crédit
                         </button>
+
+                        <button onClick={e=>{
+                            history.push("/rc-habitation")
+                        }}>
+                            RC Habitation
+                        </button>
                     </div>
 
                 </div>

@@ -22,7 +22,9 @@ import Autocredit from "./screens/Autocredit";
 import AutocreditList from "./screens/AutoCreditList"
 import AlerteAssurance from "./screens/AlerteAssurance";
 import AlerteAssuranceListe from "./screens/AlerteAssuranceListe";
-
+import RCHabitation from "./screens/RCHabitation";
+import RCHabitationListe from "./screens/RCHabitationListe";
+import Admin from './screens/Admin';
 
 function App() {
   return (
@@ -85,6 +87,19 @@ function App() {
             <AlerteAssuranceListe />
           </Route>
 
+          <Route path="/rc-habitation" exact>
+            <RCHabitation />
+          </Route>
+
+          <Route path="/rc-habitation-list" exact>
+            <RCHabitationListe />
+          </Route>
+
+          <Route path="/admin" exact>
+            <Admin />
+          </Route>
+
+          
           
         
         </Switch>

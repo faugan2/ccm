@@ -52,7 +52,7 @@
                         font-family: MyFont;
                     }
 
-                    >input[type=text],input[type=date],input[type=tel],input[type=email],input[type=number]{
+                    >input[type=text],input[type=date],input[type=tel],input[type=email],input[type=number],select{
                         border:none;
                         border-bottom: 1px solid black;
                         width:min(80%,250px);
@@ -60,7 +60,25 @@
                         font-family: MyFont;
                         padding:0.5rem;
                         font-size: 0.9rem;
+                        background-color:white;
                     }
+                    &.col{
+                        flex-direction: column;
+                        align-items: flex-start;
+                        >button{
+                            font-size: 0.8rem;
+                            padding:0.5rem;
+                            background-color:transparent;
+                            width:100%;
+                            cursor: pointer;
+                            display:flex;
+                            align-items: center;
+                            gap:0.6rem;
+                            border:none;
+                        }
+                    }
+
+                   
                 }
 
                 &.response_line{

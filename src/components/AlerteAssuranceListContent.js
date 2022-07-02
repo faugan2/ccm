@@ -28,14 +28,17 @@ const HomeContent=()=>{
     },[])
 
     const del=(key)=>{
+        const confirm=window.confirm("Voulez-vous vraiment supprimer ce élément ?");
+        if(confirm==false) return;
+        
         db.collection("alerte_assurance").doc(key).delete();
     }
     
     return(
         <div className="auto_credit_content">
-            <div className="form" style={{width:"100vw"}}>
+            <div className="form" style={{width:"100%"}}>
                 
-                <table border="1" style={{width:"90vw",margin:"auto"}}>
+                <table border="1" style={{width:"90%",margin:"auto"}}>
                     <thead>
                         <tr>
                             <th width="3%">N°</th>
@@ -73,7 +76,9 @@ const HomeContent=()=>{
                                     <td  align="center">{nom_prenom}</td>
                                     <td align="center">{nombre_vehiculee}</td>
                                     <td align="center">
-                                        <ol>
+                                        <ol style={{
+                                            listStyle:"none",
+                                        }}>
                                             {echeances.map((e,j)=>{
                                                 return(
                                                     <li key={`${i}${j}`}>{e}</li>

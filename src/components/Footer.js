@@ -70,17 +70,31 @@ const Footer=()=>{
                         </li>
 
                         <li>
-                            <Link to="#">
-                                <WhatsAppIcon />
-                                <a>+228 96 16 70 71</a>
-                            </Link>
+                        <div style={{
+                                alignItem:"center",
+                                display:"flex",
+                                gap:"0.5rem",
+                            }}>
+                                <WhatsAppIcon style={{color:"var(--blue)"}} />
+                                <a
+                                href="https://wa.me/22896167071?text=Bonjour"
+                                style={{color:"silver",textDecoration:"none"}}
+                                target="_blank"
+                                >+228 96 16 70 71</a>
+                            </div>
                         </li>
 
                         <li>
-                            <Link to="#">
-                                <FacebookIcon />
-                                <a href="https://facebook.com/ccm">ccmcourtiers</a>
-                            </Link>
+                            <div style={{
+                                alignItem:"center",
+                                display:"flex",
+                                gap:"0.5rem",
+                            }}>
+                                <FacebookIcon style={{color:"var(--blue)"}} />
+                                <a href="https://www.facebook.com/CCM-Courtiers-en-Assurances-109189548441385/"
+                                style={{color:"silver",textDecoration:"none"}}
+                                target="_blank">ccmcourtiers</a>
+                            </div>
                         </li>
                         
                     </ul>
