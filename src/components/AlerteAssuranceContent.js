@@ -3,16 +3,19 @@ import "../styles/home_content_mobile.scss";
 import bg from "./img/banner.webp";
 import bg2 from "./img/auto.jpg";
 import bg3 from "./img/new/ass_multi_risque.jpg";
-import {useState,useEffect} from "react";
+import {useState,useEffect,useRef} from "react";
 import video from "./videos/video.mp4";
 import CloseIcon from '@material-ui/icons/Close';
 import new_bg from "./img/new/bg6.jpg";
 import  firebase from "firebase";
 import {db} from "../firebase_file";
 
+
 const HomeContent=()=>{
 
     const [show_form,set_show_form]=useState(true);
+
+   
 	
     const check=(id)=>{
         document.querySelector(`#${id}`).click();

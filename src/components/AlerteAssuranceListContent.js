@@ -3,7 +3,7 @@ import "../styles/home_content_mobile.scss";
 import bg from "./img/banner.webp";
 import bg2 from "./img/auto.jpg";
 import bg3 from "./img/new/ass_multi_risque.jpg";
-import {useState,useEffect} from "react";
+import {useState,useEffect,useRef} from "react";
 import video from "./videos/video.mp4";
 import CloseIcon from '@material-ui/icons/Close';
 import new_bg from "./img/new/bg6.jpg";
@@ -11,8 +11,9 @@ import  firebase from "firebase";
 import {db} from "../firebase_file";
 import DeleteIcon from '@material-ui/icons/Delete';
 
-const HomeContent=()=>{
 
+const HomeContent=()=>{
+    const tableRef = useRef(null);
     const [data,set_data]=useState([]);
     useEffect(()=>{
         const d=[];
@@ -37,8 +38,9 @@ const HomeContent=()=>{
     return(
         <div className="auto_credit_content">
             <div className="form" style={{width:"100%"}}>
+           
                 
-                <table border="1" style={{width:"90%",margin:"auto"}}>
+                <table border="1" style={{width:"90%",margin:"auto"}} ref={tableRef}>
                     <thead>
                         <tr>
                             <th width="3%">N°</th>
