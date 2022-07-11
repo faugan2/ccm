@@ -1,0 +1,16 @@
+@media only screen and (max-width:768px){
+    .une{
+        >.top{
+            >h1{
+                font-size: 1.2rem;
+            }
+            >h2{
+                font-size: 0.9rem;
+            }
+        }
+
+        >.content{
+            grid-template-columns: 100%;
+        }
+    }
+}

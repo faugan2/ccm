@@ -1,0 +1,40 @@
+.login{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+   padding-top: 2rem;
+
+    >h2{
+        color:var(--blue);
+    }
+
+    >.line{
+        margin-top: 1rem;
+        display:flex;
+        flex-direction: column;
+        >label{
+            font-size:0.8rem;
+            font-weight: bold;
+            color:gray;
+        }
+        >input{
+            padding:0.5rem;
+            width:250px;
+            font-size: 0.8rem;
+            color:gray;
+        }
+
+        >button{
+            padding: 0.6rem 1rem;
+            width:150px;
+            background-color:var(--blue);
+            border:none;
+            color:white;
+            font-weight: bold;
+            display:flex;
+            align-items: center;
+            justify-content:center;
+            gap:1rem;
+        }
+    }
+}

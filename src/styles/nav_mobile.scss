@@ -1,0 +1,225 @@
+@media only screen and (max-width:768px){
+    .nav{
+        background-color:white !important;
+        width:100%;
+        position:absolute;
+        height:auto;
+        
+        >.left{
+            
+            flex-direction:column;
+            
+            >img{
+                width:min(500px,100%);
+                height:100px;
+            }
+            
+            >div{
+                position:sticky;
+                position: -webkit-sticky;
+                top:0;
+                background-color: var(--blue);
+                width:100vw;
+                
+                
+                >div{
+                    &:nth-child(2){
+                        display:flex;
+                        gap:0;
+                        >button{
+                            
+                            margin-right: 0.5rem;
+                            font-size: 0.8rem;
+                            padding-right: 0;
+                            padding-left: 0;
+                           &:nth-child(1){
+                               margin-top: 0.5rem;
+                           }
+                           &:nth-child(2){
+                            margin-bottom: 0.5rem;
+                        }
+
+                        }
+                    }
+
+                    &:nth-child(1){
+                       
+                        flex:1;
+                        justify-content:flex-end;
+                        >button{
+                            padding:0.5rem;
+                            color:white;
+                           
+                            >svg{
+                                font-size: 2rem;
+                                &:nth-child(1){
+                                    display:block;
+                                }
+                                &:nth-child(2){
+                                    display:none;
+                                }
+                            }
+                            &.active{
+                                >span{
+                                  display:none;  
+                                }
+                                >svg{
+                                    &:nth-child(1){
+                                        display:none;
+                                    }
+                                    &:nth-child(2){
+                                        display:block;
+                                    }
+                                }
+                            }
+                            >img{
+                                width: 30px;
+                                
+                                    &:nth-child(1){
+                                        display:none;
+                                    }
+                                    &:nth-child(2){
+                                        display:block;
+                                    }
+                                
+                            }
+                            &:nth-child(1){
+                                
+                                display:block;
+                                position:absolute;
+                                left:0.5rem;
+                                display:flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content:center;
+                                >span{
+                                    width:2rem;
+                                    height: 6px;
+                                    
+                                    border-top:3px solid white;
+                                }
+                            }
+
+                            &:nth-child(3){
+                                margin-right: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        >.right{
+            display:none;
+            transition:700ms;
+            width:70vw;
+            &.active{
+                display:flex;
+                margin-top:auto;
+                transition:700ms;
+                >ul{
+                    flex-direction: column;
+                    position:absolute;
+                    left:0;
+                    top:0px;
+                    width:100%;
+                    z-index: 999999;
+                    background-color:var(--blue);
+                    min-height:100vh;
+                    padding-bottom: 1rem;
+                    border-top: 1px solid var(--blue_big);
+                    >li{
+                        &:nth-child(1){
+                           
+                            margin-top: 0.5rem;
+                        }
+                        border-top: none;
+                        flex-direction: row;
+                        justify-content:flex-start;
+                        gap:0.5rem;
+                        
+                       
+                        
+                        >a{
+                            width:auto;
+                        }
+
+                        >svg{
+                            font-size: 1.2rem;
+                        }
+
+                        >ul{
+                            left:0;
+                            >li{
+                                >ul{
+                                    left:50%;
+                                }
+                            }
+                        }
+                       
+                    }
+                }
+            }
+        }
+
+        >button{
+            display:none;
+            position:absolute;
+            right:1rem;
+
+            &.active{
+                >span{
+                    &:nth-child(2){
+                        display:none;
+                    }
+                    &:nth-child(1){
+                        transform:rotate(15deg);
+                        margin-top: 8px;
+                        margin-left: 5px;
+                        border-bottom: 3px solid indianred;
+                    }
+                    &:nth-child(3){
+                        transform:rotate(-50deg);
+                        margin-top: -10px;
+                        margin-bottom: 10px;
+                        border-bottom: 3px solid indianred;
+                    }
+                }
+            }
+
+        }
+
+        >.contact_info{
+            visibility:hidden;
+            >div{
+               flex-direction:column;
+                align-items: flex-start;
+            }
+            
+        }
+    }
+
+    .options{
+        display:flex;
+        flex-direction: column;
+        
+        >button{
+            font-size: 0.7rem !important;
+            width:140px;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+
+            &:nth-child(2){
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .email_text{
+        font-size: 0.1rem !important;
+    }
+}
+
+.btn_24{
+    margin-left: 3rem !important;
+}

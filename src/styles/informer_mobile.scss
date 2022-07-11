@@ -1,0 +1,34 @@
+@media only screen and (max-width:768px){
+    .informer{
+       
+        >.top{
+           
+            >h1{
+                
+                font-size: 0.9rem;
+
+            }
+
+            >button{
+                >svg{
+                    font-size: 2rem;
+                }
+            }
+            
+            >.btn_all{
+                display:flex;
+                align-items: center;
+                justify-content:center;
+                padding:0.5rem !important;
+               >span{
+                   display:none;
+               }
+               >svg{
+                   display:block !important;
+                   color:white !important;
+                   font-size: 1.2rem !important;
+               }
+            }
+        }
+    }
+}

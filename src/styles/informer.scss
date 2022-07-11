@@ -1,0 +1,98 @@
+.informer{
+    
+    background-color:#ededed;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    >*{
+        width:80%;
+        margin:auto;
+        background-color:white;
+        border-radius: 5px;
+        &.top{
+            display:flex;
+            align-items: center;
+            gap:1rem;
+            >button{
+                background-color:transparent;
+                border:none;
+                margin-left: 1rem;
+                
+                >svg{
+                    font-size: 4rem;
+                    color:var(--blue);
+                }
+
+                &.btn_all{
+                    border:none;
+                    padding:1rem;
+                    margin-right: 1rem;
+                    background-color: var(--blue);
+                    font-size: 0.8rem;
+                    color:white;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    border-radius: 5px;
+                    >svg{
+                        display:none;
+                    }
+                }
+            }
+
+            >h1{
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                color:dimgray;
+                flex:1;
+                >hr{
+                    color:var(--blue);
+                    width:50px;
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        &.content{
+           
+            >div{
+                padding:1rem;
+                cursor:pointer;
+                >div{
+                    
+                    display:flex;
+                    align-items: center;
+                    gap:1rem;
+                    
+                    >button{
+                        background-color:#a09f9f;
+                        color:white;
+                        padding:5px;
+                        border-radius: 5px;
+                        border:none;
+                        font-size: 0.9rem;
+                        width:40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        display:flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: bold;
+                    }
+
+                    >h3{
+                        color:var(--blue);
+                        font-size: 1rem;
+                    }
+                }
+
+                >p{
+                    color:#3a434a;
+                    font-size: 0.9rem;
+                    >span{
+                        display:none;
+                    }
+                }
+            }
+        }
+    }
+}

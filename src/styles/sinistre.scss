@@ -1,0 +1,67 @@
+.sinistre{
+    width:80%;
+    margin:auto;
+    display:flex;
+    gap:2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    
+    >div{
+
+        &:nth-child(1){
+            display:flex;
+            flex-direction: column;
+            width:300px;
+            margin-bottom: 20px;
+            >h1{
+                font-family: MyFont, sans-serif;
+                font-size: 24px;
+                font-weight: bold;
+                
+                
+            }
+            >img{
+                width:100%;
+                height:200px;
+                margin-top: 2rem;
+                object-fit:fill;
+            }
+        
+        }
+
+        &:nth-child(2){
+            flex:1;
+        margin-left: 2rem;
+        >.line{
+            display:flex;
+            flex-direction: column;
+            width:min(300px, 80%);
+            margin-bottom: 1.5rem;
+            >label{
+                font-size: 0.8rem;
+                color:dimgray;
+                font-weight: bold;
+            }
+            >input,textarea{
+                 border:none;
+                 outline:none;
+                 border-bottom: 1px solid silver;
+                 font-size: 0.8rem;
+                 margin-top: 0.2rem;
+             }
+ 
+             >button{
+                 width:200px;
+                 margin:auto;
+                 padding:0.6rem 1rem;
+                 border:none;
+                 background-color:var(--blue);
+                 color:white;
+                 font-weight: bold;
+                 border-radius: 5px;
+             }
+        }
+        }
+        
+    }
+}

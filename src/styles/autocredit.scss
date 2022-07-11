@@ -1,0 +1,106 @@
+@media only screen and (max-width:768px){
+    .imgs{
+        display:none !important;
+    }
+
+    .response_line{
+        display:grid  !important;
+        grid-template-columns:50% 50%;
+    }
+}
+
+.auto_credit_content{
+    margin-top: 30px;
+
+    >.form{
+        width:min(500px,80%);
+        margin:auto;
+        margin-bottom: 2rem;
+
+        >h4{
+            margin-top:1rem;
+            text-align: justify;
+        }
+
+        >p{
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            text-align: justify;
+        }
+
+        >.line{
+            margin-top: 3rem;
+            >h5{
+                >span{
+                    margin-left: 0.3rem;
+                    &.required{
+                        color:indianred;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            >.response{
+                margin-top: 0.5rem;
+                >div{
+                    margin-bottom: 0.5rem;
+                    display:flex;
+                    align-items: center;
+                    gap:0.5rem;
+                    cursor: pointer;
+                    >label{
+                        font-family: MyFont;
+                    }
+
+                    >input[type=text],input[type=date],input[type=tel],input[type=email],input[type=number],select{
+                        border:none;
+                        border-bottom: 1px solid black;
+                        width:min(80%,250px);
+                        outline:none;
+                        font-family: MyFont;
+                        padding:0.5rem;
+                        font-size: 0.9rem;
+                        background-color:white;
+                    }
+                    &.col{
+                        flex-direction: column;
+                        align-items: flex-start;
+                        >button{
+                            font-size: 0.8rem;
+                            padding:0.5rem;
+                            background-color:transparent;
+                            width:100%;
+                            cursor: pointer;
+                            display:flex;
+                            align-items: center;
+                            gap:0.6rem;
+                            border:none;
+                        }
+                    }
+
+                   
+                }
+
+                &.response_line{
+                    display:grid  !important;
+                    grid-template-columns:50% 50%;
+                    grid-gap:0.5rem;
+                }
+            }
+
+            >button{
+                padding:1rem;
+                width:150px;
+                background-color:var(--blue);
+                border:none;
+                border-radius: 5px;
+                color:white;
+                font-size: 1rem;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
